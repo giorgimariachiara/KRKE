@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #ce1212;
+  --color-primary: #b0955e	;
   --color-secondary: #37373f;
 }
 
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #fffefe;
+  color: #b0955e;
   text-decoration: none;
 }
 
@@ -176,7 +176,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ec2727;
+  background:#b0955e;
   color: #fff;
 }
 
@@ -312,7 +312,7 @@ section {
 .header .btn-book-a-table:hover,
 .header .btn-book-a-table:focus:hover {
   color: #fff;
-  background: rgba(206, 18, 18, 0.8);
+  background: rgba(176, 149, 94, 0.8);
 }
 
 section {
@@ -585,6 +585,8 @@ section {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+
 .about .about-img {
   min-height: 500px;
 }
@@ -644,7 +646,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(206, 18, 18, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(176, 149, 94, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -670,7 +672,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(206, 18, 18, 0.7);
+  border: 5px solid rgba(176, 149, 94, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -1251,7 +1253,7 @@ section {
 .book-a-table .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background: #b0955e;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -1261,7 +1263,7 @@ section {
 .book-a-table .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: #b0955e;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -1283,7 +1285,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid #b0955e;
   border-top-color: #fff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1320,7 +1322,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #b0955e;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1448,7 +1450,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background:#b0955e;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1461,7 +1463,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background:#b0955e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1481,7 +1483,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid #b0955e;
   border-top-color: #fff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1517,7 +1519,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #b0955e;
 }
 
 @keyframes animate-loading {
@@ -1598,10 +1600,10 @@ section {
   transition: ease-in-out 0.3s;
 }
 #home .icon-box h3 a:hover {
-  color: #84bd00;
+  color: #b0955e;
 }
 #home .icon-box:hover {
-  border-color: #84bd00;
+  border-color: #b0955e;
 }
 @media (min-width: 1024px) {
   #home {
