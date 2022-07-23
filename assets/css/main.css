@@ -79,14 +79,13 @@ section {
   padding: 0;
   color: #000000;
   text-transform: uppercase;
-  font-family: var(--font-default);
 }
 
 .section-header p {
   margin: 0;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 400;
-  font-family: var(--font-primary);
+  font-family: Garamond;
 }
 
 .section-header p span {
