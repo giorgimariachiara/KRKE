@@ -87,10 +87,11 @@ section {
   font-size: 60px;
   font-weight: 400;
   font-family: Garamond;
+  color: #b0955e;
 }
 
 .section-header p span {
-  color: var(--color-primary);
+  color: #b0955e;
 }
 
 /*--------------------------------------------------------------
