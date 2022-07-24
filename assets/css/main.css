@@ -1208,122 +1208,67 @@ section {
   opacity: 1;
 }
 
+
+
 /*--------------------------------------------------------------
-# Book A Table Section
+# sezione query
 --------------------------------------------------------------*/
-.book-a-table .reservation-img {
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
+
+
+.info-query{margin-top:50px;
+margin-left:30px;}
+
+.card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
+		margin-top:100px;
+		margin-left:70px;
+		margin-right: 70px;
+		padding-bottom:100px;
 }
 
-.book-a-table .reservation-form-bg {
-  background: rgba(55, 55, 63, 0.04);
-}
 
-.book-a-table .php-email-form {
-  padding: 40px;
-}
+.intro-query{font-family:Raleway-Light;
+margin-left:40px;
+font-family: Raleway-Light;
+margin-top:20px;
+text-align:justify;
+font-size:18px;
+margin-left:120px;
+ margin-right:120px;}
 
-@media (max-width: 575px) {
-  .book-a-table .php-email-form {
-    padding: 20px;
-  }
-}
 
-.book-a-table .php-email-form h3 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+.btn-light{position:absolute;
+   bottom:0;
+width:80%;
+margin-bottom:10px;
+background-color:#b0955e;
+border:none;
 
-.book-a-table .php-email-form h4 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 20px 0 0 0;
-}
+   }
+   
+.btn-light:hover{background-color:white;
 
-.book-a-table .php-email-form p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
+   }
+   
+   
+.col-sm-4{
+	display: flex;
+display: -webkit-flex;
+flex-flow: row nowrap;
+-webkit-flex-flow: row nowrap;
+align-items: stretch;
+-webkit-align-items: stretch;
+justify-content: space-between;
+-webkit-justify-content: space-between;
+margin-top: 10px;
+flex: 1;
+padding: 25px ;
 
-.book-a-table .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #b0955e;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
+margin-left: 10px;
+margin-right: 10px;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: .25rem;
+width:100%;
 
-.book-a-table .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #b0955e;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.book-a-table .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.book-a-table .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #b0955e;
-  border-top-color: #fff;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.book-a-table .php-email-form input,
-.book-a-table .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 0;
-}
-
-.book-a-table .php-email-form input:focus,
-.book-a-table .php-email-form textarea:focus {
-  border-color: var(--color-primary);
-}
-
-.book-a-table .php-email-form input {
-  padding: 12px 15px;
-}
-
-.book-a-table .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.book-a-table .php-email-form button[type=submit] {
-  background: var(--color-primary);
-  border: 0;
-  padding: 14px 60px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.book-a-table .php-email-form button[type=submit]:hover {
-  background: #b0955e;
 }
 
 @-webkit-keyframes animate-loading {
