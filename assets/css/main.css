@@ -1236,12 +1236,12 @@ margin-left:120px;
  margin-right:120px;}
 
 
-.btn-light{position:absolute;
+.btn-light{position:relative;
    bottom:0;
 width:80%;
 margin-bottom:10px;
 background-color:#b0955e;
-border:none;
+border:15px;
 
    }
    
