@@ -1521,66 +1521,35 @@ width:100%;
   text-decoration: none;
 }
 
-.highlight[property~="cosmo:brightness"]{
+.highlight[property~="musicality"]{
+	background-color: #fa0000
+}
+
+.highlight[property~="spleen"]{
+	background-color: #666767
+}
+
+.highlight[property~="purity"]{
 	background-color: #00FAFA
 }
 
-.highlight[property~="cosmo:equality"]{
-	background-color: #00FAFA
+.highlight[property~="vague"]{
+	background-color: #006533
 }
 
-.highlight[property~="cosmo:movement"]{
-	background-color: #00FAFA
+.highlight[property~="boredom"]{
+	background-color: #0800fa
 }
 
-.highlight[property~="cosmo:mutability"]{
-	background-color: #00FAFA
+.highlight[property~="escape"]{
+	background-color: #ffdd00
 }
 
-.highlight[property~="cosmo:dustiness"]{
-	background-color: #00FAFA
+.highlight[property~="assonance"]{
+	background-color: #ff73ad
 }
 
-.highlight[property~="cosmo:darkness"]{
-	background-color: #f62e38
+.highlight[property~="paronomasia"]{
+	background-color: #ff73ad
 }
 
-.highlight[property~="cosmo:inertia"]{
-	background-color: #f62e38
-}
-
-.highlight[property~="cosmo:stillness"]{
-	background-color: #f62e38
-}
-
-.highlight[property~="cosmo:identity"]{
-	background-color: #feef5d
-}
-
-.highlight[property~="cosmo:omission"]{
-	background-color: #feef5d
-}
-
-.highlight[property~="cosmo:opposition"]{
-	background-color: #feef5d
-}
-
-.highlight[property~="cosmo:repetition"]{
-	background-color: #feef5d
-}
-
-.highlight[property~="cosmo:series"]{
-	background-color: #feef5d
-}
-
-.highlight[property~="cosmo:similarity"]{
-	background-color: #feef5d
-}
-
-.highlight[property~="cosmo:symmetry"]{
-	background-color: #feef5d
-}
-
-.highlight[property~="cosmo:fictionalCharacter"]{
-	background-color: #ec37db
-}
