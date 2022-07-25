@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 /* Select all buttons that have a conceptButton class */
-document.querySelectorAll(".themeButton").forEach(button => {
+document.querySelectorAll(".button").forEach(button => {
 	/* Add click listener to the buttons, and call the function to handle the click passing the button's value of the "data-concept" attribute */
 	button.addEventListener("mouseover", event => {
 		handleThemeClick(event.target.getAttribute("data-theme"))
@@ -288,7 +288,7 @@ function handlefOsClick(fOs){
 }
 
 /* Select all buttons that have a conceptButton class */
-document.querySelectorAll(".themeButton").forEach(button => {
+document.querySelectorAll(".button").forEach(button => {
 	/* Add click listener to the buttons, and call the function to handle the click passing the button's value of the "data-concept" attribute */
 	button.addEventListener("mouseover", event => {
 		handleThemeClick(event.target.getAttribute("data-fOs"))
