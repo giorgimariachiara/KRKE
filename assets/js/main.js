@@ -244,16 +244,16 @@ document.addEventListener('DOMContentLoaded', () => {
 /**
    * cosmo
    */
+ /** button to hilight themes */
 
-
- function handleConceptClick(concept){
+ function handleThemeClick(theme){
 	/* Clean up all highlighted elements */
 	document.querySelectorAll(`.highlight`).forEach(node => {
   		node.classList.remove('highlight');
 	})
 
 	/* Select all elements to highlight, which are the ones that have the specified value of the "property" attribute */
-	let nodes = document.querySelectorAll(`[property="${concept}"]`)
+	let nodes = document.querySelectorAll(`[property="${theme}"]`)
 
 	/* Higlhlight all selected elements */
 	nodes.forEach(node => {
@@ -262,9 +262,35 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 
 /* Select all buttons that have a conceptButton class */
-document.querySelectorAll(".conceptButton").forEach(button => {
+document.querySelectorAll(".themeButton").forEach(button => {
 	/* Add click listener to the buttons, and call the function to handle the click passing the button's value of the "data-concept" attribute */
 	button.addEventListener("mouseover", event => {
-		handleConceptClick(event.target.getAttribute("data-concept"))
+		handleThemeClick(event.target.getAttribute("data-theme"))
+	})
+})
+
+
+/** button to hilight figure of speech fOs */
+
+function handlefOsClick(fOs){
+	/* Clean up all highlighted elements */
+	document.querySelectorAll(`.highlight`).forEach(node => {
+  		node.classList.remove('highlight');
+	})
+
+	/* Select all elements to highlight, which are the ones that have the specified value of the "property" attribute */
+	let nodes = document.querySelectorAll(`[property="${fOs}"]`)
+
+	/* Higlhlight all selected elements */
+	nodes.forEach(node => {
+		node.classList.add('highlight')
+	})
+}
+
+/* Select all buttons that have a conceptButton class */
+document.querySelectorAll(".themeButton").forEach(button => {
+	/* Add click listener to the buttons, and call the function to handle the click passing the button's value of the "data-concept" attribute */
+	button.addEventListener("mouseover", event => {
+		handleThemeClick(event.target.getAttribute("data-fOs"))
 	})
 })
