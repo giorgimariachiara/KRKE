@@ -1521,28 +1521,6 @@ width:100%;
   text-decoration: none;
 }
 
-.content-container {
-  position: relative;
-  height: 500px;
-  margin: 0 auto;
-}
-.content-container div {
-  overflow: auto;
-  display: none;
-  position: absolute;
-  margin-top: 20px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.content-container p {
-font-size: 20px;
-font-family: "Courier New";
-}
-
-
 .highlight[property~="cosmo:brightness"]{
 	background-color: #00FAFA
 }
