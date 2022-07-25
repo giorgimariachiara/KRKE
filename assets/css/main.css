@@ -1507,7 +1507,41 @@ width:100%;
 }
 
 
-/*cosmo*/
+/*cosmo for analysis page*/
+.butn2 {
+  color: #4a314a;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.butn2:hover {
+  background: #00bcd4;
+  text-decoration: none;
+}
+
+.content-container {
+  position: relative;
+  height: 500px;
+  margin: 0 auto;
+}
+.content-container div {
+  overflow: auto;
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.content-container p {
+font-size: 20px;
+font-family: "Courier New";
+}
+
 
 .highlight[property~="cosmo:brightness"]{
 	background-color: #00FAFA
