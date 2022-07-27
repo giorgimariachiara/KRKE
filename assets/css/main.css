@@ -584,13 +584,10 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Section
+# About our domain Section
 --------------------------------------------------------------*/
 
 
-.about .about-img {
-  min-height: 500px;
-}
 
 .about h3 {
   font-weight: 700;
@@ -622,7 +619,7 @@ section {
   color: var(--color-primary);
 }
 
-.about .content ul {
+.about   ul {
   list-style: none;
   padding: 0;
 }
