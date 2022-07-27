@@ -84,7 +84,7 @@ section {
 
 .section-header p {
   margin: 0;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 400;
   font-family: Garamond;
   color: #b0955e;
@@ -92,6 +92,7 @@ section {
 
 .section-header p span {
   color: #b0955e;
+  
 }
 
 /*--------------------------------------------------------------
@@ -623,7 +624,7 @@ section {
 .about   ul {
   list-style: none;
   padding: 0;
-  text-align: center;
+  
 }
 
 .about .content ul li {
