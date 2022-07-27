@@ -618,6 +618,7 @@ section {
 
 .about .content ul li {
   padding: 0 0 8px 26px;
+  float: left;
   
 }
 
