@@ -80,6 +80,7 @@ section {
   color:  #b0955e;
   text-transform: uppercase;
   font-family: Garamond;
+  text-decoration: overline;
 }
 
 .section-header p {
