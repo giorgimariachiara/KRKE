@@ -612,6 +612,7 @@ section {
 
 .about .content ul i {
   font-size: 20px;
+  text-align:justify;
   left: 0;
   top: -3px;
   color: var(--color-primary);
@@ -1123,7 +1124,7 @@ section {
 --------------------------------------------------------------*/
 
 
-.info-query{margin-top:50px;
+.info-query{margin-top:40px;
 margin-left:30px;}
 
 .card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
@@ -1134,14 +1135,13 @@ margin-left:30px;}
 }
 
 
-.intro-query{font-family:Raleway-Light;
-margin-left:40px;
-font-family: Raleway-Light;
-margin-top:20px;
+.intro-query{
+font-family: Garamond;
+margin-top:10px;
 text-align:justify;
 font-size:18px;
-margin-left:120px;
- margin-right:120px;}
+margin-left:80px;
+margin-right:80px;}
 
 
 .btn-light{position:relative;
