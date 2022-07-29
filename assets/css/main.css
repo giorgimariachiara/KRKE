@@ -1296,7 +1296,7 @@ width:100%;
    margin-right:120px;}
   
   
-.btn-light{position:relative;
+.btn-light{position:absolute;
     bottom:0;
   width:80%;
   margin-bottom:10px;
@@ -1346,7 +1346,7 @@ width:100%;
   
   
 #title{
-    font-family:Graduate-Regular;
+    font-family:Garamond;
     font-size:13vw;
     position: absolute;
     top: 50%;
