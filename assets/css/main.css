@@ -1725,3 +1725,9 @@ text-align: center;
 	background-color: #ff73ad
 }
 
+@media screen and (max-width: 900px) {
+#poetsTheme #poems .container body {
+ background-color: brown;
+}
+  
+}
