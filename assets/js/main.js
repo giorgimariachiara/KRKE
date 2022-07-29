@@ -295,6 +295,7 @@ document.querySelectorAll(".butn fOsButton").forEach(button => {
 	})
 })
 
-
-
-
+/* Results for queries */
+$(":button").click(function(){
+  $(".result").slideToggle();
+});
