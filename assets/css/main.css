@@ -1346,7 +1346,7 @@ width:100%;
   
   
 #title{
-    font-family:Graduate-Regular;
+    font-family:Garamond;
     font-size:13vw;
     position: absolute;
     top: 50%;
@@ -1435,8 +1435,8 @@ width:100%;
   }
   
 .btn{
-   color:#c2b85b !important; 
-   font-family: Raleway-Bold;
+   color:black !important; 
+   font-family: Garamond;
   }
   
   
