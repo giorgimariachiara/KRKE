@@ -1458,7 +1458,10 @@ width:100%;
     color:#e1d669;
   }
   
-  
+  .result {
+    padding: 50px;
+    display: none;
+  }
   
   
 
