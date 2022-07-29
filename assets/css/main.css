@@ -1131,7 +1131,6 @@ section {
   font-family: Graduate-Regular;
   color:black;
   text-align:center;
-<<<<<<< HEAD
   font-size:75px;}
 
 .col-sm-4 {
@@ -1181,7 +1180,7 @@ margin-left:120px;
  margin-right:120px;}
 
 
-.btn-light{position:absolute;
+.btn-light{position:relative;
    bottom:0;
 width:80%;
 margin-bottom:10px;
@@ -1247,7 +1246,6 @@ width:100%;
    font-family: BebasNeue-Regular;
     font-size: 1.5vw;
     color: white;
-=======
   font-size:75px;
 }
   
@@ -1350,7 +1348,6 @@ width:100%;
 #title{
     font-family:Graduate-Regular;
     font-size:13vw;
->>>>>>> 4b00e0fe918f1841ef6c0f5b9bf12551eb905e04
     position: absolute;
     top: 50%;
     left: 50%;
