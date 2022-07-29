@@ -1125,43 +1125,45 @@ section {
 --------------------------------------------------------------*/
 
 
-./*------------CARDS-QUERIES------------------------*/
+/*------------CARDS-QUERIES------------------------*/
 
-.query-page-title{font-family: Graduate-Regular;
+.query_page-title {
+  font-family: Graduate-Regular;
   color:black;
   text-align:center;
-  font-size:75px;}
+  font-size:75px;
+}
   
-  .col-sm-4 {
+.col-sm-4 {
     background-color: white;
   }
   
   
-  .query-subtitle{font-family: Raleway-Bold;
-      font-size: 30px;
+.query-subtitle{font-family: Raleway-Bold;
+    font-size: 30px;
     text-align:center;
     font-weight:500;
     margin-top:-15px;
     color:#e1d669;
     }
   
-  .card-title-query{font-family:Raleway-Bold;
+.card-title-query{font-family:Raleway-Bold;
   color:#e1d669;}
   
-  .query-title{font-weight: 600;}
+.query-title{font-weight: 600;}
   
-  .modal-title{font-family:Questrial-Regular;
+.modal-title{font-family:Questrial-Regular;
   font-weight:bold;
   font-size:17px;}
   
   
   
-  .card-text{font-family:Questrial-Regular;}
+.card-text{font-family:Questrial-Regular;}
   
-  .info-query{margin-top:50px;
+.info-query{margin-top:50px;
   margin-left:30px;}
   
-  .card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
+.card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
       margin-top:100px;
       margin-left:70px;
       margin-right: 70px;
@@ -1169,7 +1171,7 @@ section {
   }
   
   
-  .intro-query{font-family:Raleway-Light;
+.intro-query{font-family:Raleway-Light;
   margin-left:40px;
   font-family: Raleway-Light;
   margin-top:20px;
@@ -1179,7 +1181,7 @@ section {
    margin-right:120px;}
   
   
-  .btn-light{position:absolute;
+.btn-light{position:absolute;
      bottom:0;
   width:80%;
   margin-bottom:10px;
@@ -1188,12 +1190,12 @@ section {
   
      }
      
-  .btn-light:hover{background-color:white;
+.btn-light:hover{background-color:white;
   
      }
      
      
-  .col-sm-4{
+.col-sm-4{
     display: flex;
   display: -webkit-flex;
   flex-flow: row nowrap;
@@ -1216,7 +1218,7 @@ section {
   
   
   
-  .center-fit {
+.center-fit {
     padding: 0;
       display: block;
       margin: auto;
@@ -1228,7 +1230,7 @@ section {
   }
   
   
-  #title{
+#title{
     font-family:Graduate-Regular;
     font-size:13vw;
     position: absolute;
@@ -1240,8 +1242,7 @@ section {
     padding-bottom:30%;
   }
   
-  
-  #subtitle{
+#subtitle{
      font-family: BebasNeue-Regular;
       font-size: 1.5vw;
       color: white;
@@ -1258,29 +1259,29 @@ section {
   
   }
   
-  .canto {
+.canto {
     margin-top: 50px;
   }
   
   
-  .popover {
+.popover {
     margin-left: 80px !important;
   
   }
   
-  .popover-header {
+.popover-header {
      background-color:#e1d669 !important;
      color: white;
   
   }
   
-  .btn{
+.btn{
    color:#c2b85b !important; 
    font-family: Raleway-Bold;
   }
   
   
-  .timeline-edizione{
+.timeline-edizione{
     margin-top:20px;
   }
   
