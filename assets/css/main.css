@@ -1134,7 +1134,7 @@ section {
   font-size:75px;}
 
 .col-sm-4 {
-  background-color: white;
+  background-color: #dfcca4;
 }
 
 
@@ -1725,3 +1725,9 @@ text-align: center;
 	background-color: #ff73ad
 }
 
+@media screen and (max-width: 900px) {
+#poetsTheme #poems .container body {
+ background-color: brown;
+}
+  
+}
