@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
    */
  /** button to hilight themes */
 
- function handleThemeClick(theme){
+function handleThemeClick(theme){
 	/* Clean up all highlighted elements */
  document.querySelectorAll(`.highlight`).forEach(node => {
   	node.classList.remove('highlight');
