@@ -1259,11 +1259,11 @@ width:100%;
     text-align:center;
     font-weight:500;
     margin-top:-15px;
-    color:#e1d669;
+    color:#b0955e;
     }
   
 .card-title-query{font-family:Raleway-Bold;
-  color:#e1d669;}
+  color:#b0955e;}
   
 .query-title{font-weight: 600;}
   
@@ -1296,11 +1296,11 @@ width:100%;
    margin-right:120px;}
   
   
-.btn-light{position:absolute;
-     bottom:0;
+.btn-light{position:relative;
+    bottom:0;
   width:80%;
   margin-bottom:10px;
-  background-color:#EFEAAC;
+  background-color:#ea0023;
   border:none;
   
      }
@@ -1352,7 +1352,6 @@ width:100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-<<<<<<< HEAD
     padding-top: 180px;
     letter-spacing: 3px;
     border: 5px solid white;
@@ -1402,17 +1401,6 @@ width:100%;
   color:#b0955e;
 }
 
-
-
-
-
-
-=======
-    padding-top: 150px;
-    color:#e1d669;
-    padding-bottom:30%;
-  }
-  
 #subtitle{
      font-family: BebasNeue-Regular;
       font-size: 1.5vw;
@@ -1473,9 +1461,6 @@ width:100%;
   
   
   
-  
-  
->>>>>>> 4b00e0fe918f1841ef6c0f5b9bf12551eb905e04
 
 /*--------------------------------------------------------------
 # Gallery Section
