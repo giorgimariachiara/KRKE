@@ -1679,18 +1679,19 @@ text-align: center;
 
 
 /*cosmo for analysis page*/
+.container
+
+
 .butn2 {
   color: #4a314a;
   font-size: 20px;
   background: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
 }
 
-.butn2:hover {
-  background: #00bcd4;
-  text-decoration: none;
-}
 
 .highlight[property~="musicality"]{
 	background-color: #fa0000
