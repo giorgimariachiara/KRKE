@@ -246,17 +246,17 @@ document.addEventListener('DOMContentLoaded', () => {
    */
  /** button to hilight themes */
 
- function handleThemeClick(theme){
+function handleThemeClick(theme){
 	/* Clean up all highlighted elements */
-	document.querySelectorAll(`.highlight`).forEach(node => {
-  		node.classList.remove('highlight');
+ document.querySelectorAll(`.highlight`).forEach(node => {
+  	node.classList.remove('highlight');
 	})
 
 	/* Select all elements to highlight, which are the ones that have the specified value of the "property" attribute */
-	let nodes = document.querySelectorAll(`[property="${theme}"]`)
+let nodes = document.querySelectorAll(`[property="${theme}"]`)
 
 	/* Higlhlight all selected elements */
-	nodes.forEach(node => {
+nodes.forEach(node => {
 		node.classList.add('highlight')
 	})
 }
