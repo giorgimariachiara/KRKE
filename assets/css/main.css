@@ -1259,11 +1259,11 @@ width:100%;
     text-align:center;
     font-weight:500;
     margin-top:-15px;
-    color:#e1d669;
+    color:#b0955e;
     }
   
 .card-title-query{font-family:Raleway-Bold;
-  color:#e1d669;}
+  color:#b0955e;}
   
 .query-title{font-weight: 600;}
   
@@ -1296,11 +1296,11 @@ width:100%;
    margin-right:120px;}
   
   
-.btn-light{position:absolute;
-     bottom:0;
+.btn-light{position:relative;
+    bottom:0;
   width:80%;
   margin-bottom:10px;
-  background-color:#EFEAAC;
+  background-color:#b0955e;
   border:none;
   
      }
@@ -1401,11 +1401,66 @@ width:100%;
   color:#b0955e;
 }
 
-
-
-
-
-
+#subtitle{
+     font-family: BebasNeue-Regular;
+      font-size: 1.5vw;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-top: 180px;
+      letter-spacing: 3px;
+      border: 5px solid white;
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-top: 200px;
+  
+  }
+  
+.canto {
+    margin-top: 50px;
+  }
+  
+  
+.popover {
+    margin-left: 80px !important;
+  
+  }
+  
+.popover-header {
+     background-color:#e1d669 !important;
+     color: white;
+  
+  }
+  
+.btn{
+   color:#c2b85b !important; 
+   font-family: Raleway-Bold;
+  }
+  
+  
+.timeline-edizione{
+    margin-top:20px;
+  }
+  
+  .modal-dialog {
+    position: static !important;
+  }
+  
+  
+  .titolo-edition {
+    font-family:Graduate-Regular;
+    font-size: 65px;
+    margin-top:50px;
+    text-align:center;
+    padding-bottom:10px;
+    color:#e1d669;
+  }
+  
+  
+  
+  
 
 /*--------------------------------------------------------------
 # Gallery Section
