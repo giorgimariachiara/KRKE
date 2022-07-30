@@ -1683,6 +1683,7 @@ text-align: center;
 
 /*cosmo for analysis page*/
 .content-container {
+  text-align: center;
   position: relative;
   height: 500px;
   margin: 0 auto;
@@ -1697,13 +1698,6 @@ font-family:'Times New Roman', Times, serif;
 .container {
   min-width: 992px !important;
 }
-
-
-.container {
-  width: 100%;
-}
-
-
 
 
 .butn2 {
