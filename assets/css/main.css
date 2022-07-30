@@ -1682,13 +1682,17 @@ text-align: center;
 
 
 /*cosmo for analysis page*/
+.blankspace {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
 .content-container {
   text-align: center;
   position: relative;
   height: 500px;
   margin: 0 auto;
 }
-
 
 .content-container p {
 font-size: 20px;
