@@ -1682,8 +1682,7 @@ text-align: center;
 
 /*cosmo for analysis page*/
 .blankspace {
-margin-top: 50px;
-margin-bottom: 50px;
+white-space: break-spaces;
 }
 
 .content-container {
@@ -1714,6 +1713,7 @@ font-family:'Times New Roman', Times, serif;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
 }
+
 
 
 .highlight[property~="musicality"]{
