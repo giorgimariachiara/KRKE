@@ -246,31 +246,34 @@ document.addEventListener('DOMContentLoaded', () => {
    */
  /** button to hilight themes */
 
-function handleThemeClick(theme){
+ function handleConceptClick(theme){
 	/* Clean up all highlighted elements */
- document.querySelectorAll(`.highlight`).forEach(node => {
-  	node.classList.remove('highlight');
+	document.querySelectorAll(`.highlight`).forEach(node => {
+  		node.classList.remove('highlight');
 	})
 
 	/* Select all elements to highlight, which are the ones that have the specified value of the "property" attribute */
-let nodes = document.querySelectorAll(`[property="${theme}"]`)
+	let nodes = document.querySelectorAll(`[property="${theme}"]`)
 
 	/* Higlhlight all selected elements */
-nodes.forEach(node => {
+	nodes.forEach(node => {
 		node.classList.add('highlight')
 	})
 }
 
 /* Select all buttons that have a conceptButton class */
-document.querySelectorAll(".butn themeButton").forEach(button => {
+document.querySelectorAll(".themeButton").forEach(button => {
 	/* Add click listener to the buttons, and call the function to handle the click passing the button's value of the "data-concept" attribute */
 	button.addEventListener("mouseover", event => {
-		handleThemeClick(event.target.getAttribute("data-theme"))
+		handleConceptClick(event.target.getAttribute("data-theme"))
 	})
 })
 
 
-/** button to hilight figure of speech fOs */
+
+
+
+/** button to hilight figure of speech fOs **/
 
 function handlefOsClick(fOs){
 	/* Clean up all highlighted elements */
@@ -294,6 +297,8 @@ document.querySelectorAll(".butn fOsButton").forEach(button => {
 		handleThemeClick(event.target.getAttribute("data-fOs"))
 	})
 })
+
+
 
 /* Results for queries */
 $(":button").click(function(){
