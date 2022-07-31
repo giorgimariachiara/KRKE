@@ -1700,10 +1700,15 @@ text-align: center;
 margin-top: 100px;
  }
 
+.figureretoriche {
+text-align: right;
+
+}
 .container-fluid h1{
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 400;
-  color:  #b0955e;
+  color: #b0955e;
   text-transform: uppercase;
   font-family: Garamond;
   text-decoration: overline;
