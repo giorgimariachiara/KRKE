@@ -1697,14 +1697,22 @@ text-align: center;
 }
 
 .poeti{
-
 margin-top: 100px;
-
  }
 
+.container-fluid h1{
+  letter-spacing: 1px;
+  font-weight: 400;
+  color:  #b0955e;
+  text-transform: uppercase;
+  font-family: Garamond;
+  text-decoration: overline;
+  text-decoration-color:#b0955e;
+  padding-top: 20px;
+}
 
 .highlight[property~="musicality"]{
-	background-color: #fa0000
+	background-color: rgba(250, 0, 0, 0.5)
 }
 
 .highlight[property~="spleen"]{
