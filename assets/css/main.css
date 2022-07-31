@@ -1682,30 +1682,32 @@ text-align: center;
 
 /*cosmo for analysis page*/
 
+.poeti {
+margin-top: 100px;
+font-size: 20px;
+color: #000000;
+text-decoration: dotted;
+text-decoration-color:#b0955e;
+font-family: Garamond;
+ }
 
-
-
-.butn2 {
-  color: #4a314a;
-  font-size: 20px;
-  background: #ffffff;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 10px 10px 10px 10px;
-  text-decoration: none;
-
+.butn2:hover{
+color: #b0955e;
+zoom: 5px;
 }
 
-.poeti{
-margin-top: 100px;
- }
 
 .figureretoriche {
 text-align: right;
-
+font-family: Garamond;
 }
+
+.figureretoriche h1{
+  padding-left: 5px;
+  font-family: Garamond;
+  }
+
 .container-fluid h1{
-  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 400;
   color: #b0955e;
@@ -1714,6 +1716,11 @@ text-align: right;
   text-decoration: overline;
   text-decoration-color:#b0955e;
   padding-top: 20px;
+}
+
+.container-fluid{
+font-size: 20px;
+font-family: Garamond;
 }
 
 .highlight[property~="musicality"]{
