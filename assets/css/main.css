@@ -1731,7 +1731,7 @@ text-align: center;
 
 
 .hs{
-margin-top: 100px;
+margin-top: 100px; /*importante perché altrimenti non si vede musicality*/
 text-align: right;
 }
 
