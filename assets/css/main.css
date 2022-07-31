@@ -1681,25 +1681,8 @@ text-align: center;
 }
 
 /*cosmo for analysis page*/
-.blankspace {
-white-space: break-spaces;
-}
 
-.content-container {
-  text-align: center;
-  position: relative;
-  height: 500px;
-  margin: 0 auto;
-}
 
-.content-container p {
-font-size: 20px;
-font-family:'Times New Roman', Times, serif;
-}
-
-.container {
-  min-width: 992px !important;
-}
 
 .container-fluid #analysis.html {
  text-align: right;
@@ -1749,5 +1732,8 @@ font-family:'Times New Roman', Times, serif;
 }
 
 
-
+.hs{
+margin-top: 100px;
+text-align: right;
+}
 
