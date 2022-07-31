@@ -1682,19 +1682,20 @@ text-align: center;
 
 /*cosmo for analysis page*/
 
-
-
-
-
-
-.poeti .butn2{
+.poeti {
 margin-top: 100px;
 font-size: 20px;
-color: #b0955e;
+color: #000000;
 text-decoration: dotted;
 text-decoration-color:#b0955e;
 font-family: Garamond;
  }
+
+.butn2:hover{
+color: #b0955e;
+zoom: 5px;
+}
+
 
 .figureretoriche {
 text-align: right;
