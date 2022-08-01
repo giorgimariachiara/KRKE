@@ -301,6 +301,8 @@ document.querySelectorAll(".butn fOsButton").forEach(button => {
 
 
 /* Results for queries */
-$("button").click(function(){
-  $("#result").animate({left: '50px'});
+$(document).ready(function(){
+    $("button").click(function(){
+         $("#result").slideDown({left: '50px'});S
+   });
 });
