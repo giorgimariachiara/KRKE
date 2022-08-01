@@ -303,6 +303,6 @@ document.querySelectorAll(".butn fOsButton").forEach(button => {
 /* Results for queries */
 $(document).ready(function(){
     $("button").click(function(){
-         $("#result").slideDown({left: '50px'});S
+         $(".card-text").slideDown({left: '50px'});S
    });
 });
