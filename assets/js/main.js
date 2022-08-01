@@ -301,6 +301,6 @@ document.querySelectorAll(".butn fOsButton").forEach(button => {
 
 
 /* Results for queries */
-$("#click").click(function(){
+$("button").click(function(){
   $("#result").slideToggle("slow");
 });
