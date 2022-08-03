@@ -277,8 +277,8 @@ document.querySelectorAll(".themeButton").forEach(button => {
 
 function handlefOsClick(fOs){
 	/* Clean up all highlighted elements */
-	document.querySelectorAll(`.highlight`).forEach(node => {
-  		node.classList.remove('highlight');
+	document.querySelectorAll(`.bold`).forEach(node => {
+  		node.classList.remove('bold');
 	})
 
 	/* Select all elements to highlight, which are the ones that have the specified value of the "property" attribute */
@@ -286,7 +286,7 @@ function handlefOsClick(fOs){
 
 	/* Higlhlight all selected elements */
 	nodes.forEach(node => {
-		node.classList.add('highlight')
+		node.classList.add('bold')
 	})
 }
 

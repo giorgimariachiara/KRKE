@@ -1757,14 +1757,9 @@ font-family: Garamond;
 	background-color: #ffdd00
 }
 
-.highlight[property~="assonance"]{
-	background-color: #ff73ad
+.bold[property~="assonance"]{
+	text-decoration: solid;
 }
-
-.highlight[property~="paronomasia"]{
-	background-color: #ff73ad
-}
-
 
 
 
