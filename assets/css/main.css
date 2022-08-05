@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-secondary);
+  font-family: Garamond;
 }
 
 /*--------------------------------------------------------------
@@ -70,6 +70,7 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
+
 .titletheme{
 font-size: 20px;
   letter-spacing: 1px;
@@ -81,9 +82,12 @@ font-size: 20px;
   font-family: Garamond;
   text-decoration: overline;
   text-decoration-color:#b0955e;
-  padding-top: 10px;
-}
 
+}
+.titletheme p{color:  #b0955e;
+  font-family: Garamond;
+  font-size: 20px;
+}
 
 .section-header h2 {  
   font-size: 25px;
@@ -110,6 +114,7 @@ font-size: 20px;
 .section-header p span {
   margin-top: 20px;
   color: #b0955e;
+  font-size: 40px;
   
 }
 
@@ -599,30 +604,39 @@ section {
   text-align: center;
 }
 
-.about   ul {
+.info-domain  ul {
   list-style: none;
   padding: 0;
+  font-family: Garamond;
   
   
 }
 
-.about .content ul li {
-  padding: 0 0 8px 26px;
+.about .info-domain ul li {
+  font-family: Garamond;
+  font-size: 20px;
   
 }
 
-.about .content ul i {
+.about .info-domain ul i {
+  padding-top: 15px;
   font-size: 20px;
   text-align:justify;
   left: 0;
   top: -3px;
-  color: var(--color-primary);
+  font-family: Garamond;
 
 }
 
-.about .content p:last-child {
+.about .info-domain p:last-child {
   margin-bottom: 0;
   
+}
+
+.info-domain p{font-family:Garamond;
+  padding-top: 20px;
+  font-size: 20px;
+
 }
 
 
@@ -1025,101 +1039,13 @@ section {
   background-color: var(--color-primary);
 }
 
-/*--------------------------------------------------------------
-# Chefs Section
---------------------------------------------------------------*/
-.chefs .chef-member {
-  overflow: hidden;
-  text-align: center;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
-  transition: 0.3s;
+
+#knowledgegraph{background-color: white;
+
 }
-
-.chefs .chef-member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.chefs .chef-member .member-img:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  background: url(../img/team-shape.svg) no-repeat center bottom;
-  background-size: contain;
-  z-index: 1;
-}
-
-.chefs .chef-member .social {
-  position: absolute;
-  right: -100%;
-  top: 30px;
-  opacity: 0;
-  border-radius: 4px;
-  transition: 0.5s;
-  background: rgba(255, 255, 255, 0.3);
-  z-index: 2;
-}
-
-.chefs .chef-member .social a {
-  transition: color 0.3s;
-  color: rgba(55, 55, 63, 0.4);
-  margin: 15px 12px;
-  display: block;
-  line-height: 0;
-  text-align: center;
-}
-
-.chefs .chef-member .social a:hover {
-  color: rgba(55, 55, 63, 0.9);
-}
-
-.chefs .chef-member .social i {
-  font-size: 18px;
-}
-
-.chefs .chef-member .member-info {
-  padding: 10px 15px 20px 15px;
-}
-
-.chefs .chef-member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 20px;
-  color: var(--color-secondary);
-}
-
-.chefs .chef-member .member-info span {
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(33, 37, 41, 0.4);
-}
-
-.chefs .chef-member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  padding-top: 15px;
-  line-height: 26px;
-  color: rgba(33, 37, 41, 0.7);
-}
-
-.chefs .chef-member:hover {
-  transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
-}
-
-.chefs .chef-member:hover .social {
-  right: 8px;
-  opacity: 1;
-}
-
-
-
+.info-knowlegde{font-family:Garamond;
+  padding-top: 20px;
+  font-size: 20px;}
 /*--------------------------------------------------------------
 # sezione query
 --------------------------------------------------------------*/
@@ -1148,15 +1074,6 @@ padding: 50px;
   background-color: #dfcca4;
 }
 
-
-.query-subtitle{font-family: Garamond;
-    font-size: 30px;
-  text-align:center;
-  font-weight:500;
-  margin-top:-15px;
-  color:#b0955e;
-  }
-
 .card-title-query{font-family:Garamond;
 color:#b0955e;}
 
@@ -1168,10 +1085,25 @@ font-size:17px;}
 
 
 
-.card-text{font-family:Questrial-Regular;}
+.card-text{font-family:Garamond;}
 
-.info-query{margin-top:50px;
-margin-left:30px;}
+.info-query h2{font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom:0;
+  color:  #b0955e;
+  text-transform: uppercase;
+  font-family: Garamond;
+  }
+
+  .info-query p { 
+    font-family:Garamond;
+    padding-top: 20px;
+    font-size: 20px;
+
+
+  }
 
 .card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
     margin-top:100px;
@@ -1179,16 +1111,6 @@ margin-left:30px;}
     margin-right: 70px;
     padding-bottom:100px;
 }
-
-
-.intro-query{
-margin-left:40px;
-font-family: Garamond;
-margin-top:20px;
-text-align:justify;
-font-size:18px;
-margin-left:120px;
- margin-right:120px;}
 
 
 .btn-light{position:relative;
@@ -1295,17 +1217,6 @@ width:100%;
       margin-right: 70px;
       padding-bottom:100px;
   }
-  
-  
-.intro-query{font-family:Raleway-Light;
-  margin-left:40px;
-  font-family: Raleway-Light;
-  margin-top:20px;
-  text-align:justify;
-  font-size:18px;
-  margin-left:120px;
-   margin-right:120px;}
-  
   
 .btn-light{position:relative;
     bottom:0;
@@ -1720,7 +1631,7 @@ font-family: Garamond;
 .container-fluid h1{
   letter-spacing: 1px;
   font-weight: 400;
-  color: #b0955e;
+  color: #56af46;
   text-transform: uppercase;
   font-family: Garamond;
   text-decoration: overline;
@@ -1757,14 +1668,9 @@ font-family: Garamond;
 	background-color: #ffdd00
 }
 
-.highlight[property~="assonance"]{
-	background-color: #ff73ad
+.bold[property~="assonance"]{
+	text-decoration: solid;
 }
-
-.highlight[property~="paronomasia"]{
-	background-color: #ff73ad
-}
-
 
 
 
