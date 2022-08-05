@@ -302,7 +302,7 @@ document.querySelectorAll(".butn fOsButton").forEach(button => {
 
 /* Results for queries */
 $(document).ready(function(){
-    $("button").click(function(){
-         $(".card-text").slideDown({left: '50px'});S
+    $("buttonn").click(function(){
+         $("#exampleModal").slideDown({left: '50px'});S
    });
 });
