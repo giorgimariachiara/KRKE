@@ -1677,8 +1677,9 @@ font-family: Garamond;
 }
 
 .bold[property~="assonance"]{
-	text-decoration: solid;
+	font-weight: bold;
 }
+
 
 
 
