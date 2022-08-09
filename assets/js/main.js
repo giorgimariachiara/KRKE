@@ -269,16 +269,12 @@ document.querySelectorAll(".themeButton").forEach(button => {
 	})
 })
 
-
-
-
-
 /** button to hilight figure of speech fOs **/
 
 function handlefOsClick(fOs){
 	/* Clean up all highlighted elements */
-	document.querySelectorAll(`.bold`).forEach(node => {
-  		node.classList.remove('bold');
+	document.querySelectorAll(`.highlight`).forEach(node => {
+  		node.classList.remove('highlight');
 	})
 
 	/* Select all elements to highlight, which are the ones that have the specified value of the "property" attribute */
@@ -286,15 +282,15 @@ function handlefOsClick(fOs){
 
 	/* Higlhlight all selected elements */
 	nodes.forEach(node => {
-		node.classList.add('bold')
+		node.classList.add('highlight')
 	})
 }
 
 /* Select all buttons that have a conceptButton class */
-document.querySelectorAll(".butn fOsButton").forEach(button => {
+document.querySelectorAll(".fOsButton").forEach(button => {
 	/* Add click listener to the buttons, and call the function to handle the click passing the button's value of the "data-concept" attribute */
 	button.addEventListener("mouseover", event => {
-		handleThemeClick(event.target.getAttribute("data-fOs"))
+		handlefOsClick(event.target.getAttribute("data-fOs"))
 	})
 })
 

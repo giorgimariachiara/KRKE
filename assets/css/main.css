@@ -1613,7 +1613,7 @@ color: #000000;
 text-decoration: dotted;
 text-decoration-color:#b0955e;
 font-family: Garamond;
- }
+}
 
 .butn2 {
 margin-left: 15px;
@@ -1647,6 +1647,7 @@ font-family: Garamond;
   padding-top: 20px;
 }
 
+
 .container-fluid{
 font-size: 20px;
 font-family: Garamond;
@@ -1676,11 +1677,69 @@ font-family: Garamond;
 	background-color: #ffdd00
 }
 
-.bold[property~="assonance"]{
-	font-weight: bold;
+.highlight[property~="assonance"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
 }
 
+.highlight[property~="assonance"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
 
+.highlight[property~="paronomasia"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
 
+.highlight[property~="antithesis"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
 
+.highlight[property~="personification"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
 
+.highlight[property~="analogy"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
+.highlight[property~="anaphore"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
+.highlight[property~="metaphore"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
+.highlight[property~="oxymoron"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
+.highlight[property~="synaesthesia"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
+.content-container{
+  background-color: rgba(176, 149, 94, 0.2);
+  border-style: dashed;
+  border-color:  #954e13;
+  border-radius: 20px;
+}
