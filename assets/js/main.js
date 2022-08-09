@@ -298,11 +298,3 @@ document.querySelectorAll(".butn fOsButton").forEach(button => {
 	})
 })
 
-
-
-/* Results for queries */
-$(document).ready(function(){
-    $("buttonn").click(function(){
-         $("#exampleModal").slideDown({left: '50px'});S
-   });
-});

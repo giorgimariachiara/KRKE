@@ -1052,17 +1052,6 @@ section {
 
 
 /*------------CARDS-QUERIES------------------------*/
-#result{
-font-family: Garamond;
-color: #000000;
-font-size: 25px;
-position:relative;
-background-color: green;
-height:100px;
-width:100px;
-padding: 50px;
-
-}
 
 .query_page-title {
   font-family: Graduate-Regular;
