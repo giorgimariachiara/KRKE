@@ -95,7 +95,7 @@ font-size: 20px;
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color:  #b0955e;
+  color:  #954e13;
   text-transform: uppercase;
   font-family: Garamond;
   
@@ -1052,177 +1052,69 @@ section {
 
 
 /*------------CARDS-QUERIES------------------------*/
-
-.query_page-title {
-  font-family: Graduate-Regular;
+.query-page-title{font-family: Graduate-Regular;
   color:black;
   text-align:center;
   font-size:75px;}
 
 .col-sm-4 {
-  background-color: #dfcca4;
+  background-color: #dfcca4; /*qui cambia il colore dello sfondo delle query*/
+};
+
+.query-subtitle{font-family: Garamond;
+  font-size: 30px;
+text-align:center;
+font-weight:500;
+margin-top:-15px;
+color:#877144;
 }
 
 .card-title-query{font-family:Garamond;
-color:#b0955e;}
+color:#877144;
+text-align: center;}
 
 .query-title{font-weight: 600;}
 
 .modal-title{font-family:Garamond;
-font-weight:bold;
-font-size:17px;}
-
-
-
-.card-text{font-family:Garamond;}
-
-.info-query h2{font-size: 25px;
-  letter-spacing: 1px;
-  font-weight: 400;
-  margin: 0;
-  padding-bottom:0;
-  color:  #b0955e;
-  text-transform: uppercase;
-  font-family: Garamond;
-  }
-
-  .info-query p { 
-    font-family:Garamond;
-    padding-top: 20px;
-    font-size: 20px;
-
-
-  }
-
-.card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
-    margin-top:100px;
-    margin-left:70px;
-    margin-right: 70px;
-    padding-bottom:100px;
-}
-
-
-.btn-light{position:relative;
-   bottom:0;
-width:80%;
-margin-bottom:10px;
-background-color:#b0955e;
-border:none;
-
-   }
-   
-.btn-light:hover{background-color:rgb(235, 210, 161);
-
-   }
-   
-   
-.col-sm-4{
-  display: flex;
-display: -webkit-flex;
-flex-flow: row nowrap;
--webkit-flex-flow: row nowrap;
-align-items: stretch;
--webkit-align-items: stretch;
-justify-content: space-between;
--webkit-justify-content: space-between;
-margin-top: 10px;
-flex: 1;
-padding: 25px ;
-
-margin-left: 10px;
-margin-right: 10px;
-border: 1px solid rgba(0,0,0,.125);
-border-radius: .25rem;
-width:100%;
-
-}
-
-
-
-.center-fit {
-  padding: 0;
-    display: block;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-  margin-left:auto;
-  margin-right:auto;
-
-}
-
-
-#title{
-  font-family:Garamond;
-  font-size:13vw;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 150px;
-  color:#b0955e;
-  padding-bottom:30%;
-}
-
-
-#subtitle{
-   font-family: BebasNeue-Regular;
-    font-size: 1.5vw;
-    color: white;
-  font-size:75px;
-}
-  
-.col-sm-4 {
-    background-color: white;
-  }
-  
-  
-.query-subtitle{font-family: Raleway-Bold;
-    font-size: 30px;
-    text-align:center;
-    font-weight:500;
-    margin-top:-15px;
-    color:#b0955e;
-    }
-  
-.card-title-query{font-family:Raleway-Bold;
-  color:#b0955e;}
-  
-.query-title{font-weight: 600;}
-  
-.modal-title{font-family:Questrial-Regular;
   font-weight:bold;
   font-size:17px;}
   
   
   
-.card-text{font-family:Questrial-Regular;}
+  .card-text{font-family:Garamond;}
   
-.info-query{margin-top:50px;
+  .info-query{margin-top:50px;
   margin-left:30px;}
+ 
+  .card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
+		margin-top:80px;
+		margin-left:70px;
+		margin-right: 70px;
+		padding-bottom:100px;
+}
+
+.intro-query{font-family:Garamond;
+  margin-left:40px;
+  font-family: Garamond;
+  margin-top:20px;
+  text-align:justify;
+  font-size:18px;
+  margin-left:120px;
+   margin-right:120px;}ù
+
+.btn-light{position:absolute;
+ bottom:0;
+ width:80%;
+ margin-bottom:10px;
+ background-color:#dddcdc;
+ border:none;
+ }
+    
+ .btn-light:hover{background-color:white;
+ }
   
-.card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
-      margin-top:100px;
-      margin-left:70px;
-      margin-right: 70px;
-      padding-bottom:100px;
-  }
-  
-.btn-light{position:relative;
-    bottom:0;
-  width:80%;
-  margin-bottom:10px;
-  background-color:#b0955e;
-  border:none;
-  
-     }
-     
-.btn-light:hover{background-color:white;
-  
-     }
-     
-     
-.col-sm-4{
-    display: flex;
+  .col-sm-4{
+  display: flex;
   display: -webkit-flex;
   flex-flow: row nowrap;
   -webkit-flex-flow: row nowrap;
@@ -1241,10 +1133,8 @@ width:100%;
   width:100%;
   
   }
-  
-  
-  
-.center-fit {
+
+  .center-fit {
     padding: 0;
       display: block;
       margin: auto;
@@ -1256,64 +1146,21 @@ width:100%;
   }
   
   
-#title{
+  #title{
     font-family:Garamond;
     font-size:13vw;
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 180px;
-    letter-spacing: 3px;
-    border: 5px solid white;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 200px;
-
-}
-
-.canto {
-  margin-top: 50px;
-}
-
-
-.popover {
-  margin-left: 80px !important;
-
-}
-
-.popover-header {
-   background-color:#b0955e!important;
-   color: white;
-
-}
-
-.btn{
- color:#b0955e !important; 
- font-family: Garamond;
-}
-
-
-.timeline-edizione{
-  margin-top:20px;
-}
-
-.modal-dialog {
-  position: static !important;
-}
-
-
-.titolo-edition {
-  font-family:Garamond;
-  font-size: 65px;
-  margin-top:50px;
-  text-align:center;
-  padding-bottom:10px;
-  color:#b0955e;
-}
-
-#subtitle{
-     font-family: BebasNeue-Regular;
+    padding-top: 150px;
+    color:#e1d669;
+    padding-bottom:30%;
+  }
+  
+  
+  #subtitle{
+     font-family: Garamond;
       font-size: 1.5vw;
       color: white;
       position: absolute;
@@ -1328,30 +1175,30 @@ width:100%;
       padding-top: 200px;
   
   }
-  
-.canto {
+
+  .canto {
     margin-top: 50px;
   }
   
   
-.popover {
+  .popover {
     margin-left: 80px !important;
   
   }
   
-.popover-header {
+  .popover-header {
      background-color:#e1d669 !important;
      color: white;
   
   }
   
-.btn{
-   color:black !important; 
-   font-family: Garamond;
+  .btn{
+   color:#c2b85b !important; 
+   font-family: Raleway-Bold;
   }
   
   
-.timeline-edizione{
+  .timeline-edizione{
     margin-top:20px;
   }
   
@@ -1369,10 +1216,7 @@ width:100%;
     color:#e1d669;
   }
   
-  .result {
-    padding: 50px;
-    display: none;
-  }
+
   
   
 
@@ -1728,7 +1572,7 @@ font-family: Garamond;
 
 .content-container{
   background-color: rgba(176, 149, 94, 0.2);
-  border-style: dashed;
+  border-style: double;
   border-color:  #954e13;
   border-radius: 20px;
 }
