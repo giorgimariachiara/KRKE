@@ -32,7 +32,7 @@
 
 <body>
 
-<!-- ======= Header ======= -->
+    <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top d-flex align-items-center">
      <div class="container d-flex align-items-center justify-content-between">
    
@@ -47,7 +47,6 @@
            <li><a href="index.html#home">Home</a></li>
            <li><a href="index.html#domain">Domain</a></li>
            <li><a href="documentation.html">Documentation</a></li>
-           <li><a href="queries.html">Queries</a></li>
            <li><a href="analysis.html">Analysis</a></li>
            <li><a href="index.html#knowledgegraph">Knowledge Graph</a></li>
            <li><a href="index.html#query">Query</a></li>
@@ -74,27 +73,28 @@
 
    
    
-<div class="info-query">
-<h4 class="query-page-title">QUERIES</h4>
-<p class="query-subtitle">SPARQL Results</p>
-<p class="intro-query">We have created 12 competency questions with the intention of exploring some of the themes considered in our ontology, including questions related to characters,  editions, lines of the text and the literary works cited by Dante.
-We obtained the results by querying the graph using <a href="https://blazegraph.com/" targlet="_blank" style="color:#c2b85b;">Blazegraph</a>. The following examples show how to exploit the knowledge graph with SPARQL. 
-</p>
-</div>
-<div class="card-container">
-<div class="row">
-    <div class="col-sm-4">
-        <div class="card-queries">
-            <div class="card-body d-flex flex-column">
-              <h4 class="card-title-query">CQ1</h4>
-                    <h5 class="query-title">Which "Girone" of hell does Canto V refer to?</h5>
-              <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-                                                <p>select ?Place</p>
-                                                <p>where { divo:InfV divo:refers_to ?Place.}</p></div>
+       <div class="info-query">
+        <h4 class="query-page-title">QUERIES</h4>
+        <p class="query-subtitle">SPARQL Results</p>
+        <p class="intro-query">We have created 12 competency questions with the intention of exploring some of the themes considered in our ontology, including questions related to characters,  editions, lines of the text and the literary works cited by Dante.
+        We obtained the results by querying the graph using <a href="https://blazegraph.com/" targlet="_blank" style="color:#c2b85b;">Blazegraph</a>. The following examples show how to exploit the knowledge graph with SPARQL. 
+        </p>
+        </div>
+        <div class="card-container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card-queries">
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title-query">CQ1</h4>
+                <h5 class="query-title">Which "Girone" of hell does Canto V refer to?</h5>
+                <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
+                                    <p>select ?Place</p>
+                                    <p>where { divo:InfV divo:refers_to ?Place.}</p></div>
                 <!-- Button trigger modal -->
-<button type="button" class=" ciao btn btn-light mt-auto see-results" data-toggle="modal" data-target="#exampleModal">
-See the results
-</button>
+        <button type="button"
+         class=" ciao btn btn-light mt-auto see-results" data-toggle="modal" data-target="#exampleModal">
+          See the results
+        </button>
         
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

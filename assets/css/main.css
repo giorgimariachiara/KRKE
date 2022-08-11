@@ -1050,37 +1050,33 @@ section {
 # sezione query
 --------------------------------------------------------------*/
 
-
 /*------------CARDS-QUERIES------------------------*/
+
 .query-page-title{font-family: Graduate-Regular;
   color:black;
   text-align:center;
   font-size:75px;}
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   
-.col-sm-4 {
-  background-color: white;
+  .col-sm-4 {
+    background-color: white;
   }
   
   
-.query-subtitle{font-family: Raleway-Bold;
-    font-size: 30px;
+  .query-subtitle{font-family: Raleway-Bold;
+      font-size: 30px;
     text-align:center;
     font-weight:500;
     margin-top:-15px;
     color:#e1d669;
     }
   
-.card-title-query{
-  font-family:Raleway-Bold;
-  color:#e1d669;
-  }
+  .card-title-query{font-family:Raleway-Bold;
+  color:#e1d669;}
   
-.query-title{
-  font-weight: 600;
-  }
+  .query-title{font-weight: 600;}
   
+
 .modal-title{
   font-family:Questrial-Regular;
   font-weight:bold;
@@ -1130,11 +1126,6 @@ border:none;
   background-color:white;
 }
      
-     
-.col-sm-4{
-=======
-=======
->>>>>>> parent of d1eff2f (m)
 
 .col-sm-4 {
   background-color: #dfcca4; /*qui cambia il colore dello sfondo delle query*/
@@ -1154,50 +1145,54 @@ text-align: center;}
 
 .query-title{font-weight: 600;}
 
-.modal-title{font-family:Garamond;
+.modal-title{font-family:Questrial-Regular;
+
   font-weight:bold;
   font-size:17px;}
   
   
   
-  .card-text{font-family:Garamond;}
+  .card-text{font-family:Questrial-Regular;}
   
   .info-query{margin-top:50px;
   margin-left:30px;}
- 
+  
   .card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
-		margin-top:80px;
-		margin-left:70px;
-		margin-right: 70px;
-		padding-bottom:100px;
-}
-
-.intro-query{font-family:Garamond;
+      margin-top:100px;
+      margin-left:70px;
+      margin-right: 70px;
+      padding-bottom:100px;
+  }
+  
+  
+  .intro-query{font-family:Raleway-Light;
   margin-left:40px;
-  font-family: Garamond;
+  font-family: Raleway-Light;
   margin-top:20px;
   text-align:justify;
   font-size:18px;
   margin-left:120px;
-   margin-right:120px;}ù
-
-.btn-light{position:absolute;
- bottom:0;
- width:80%;
- margin-bottom:10px;
- background-color:#dddcdc;
- border:none;
- }
-    
- .btn-light:hover{background-color:white;
- }
+   margin-right:120px;}
   
+  
+  .btn-light{position:absolute;
+     bottom:0;
+  width:80%;
+  margin-bottom:10px;
+  background-color:#EFEAAC;
+  border:none;
+  
+     }
+     
+  .btn-light:hover{background-color:white;
+  
+     }
+     
+     
   .col-sm-4{
-<<<<<<< HEAD
->>>>>>> parent of d1eff2f (m)
-=======
->>>>>>> parent of d1eff2f (m)
-  display: flex;
+
+    display: flex;
+
   display: -webkit-flex;
   flex-flow: row nowrap;
   -webkit-flex-flow: row nowrap;
@@ -1208,37 +1203,15 @@ text-align: center;}
   margin-top: 10px;
   flex: 1;
   padding: 25px ;
+  
   margin-left: 10px;
   margin-right: 10px;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   width:100%;
-}
   
-.center-fit {
-  padding: 0;
-  display: block;
-  margin: auto;
-  height: 100%;
-  width: 100%;
-  margin-left:auto;
-  margin-right:auto;
-}
-  
-#title{
-  font-family:Graduate-Regular;
-  font-size:13vw;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 150px;
-  color:#e1d669;
-  padding-bottom:30%;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-  
+
 #subtitle{
   font-family: BebasNeue-Regular;
   font-size: 1.5vw;
@@ -1263,9 +1236,6 @@ margin-top: 50px;
 .popover {
   margin-left: 80px !important;
 }
-=======
-=======
->>>>>>> parent of d1eff2f (m)
 
   .center-fit {
     padding: 0;
@@ -1275,19 +1245,12 @@ margin-top: 50px;
       width: 100%;
     margin-left:auto;
     margin-right:auto;
->>>>>>> parent of d1eff2f (m)
   
-.popover-header {
-  background-color:#e1d669 !important;
-  color: white;
-}
+  }
   
-<<<<<<< HEAD
-.btn{
-=======
   
   #title{
-    font-family:Garamond;
+    font-family:Graduate-Regular;
     font-size:13vw;
     position: absolute;
     top: 65%;
@@ -1300,7 +1263,7 @@ margin-top: 50px;
   
   
   #subtitle{
-     font-family: Garamond;
+     font-family: BebasNeue-Regular;
       font-size: 1.5vw;
       color: white;
       position: absolute;
@@ -1315,7 +1278,7 @@ margin-top: 50px;
       padding-top: 200px;
   
   }
-
+  
   .canto {
     margin-top: 50px;
   }
@@ -1333,33 +1296,28 @@ margin-top: 50px;
   }
   
   .btn{
->>>>>>> parent of d1eff2f (m)
    color:#c2b85b !important; 
    font-family: Raleway-Bold;
-}
+  }
   
   
-.timeline-edizione{
-  margin-top:20px;
-}
+  .timeline-edizione{
+    margin-top:20px;
+  }
   
-.modal-dialog {
-  position: static !important;
-}
-  
-  
-.titolo-edition {
-  font-family:Graduate-Regular;
-  font-size: 65px;
-  margin-top:50px;
-  text-align:center;
-  padding-bottom:10px;
-  color:#e1d669;
-}
+  .modal-dialog {
+    position: static !important;
+  }
   
   
-  
-
+  .titolo-edition {
+    font-family:Graduate-Regular;
+    font-size: 65px;
+    margin-top:50px;
+    text-align:center;
+    padding-bottom:10px;
+    color:#e1d669;
+  }
   
 
   
