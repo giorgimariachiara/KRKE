@@ -1050,12 +1050,13 @@ section {
 # sezione query
 --------------------------------------------------------------*/
 
-/*------------CARDS-QUERIES------------------------*/
 
+/*------------CARDS-QUERIES------------------------*/
 .query-page-title{font-family: Graduate-Regular;
   color:black;
   text-align:center;
   font-size:75px;}
+
 
   
 .col-sm-4 {
@@ -1128,6 +1129,7 @@ border:none;
 }
      
 
+
 .col-sm-4 {
   background-color: #dfcca4; /*qui cambia il colore dello sfondo delle query*/
 };
@@ -1146,19 +1148,20 @@ text-align: center;}
 
 .query-title{font-weight: 600;}
 
-.modal-title{font-family:Questrial-Regular;
 
+.modal-title{font-family:Garamond;
   font-weight:bold;
   font-size:17px;}
   
   
   
-  .card-text{font-family:Questrial-Regular;}
+  .card-text{font-family:Garamond;}
   
   .info-query{margin-top:50px;
   margin-left:30px;}
-  
+ 
   .card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
+
       margin-top:100px;
       margin-left:70px;
       margin-right: 70px;
@@ -1227,6 +1230,34 @@ border:none;
 
 .col-sm-4{
   display: flex;
+		margin-top:80px;
+		margin-left:70px;
+		margin-right: 70px;
+		padding-bottom:100px;
+}
+
+.intro-query{font-family:Garamond;
+  margin-left:40px;
+  font-family: Garamond;
+  margin-top:20px;
+  text-align:justify;
+  font-size:18px;
+  margin-left:120px;
+   margin-right:120px;}ù
+
+.btn-light{position:absolute;
+ bottom:0;
+ width:80%;
+ margin-bottom:10px;
+ background-color:#dddcdc;
+ border:none;
+ }
+    
+ .btn-light:hover{background-color:white;
+ }
+  
+  .col-sm-4{
+  display: flex;
 
   display: -webkit-flex;
   flex-flow: row nowrap;
@@ -1267,6 +1298,7 @@ border:none;
   padding-bottom:30%;
   }
 
+
 #subtitle{
   font-family: BebasNeue-Regular;
   font-size: 1.5vw;
@@ -1311,6 +1343,7 @@ margin-top: 50px;
 .popover {
   margin-left: 80px !important;
 }
+
 
   .center-fit {
     padding: 0;
@@ -1331,7 +1364,56 @@ margin-top: 50px;
   color: white;
 }
   
-.btn{
+
+
+  #title{
+    font-family:Garamond;
+    font-size:13vw;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 150px;
+    color:#e1d669;
+    padding-bottom:30%;
+  }
+  
+  
+  #subtitle{
+     font-family: Garamond;
+      font-size: 1.5vw;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-top: 180px;
+      letter-spacing: 3px;
+      border: 5px solid white;
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-top: 200px;
+  
+  }
+
+  .canto {
+    margin-top: 50px;
+  }
+  
+  
+  .popover {
+    margin-left: 80px !important;
+  
+  }
+  
+  .popover-header {
+     background-color:#e1d669 !important;
+     color: white;
+  
+  }
+  
+  .btn{
+
    color:#c2b85b !important; 
    font-family: Raleway-Bold;
 }
@@ -1356,6 +1438,8 @@ margin-top: 50px;
 }
   
   
+  
+
   
 
   
