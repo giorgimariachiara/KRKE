@@ -795,10 +795,6 @@ section {
   color: var(--color-primary);
 }
 
-.container{
-  background-color: white;
-}
-
 /*------------CARDS-QUERIES------------------------*/
 
 .query-page-title{font-family: Garamond;
