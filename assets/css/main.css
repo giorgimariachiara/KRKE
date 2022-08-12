@@ -694,6 +694,24 @@ section {
 }
 
 
+.stats-counter:before container {
+position: relative;
+padding-top: 74px;
+text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .stats-counter  {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  .stats-counter  {
+    height: auto;
+  }
+
+}
+
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
