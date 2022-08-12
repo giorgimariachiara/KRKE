@@ -54,6 +54,9 @@ h6 {
   font-family: Garamond;
 }
 
+#knowledgegraph {
+  background-color: white;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -70,6 +73,7 @@ section {
   text-align: center;
   padding-bottom: 10px;
   padding-top: 30px;
+  background-color: white;
 }
 
 .titletheme{
@@ -893,14 +897,12 @@ section {
   font-size:75px;}
 
 .col-sm-4 {
-  background-color: #dfcca4;
+  background-color:white;
 }
 
 .modal-title{font-family:Garamond;
 font-weight:bold;
 font-size:17px;}
-
-.card-text{font-family:Garamond;}
 
 .info-query h2{font-size: 25px;
   letter-spacing: 1px;
@@ -918,13 +920,13 @@ font-size:17px;}
     font-size: 20px;
   }
 
-.card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
+.card-container{ background-color:white; /*----url(' http://api.thumbr.it/whitenoise-361x370.png?')---*/
     margin-top:100px;
     margin-left:70px;
     margin-right: 70px;
     padding-bottom:100px;
+    
 }
-
 
 .btn-light{position:relative;
    bottom:0;
@@ -994,11 +996,6 @@ width:100%;
     color: white;
   font-size:75px;
 }
-
-  
-.col-sm-4 {
-    background-color: white;
-  }
   
   .card-title-query{font-family:Garamond;
   color:#877144;
@@ -1025,26 +1022,10 @@ width:100%;
   font-weight:bold;
   font-size:17px;
 }
-   
-  
-.card-text{
-font-family:Questrial-Regular;
-}
   
 .info-query{
 margin-top:50px;
 margin-left:30px;}
-
-  
-.intro-query{
-font-family:Raleway-Light;
-margin-left:40px;
-font-family: Raleway-Light;
-margin-top:20px;
-text-align:justify;
-font-size:18px;
-margin-left:120px;
-margin-right:120px;}
      
 
 .query-subtitle{font-family: Garamond;
@@ -1059,7 +1040,7 @@ color:#877144;
   font-weight:bold;
   font-size:17px;}
   
-  .card-text{font-family:Garamond;
+.card-text{font-family:Garamond;
   font-size: 17px;
   margin-bottom: 20px;
   text-align: center;}
@@ -1067,7 +1048,7 @@ color:#877144;
   .info-query{margin-top:50px;
   margin-left:30px;}
   
-  .intro-query{font-family:Garamond;}
+  
   
 .modal-title{font-family:Questrial-Regular;
   font-weight:bold;
@@ -1076,23 +1057,14 @@ color:#877144;
 .btn-light:hover{background-color:white;
   
      }
-     
-.col-sm-4{
-  display: flex;
-		margin-top:80px;
-		margin-left:70px;
-		margin-right: 70px;
-		padding-bottom:100px;
-}
 
 .intro-query{font-family:Garamond;
-  margin-left:40px;
-  margin-top:20px;
+  margin-top:10px;
   text-align:justify;
   font-size:18px;
-  margin-left:120px;
-   margin-right:120px;
-  margin-bottom:opx}
+  margin-left:80px;
+   margin-right:80px;
+}
   
   
   .btn-light{position:absolute;
@@ -1122,16 +1094,17 @@ color:#877144;
   margin-top: 10px;
   flex: 1;
   padding: 25px ;
-  
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top:40px ;
+  margin-left: 20px;
+  margin-right: 20px;
   border: 10px solid rgba(0,0,0,.125);
-  border-radius: .25rem;
+  border-radius: .15rem;
   border-style: double;
+  border-width: 5px;
   width:100%;
   border-color: #b0955e ;
   } 
-  
+
 .center-fit {
     padding: 0;
       display: block;
