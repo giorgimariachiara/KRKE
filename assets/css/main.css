@@ -931,7 +931,9 @@ width:100%;
   font-size: 18px;
    text-align: center;}
   
-  .modal-title{font-family:Garamond;}
+  .modal-title{font-family:Garamond;
+  font-weight: bold;
+  font-size: 20px;}
 
   .query-subtitle {font-family: Garamond;
     font-size: 30px;
@@ -939,13 +941,7 @@ width:100%;
     font-weight:500;
     margin-top:-15px;
     color:#b0955e;}
-  
 
-.modal-title{
-  font-family:Questrial-Regular;
-  font-weight:bold;
-  font-size:17px;
-}
   
 .info-query{
 margin-top:50px;
@@ -959,10 +955,6 @@ font-weight:500;
 margin-top:-15px;
 color:#877144;
 }
-
-.modal-title{font-family:Garamond;
-  font-weight:bold;
-  font-size:17px;}
   
 .card-text{font-family:Garamond;
   font-size: 17px;
@@ -971,12 +963,7 @@ color:#877144;
   
   .info-query{margin-top:50px;
   margin-left:30px;}
-  
-  
-  
-.modal-title{font-family:Questrial-Regular;
-  font-weight:bold;
-  font-size:17px;}
+
      
 .btn-light:hover{background-color:white;
   
