@@ -95,7 +95,7 @@ font-size: 20px;
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color:  #954e13;
+  color:  #877144;
   text-transform: uppercase;
   font-family: Garamond;
   
@@ -1155,10 +1155,15 @@ text-align: center;}
   
   
   
-  .card-text{font-family:Garamond;}
+.card-text{font-family:Garamond;}
   
-  .info-query{margin-top:50px;
+.info-query{margin-top:10px;
   margin-left:30px;}
+
+  .info-query p {
+font-family: Garamond;
+font-size: 20px;
+  }
  
   .card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
 
@@ -1415,8 +1420,13 @@ margin-top: 50px;
   .btn{
 
    color:#c2b85b !important; 
+<<<<<<< Updated upstream
    font-family: Raleway-Bold;
 }
+=======
+   font-family: Garamond;
+  }
+>>>>>>> Stashed changes
   
   
 .timeline-edizione{
@@ -1428,6 +1438,7 @@ margin-top: 50px;
 }
   
   
+<<<<<<< Updated upstream
 .titolo-edition {
   font-family:Graduate-Regular;
   font-size: 65px;
@@ -1440,6 +1451,16 @@ margin-top: 50px;
   
   
 
+=======
+  .titolo-edition {
+    font-family:Garamond;
+    font-size: 65px;
+    margin-top:50px;
+    text-align:center;
+    padding-bottom:10px;
+    color:#e1d669;
+  }
+>>>>>>> Stashed changes
   
 
   
