@@ -808,6 +808,9 @@ section {
   color: var(--color-primary);
 }
 
+.container{
+  background-color: white;
+}
 
 /*------------CARDS-QUERIES------------------------*/
 
