@@ -1064,16 +1064,9 @@ section {
   background-color: #dfcca4;
 }
 
-.card-title-query{font-family:Garamond;
-color:#b0955e;}
-
-.query-title{font-weight: 600;}
-
 .modal-title{font-family:Garamond;
 font-weight:bold;
 font-size:17px;}
-
-
 
 .card-text{font-family:Garamond;}
 
@@ -1091,8 +1084,6 @@ font-size:17px;}
     font-family:Garamond;
     padding-top: 20px;
     font-size: 20px;
-
-
   }
 
 .card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
@@ -1178,7 +1169,7 @@ width:100%;
   }
   
   .card-title-query{font-family:Garamond;
-  color:black;
+  color:#877144;
   text-align: center;
   text-decoration: overline;
   font-size: 20px;}
@@ -1195,11 +1186,6 @@ width:100%;
     font-weight:500;
     margin-top:-15px;
     color:#b0955e;}
-
-  .card-title-query{font-family:Raleway-Bold;
-  color:#e1d669;}
-  
-  .query-title{font-weight: 600;}
   
 
 .modal-title{
@@ -1207,8 +1193,7 @@ width:100%;
   font-weight:bold;
   font-size:17px;
 }
-  
-  
+   
   
 .card-text{
 font-family:Questrial-Regular;
@@ -1217,15 +1202,7 @@ font-family:Questrial-Regular;
 .info-query{
 margin-top:50px;
 margin-left:30px;}
-  
-.card-container{ 
-background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
-margin-top:100px;
-margin-left:70px;
-margin-right: 70px;
-padding-bottom:100px;
-}
-  
+
   
 .intro-query{
 font-family:Raleway-Light;
@@ -1236,26 +1213,7 @@ text-align:justify;
 font-size:18px;
 margin-left:120px;
 margin-right:120px;}
-  
-  
-.btn-light{
-position:absolute;
-bottom:0;
-width:80%;
-margin-bottom:10px;
-background-color:#EFEAAC;
-border:none;
-}
      
-.btn-light:hover{
-  background-color:white;
-}
-     
-
-
-.col-sm-4 {
-  background-color: #dfcca4; /*qui cambia il colore dello sfondo delle query*/
-};
 
 .query-subtitle{font-family: Garamond;
   font-size: 30px;
@@ -1264,13 +1222,6 @@ font-weight:500;
 margin-top:-15px;
 color:#877144;
 }
-
-.card-title-query{font-family:Garamond;
-color:#877144;
-text-align: center;}
-
-.query-title{font-weight: 600;}
-
 
 .modal-title{font-family:Garamond;
   font-weight:bold;
@@ -1284,57 +1235,16 @@ text-align: center;}
   .info-query{margin-top:50px;
   margin-left:30px;}
   
-  .card-container{ background-color:white; /*-----url(' http://api.thumbr.it/whitenoise-361x370.png?')---*/
-      margin-top:20px;
-      margin-left:70px;
-      margin-right: 70px;
-      padding-bottom:100px;
-  }
-  
   .intro-query{font-family:Garamond;}
-  .card-title-query{
-  font-family:Raleway-Bold;
-  color:#e1d669; }
-
-.card-title-query{font-family:Raleway-Bold;
-  color:#b0955e;}
-
-  
-.query-title{font-weight: 600;}
   
 .modal-title{font-family:Questrial-Regular;
   font-weight:bold;
   font-size:17px;}
-  
-  
-  
-.card-text{font-family:Questrial-Regular;}
-  
-.info-query{margin-top:50px;
-  margin-left:30px;}
-  
-.card-container{ background-color:url(' http://api.thumbr.it/whitenoise-361x370.png?');
-      margin-top:100px;
-      margin-left:70px;
-      margin-right: 70px;
-      padding-bottom:100px;
-  }
-  
-.btn-light{position:relative;
-    bottom:0;
-  width:80%;
-  margin-bottom:10px;
-  background-color:#b0955e;
-  border:none;
-  
-     }
      
 .btn-light:hover{background-color:white;
   
      }
      
-     
-
 .col-sm-4{
   display: flex;
 		margin-top:80px;
@@ -1407,21 +1317,6 @@ text-align: center;}
 
 .popover {
   margin-left: 80px !important;
-
-}
-  .center-fit {
-    padding: 0;
-      display: block;
-      margin: auto;
-      height: 100%;
-      width: 100%;
-    margin-left:auto;
-    margin-right:auto;
-  
-  }
-
-.popover {
-  margin-left: 80px !important;
 }
 
  
@@ -1461,22 +1356,6 @@ text-align: center;}
   
   }
   
-  .canto {
-    margin-top: 50px;
-  }
-  
-  
-  .popover {
-    margin-left: 80px !important;
-  
-  }
-  
-  .popover-header {
-     background-color:#e1d669 !important;
-     color: white;
-  
-  }
-  
   .btn{
    color:#c2b85b !important; 
    font-family: Garamond;
@@ -1484,11 +1363,6 @@ text-align: center;}
    text-transform: uppercase;
    
   }
-  
-.btn{
- color:#b0955e !important; 
- font-family: Garamond;
-}
 
 .timeline-edizione{
   margin-top:20px;
@@ -1508,7 +1382,7 @@ text-align: center;}
 }
 
 #subtitle{
-     font-family: BebasNeue-Regular;
+     font-family: Garamond;
       font-size: 1.5vw;
       color: white;
       position: absolute;
@@ -1553,21 +1427,7 @@ text-align: center;}
   .modal-dialog {
     position: static !important;
   }
-  
-  
-  .titolo-edition {
-    font-family:Graduate-Regular;
-    font-size: 65px;
-    margin-top:50px;
-    text-align:center;
-    padding-bottom:10px;
-    color:#e1d669;
-  }
-  
-  .result {
-    padding: 50px;
-    display: none;
-  }
+
 
 /*--------------------------------------------------------------
 # Gallery Section
