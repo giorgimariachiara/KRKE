@@ -18,7 +18,7 @@
    <link href="stylesheet.css" rel="stylesheet" type="text/css">
    <link href="assets/css/main.css" rel="stylesheet">
    
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	   
 	   
 	 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -50,6 +50,58 @@
     
 
 </head>
+
+
+
+<body>
+
+ <!-- ======= Header ======= -->
+ <header id="header" class="header fixed-top d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between">
+
+    <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1>Symbolism<span>.</span></h1>
+    </a>
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#domain">Domain</a></li>
+        <li><a href="documentation.html">Documentation</a></li>
+        <li><a href="analysis.html">Analysis</a></li>
+        <li><a href="queries.html">Queries</a></li>
+        <li><a href="index.html#knowledgegraph">Knowledge Graph</a></li>
+        <li><a href="index.html#query">Query</a></li>
+        <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#team">Team</a></li>
+      </ul>
+    </nav><!-- .navbar -->
+
+  </div>
+</header><!-- End Header -->
+
+<div class="queries">
+<h4 class="queriestitle">Queries</h4>
+<p class="introqueries">We have created 12 competency questions with the intention of exploring some of the themes considered in our ontology, including questions related to characters,  editions, lines of the text and the literary works cited by Dante.
+We obtained the results by querying the graph using <a href="https://blazegraph.com/" targlet="_blank" style="color:#c2b85b;">Blazegraph</a>. The following examples show how to exploit the knowledge graph with SPARQL. </p>
 <body>
 
 <!--------------------------------------------------NAVBAR---------------------------------------->
@@ -104,10 +156,12 @@
 <p class="intro-query">We have created 12 competency questions with the intention of exploring some of the themes considered in our ontology, including questions related to characters,  editions, lines of the text and the literary works cited by Dante.
 We obtained the results by querying the graph using <a href="https://blazegraph.com/" targlet="_blank" style="color:#c2b85b;">Blazegraph</a>. The following examples show how to exploit the knowledge graph with SPARQL. 
 </p>
+
 </div>
-<div class="card-container">
+
+<div class="queriestable">
 <div class="row">
-  <div class="col-sm-4">
+ <div class="col-sm-4">
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ1</h4>
@@ -890,3 +944,4 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
 
 </body>
 </html>
+
