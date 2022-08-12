@@ -319,9 +319,9 @@ font-size: 20px;
 }
 
 .header .logo h1 {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 700;
-  color: #000;
+  color: #954e13;
   margin: 0;
   font-family: var(--font-secondary);
 }
@@ -370,7 +370,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: #7f7f90;
+    color:  #b0955e;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -407,7 +407,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #000;
+    color: #954e13;
   }
 
   .navbar .dropdown ul {
@@ -1489,6 +1489,22 @@ font-family: Garamond;
   padding-top: 20px;
 }
 
+.col-lg-4 item h2{
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #954e13;
+  text-transform: uppercase;
+  font-family: Garamond;
+  text-decoration: overline;
+  text-decoration-color:#b0955e;
+  padding-top: 20px;
+
+}
+
+.item {
+  text-align: center;
+}
+
 .container-fluid {
 font-size: 20px;
 font-family: Garamond;
@@ -1596,6 +1612,13 @@ font-family: Garamond;
   flex: 1 0 auto;
 }
 
-.items{
-padding: 40px;
+.item2{
+border-left: 50px;
 }
+
+.items{
+padding-top: 40px;
+
+
+}
+
