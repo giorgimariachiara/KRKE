@@ -1460,7 +1460,7 @@ text-align: center;
 .gallery .swiper-wrapper {
   padding: 40px 0;
 }
-
+}
 .gallery .swiper-slide-active {
   border: 6px solid var(--color-primary);
   padding: 4px;
@@ -1641,8 +1641,6 @@ text-align: center;
 
 /*cosmo for analysis page*/
 
-
-
 .poeti {
 margin-top: 100px;
 font-size: 20px;
@@ -1657,23 +1655,21 @@ margin-left: 15px;
 margin-right: 15px;
 }
 
-.butn2:hover{
+.butn2:hover {
 color: #954e13;
 }
-.butn:hover{
-  color: #954e13;
-  }
+
 .figureretoriche {
 text-align: right;
 font-family: Garamond;
 }
 
-.figureretoriche h1{
+.figureretoriche h1 {
   padding-left: 5px;
   font-family: Garamond;
   }
 
-.container-fluid h1{
+.container-fluid h1 {
   letter-spacing: 1px;
   font-weight: 400;
   color: #954e13;
@@ -1684,34 +1680,33 @@ font-family: Garamond;
   padding-top: 20px;
 }
 
-
-.container-fluid{
+.container-fluid {
 font-size: 20px;
 font-family: Garamond;
 }
 
 .highlight[property~="musicality"]{
-	background-color: rgba(250, 0, 0, 0.5)
+	background-color: rgba(250, 0, 0, 0.5);
 }
 
 .highlight[property~="spleen"]{
-	background-color: #666767
+	background-color: #666767;
 }
 
 .highlight[property~="purity"]{
-	background-color: #00FAFA
+	background-color: #00FAFA;
 }
 
 .highlight[property~="vague"]{
-	background-color: #006533
+	background-color: #006533;
 }
 
 .highlight[property~="boredom"]{
-	background-color: #0800fa
+	background-color: #0800fa;
 }
 
 .highlight[property~="escape"]{
-	background-color: #ffdd00
+	background-color: #ffdd00;
 }
 
 .highlight[property~="assonance"]{
@@ -1780,3 +1775,4 @@ font-family: Garamond;
   border-color:  #954e13;
   border-radius: 20px;
 }
+
