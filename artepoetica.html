@@ -73,16 +73,18 @@
 
 <div class="col-lg-12 text-center">
     <div class="poeti">
-        <button class="button" onclick="content1('')">Poem's versions</a>
-        <button class="button" onclick="content2('')">Text analysis</a>
-        <a class="button" onclick="content3('')">Content analysis</a>
+        <input id="butn1" type="button" value="Poem's versions"/>
+        <input id="butn2" type="button" value="Text analysis"/>
+        <input id="butn3" type="button" value="Content analysis" />
     </div>
-  </div>
+</div>
 
-    <div class="content1">
-        <div class="container-fluid local-information">
-            <div class="row local-items">
-                <div class="col-md-4 item2">
+
+
+<div class="content-container">
+    <div id="content1">
+        <div class="row">
+            <div class="col-md-4">
                     <h1>French version</h1>
                     <p>
                     De la musique avant toute chose, <br>
@@ -130,9 +132,9 @@
                     Qui va fleurant la menthe et le thym …
                     Et tout le reste est littérature.
                     </p>
-                </div>
+            </div> 
 
-                 <div class="col-md-4 items">
+            <div class="col-md-4">
                     <h1>Italian Version</h1><br>
                     <p>
                         La musica, prima di ogni altra cosa:
@@ -180,10 +182,10 @@
                         che va sfiorando la menta e il timo…
                         E tutto il resto è letteratura.
                     </p>
-                </div>
+            </div>
             
 
-                <div class="col-md-4 items">
+            <div class="col-md-4">
                     <p>Music first and foremost! In your verse,
                         Choose those meters odd of syllable,
                         Supple in the air, vague, flexible,
@@ -229,18 +231,19 @@
                         Dawn’s wind, bristling scents of mint, thyme, clover . . .
                         All the rest is nothing more than writing.
                         </p>
-                    </div>
-                </div>
+                    
+                
             </div>
+        </div>         
     </div>
 
 
 
-    <div class="content2"> 
-        <div class="container-fluid local-information">
-            <div class="row local-items">
-                <div class="col-lg-4 item">
-                    <div class="figureretoriche">
+    
+    <div id="content2">
+        <div class="row local-items">
+            <div class="col-lg-4">
+            
                         <h1>Figures of Speech</h1>      
                         <ul style="list-style-type:none;">
                         <li class="item"><a class="butn fOsButton" role="button" data-fOs="assonance" id="assonanceButton">Assonance</a></li>
@@ -253,11 +256,10 @@
                         <li class="item"><a class="butn fOsButton" role="button" data-fOs="oxymoron" id="oxymoronButton">Oxymoron</a></li>
                         <li class="item"><a class="butn fOsButton" role="button" data-fOs="synaesthesia" id="synaesthesiaButton">Synaesthesia</a></li>
                         </ul>
-                    </div>
-                </div>
+                    
+            </div>
     
-                <div class="col-lg-4 items">
-                    <div class="content-container"> 
+            <div class="col-lg-4">
                         <h1>Arte Poetica</h1>  
                         <p>La musica prima di ogni altra cosa!<br> 
                         Tu devi dunque preferire il Dispari,<br>
@@ -271,24 +273,23 @@
                         <span property="personfication">È la luce tremante a mezzo il giorno</span><br>
                         sangue di terra</span> dura</span>
                         <p>
-                    </div>
-                </div>
+                   
+            </div>
         
-            <div class="col-lg-4 items">
-             <h1>influences</h1>
+            <div class="col-lg-4">
+                        <h1>influences</h1>
 
-             <p> ciaoooooo </p>
-
+                        <p> ciaoooooo </p>
 
             </div>
-         </div>
+        </div>
+    </div>
 
 
-         <div class="content2"> 
-            <div class="container-fluid local-information">
-                <div class="row local-items">
-                    <div class="col-lg-4 item2">
-                        <div class="listatemi">
+
+    <div id="content3"> 
+        <div class="row">
+            <div class="col-lg-4">
                           <h1>Themes</h1>
                             <ul style="list-style-type:none;">
                               <li class="item1"><a class="butn themeButton" role="button" data-theme="musicality" id="musicalityButton">Musicality</a></li>
@@ -298,11 +299,9 @@
                               <li class="item1"><a class="butn themeButton" role="button" data-theme="purity" id="purityButton">Purity</a></li>
                               <li class="item1"><a class="butn themeButton" role="button" data-theme="escape" id="escapeButton">Escape</a></li>
                             </ul>  
-                        </div>
-                    </div>
-        
-                    <div class="col-lg-4 items">
-                        <div class="content-container"> 
+            </div>
+                   
+            <div class="col-lg-4">     
                             <h1>Arte Poetica</h1>  
                             <p><span property="musicality">La musica prima di ogni altra cosa!<br> 
                                 Tu devi dunque preferire il Dispari, </span><br>
@@ -317,20 +316,19 @@
                                   sangue di <span property="cosmo:stillness"><span property="cosmo:repetition">terra</span> dura</span>,
                                     <br>
                             <p>
-                        </div>
-                    </div>
+            </div>
+                    
             
-                <div class="col-lg-4 items">
-                 <h1>influences</h1>
+            <div class="col-lg-4">
+                            <h1>influences</h1>
     
-                 <p> ciaoooooo </p>
+                            <p> ciaoooooo </p>
     
     
-                </div>
-             </div>
-       </div>
+            </div>           
+        </div>
     </div>   
-       
+</div>       
           
   
   
@@ -355,43 +353,36 @@
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
   <script type="text/javascript" src="./assets/js/main.js"></script>
+
   <script>
-        $(".butn1").click(function(e) {
-        e.preventDefault();
-        $('.content1 div').fadeOut('slow');
-        $('#1' + $(this).data('rel')).fadeIn('slow');
-        });
-    </script>
 
-    <script>
-            $(".butn2").click(function(e) {
-            e.preventDefault();
-            $('.content2 div').fadeOut('slow');
-            $('#2' + $(this).data('rel')).fadeIn('slow');
-            });
-    </script>
+$('#butn1').click(function(e) {
+$('#content2').fadeOut();
+$('#content3').fadeOut();
+$('#content1').fadeIn('fast');
+    // Animation complete.
+  
+});
+</script>
 
+<script>
+$('#butn2').click(function(e) {
+$('#content1').fadeOut();
+$('#content3').fadeOut();
+$('#content2').fadeIn('fast');
+  
+});
+</script>
 
-    <script>
-            $(".butn3 div").click(function(e) {
-            e.preventDefault();
-            $('.content3').fadeOut('slow');
-            $('#3' + $(this).data('rel')).fadeIn('slow');
-            });
-    </script>
-    
-
-
-
-
-    <script>
-        function content1(){
-
-        }
-    </script>
+<script>
+$('#butn3').click(function(e) {
+$('#content2').fadeOut();
+$('#content1').fadeOut();
+$('#content3').fadeIn('fast');
+  
+});
 
 
-
-
+</script>
 </body>   
 </html>
