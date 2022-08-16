@@ -1561,3 +1561,67 @@ padding-bottom: 20px;
 font-weight: 650;
 
 }
+
+#basta{
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-img.png") center center;
+text-align: center;
+background-size:cover;
+width: 100%;
+height: 100vh; 
+background: url("../img/hero-img.png") top center;
+background-size: cover;
+position: relative;
+}
+
+.titlechoose h1 {
+ font-size: 50px;
+ font-family: Garamond ;
+ margin-top: 100px;
+ color: #522704;
+ text-transform: uppercase;
+ font-weight: bold;
+ text-align: center;
+ background:  rgba(255, 255, 255);
+ padding-top: 20px;
+ padding-bottom:10px;
+
+ 
+}
+
+.btnchoose {
+  
+  text-align: center;
+  font-size: 35px;
+  color:#ab8b4c;
+  font-weight: 800;
+  font-family: Garamond;
+  background: none;
+  background: rgb(255, 255, 255, 0.8);
+  border-style:none;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 25px 80px 25px 80px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  
+}
+
+.btnchoose:hover {
+color: #522704;
+}
+
+#basta:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#basta .container{
+  position: relative;
+  text-align: center;
+}
