@@ -1369,6 +1369,9 @@ text-align: center;
   padding-bottom: 50px;
  }
 
+
+
+
 .butn2 {
   font-size: 25px;
   font-weight:bold;
@@ -1381,6 +1384,8 @@ text-align: center;
   margin-right: 15px;
   padding-bottom: 50px;
 }
+
+
 
 .butn3 {
   font-size: 25px;
@@ -1453,6 +1458,10 @@ color: #954e13;
 
 .highlight[property~="escape"]{
 	background-color: #ffdd00;
+}
+
+.highlight[property~="journey"]{
+	background-color: #002fff;
 }
 
 .highlight[property~="assonance"]{
@@ -1546,12 +1555,6 @@ text-align: center;
 font-size: 50px;
 }
 
-.itemss{
-font-size: 20px;
-text-align:center;
-
-
-}
 
 .butn {
 font-family: Garamond;
@@ -1625,3 +1628,11 @@ color: #522704;
   position: relative;
   text-align: center;
 }
+
+.scrollpoem {
+  position: relative;
+  height: 500px;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+
