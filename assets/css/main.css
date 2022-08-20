@@ -1232,12 +1232,16 @@ text-align: center;
   padding: 20px 0;
   color: rgba(255, 255, 255, 0.7);
 }
-
+.footer1{
+  font-size: 14px;
+  margin-top: 50px;
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.7);
+  background-color:  #522704;
+}
 
 .footer .copyright {
   text-align: center;
-  padding-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer .credits {
@@ -1263,9 +1267,6 @@ text-align: center;
   margin-right: 15px;
   padding-bottom: 50px;
  }
-
-
-
 
 .butn2 {
   font-size: 25px;
