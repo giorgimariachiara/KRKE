@@ -184,8 +184,28 @@
               <div class="col-md-4 scrollpoem">
                   <div class="titlecontent"><h1>Brise Marine</h1></div> 
                     <p>
-                    <span property="spleen"><span property="allitteration">La chair est triste, hélas<sup><a href="brezzamarina.html#ciao">5</a></sup> ! et j'ai lu tous les livres.</span></span><br>
-                    <span property="allitteration"><span property="journey"><span property="escape">Fuir !</span><span property="vague">là-bas</span> fuir !</span></span> 
+                    <span property="spleen"><span property="allitteration">La chair est triste, hélas
+                    
+                    
+                      <span class="popup" onclick="popupfunction()"><sup>1</sup>
+                      <span class="popuptext" id="myPopup">
+                        It is possible to capture the feeling of <u>spleen</u>
+                      </span>
+                    </span>
+                      
+                    ! et j'ai lu tous les livres.</span></span><br>
+                    <span property="allitteration"><span property="journey"><span property="escape">Fuir !
+
+                      <span class="popup" onclick="popupfunction()"><sup>2</sup>
+                        <span class="popuptext" id="myPopup1">
+                         daje de fuga
+                        </span>
+                      </span>
+
+
+
+
+                    </span><span property="vague">là-bas</span> fuir !</span></span> 
                     <span property="journey">Je sens que des oiseaux sont ivres</span> <br>
                     D'être parmi <span property="vague">l'écume inconnue</span> et les cieux !<br>
                     <span property="allitteration">Rien, ni les vieux jardins reflétés par les yeux </span><br>
@@ -221,19 +241,6 @@
                               <li class="item1"><a class="butn themeButton" role="button" data-theme="seerpoet" id="seerPoetButton">Seer Poet</a></li>
                             </ul>  
                 </div>
-      
-
-
-            <div class="row local-items">
-              <div class="col-md-12 text-center">
-
-                <span id="ciao">Esistono comunque casi di polidattilia felina in cui il gatto risulta avere sei o addirittura sette dita per zampa. </span><br>
-                Le zampe posteriori, più lunghe di quelle anteriori, terminano con quattro dita fornite anch'esse di artigli protrattili. I cuscinetti sono costituiti da membrane elastiche che gli conferiscono un'andatura silenziosa. Sotto le zampe, come nel muso e sopra gli occhi sono anche presenti le "vibrisse" che hanno la funzione di controllare l'equilibrio del felino. I muscoli dorsali sono molto flessibili e quelli delle zampe posteriori molto potenti.
-                Queste specifiche conferiscono all'animale una grande agilità e un'ampiezza quando salta: può saltare a un'altezza cinque volte superiore alla sua statura. Nella corsa può raggiungere i 50 km/h e percorrere 100 m in sette secondi, ma non è un corridore di lunghe distanze e si stanca molto velocemente.[7] Contrariamente a quello che generalmente si pensa, tutti i gatti sanno nuotare molto bene ma esitano a gettarsi in acqua se costretti. Un gatto pesa in media tra i 2,5 e i 4,5 kg e misura da 46 a 51 cm senza la coda che misura dai 20 ai 25 cm.
-
-
-              </div>
-            </div>
           </div>
       </div>
   
@@ -294,7 +301,8 @@
     
       <!-- fine main content -->
     
-          
+     
+        
       
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
@@ -361,6 +369,23 @@
 </footer><!-- End Footer -->
 <!-- End Footer -->
 
+<script>
+  // When the user clicks on <div>, open the popup
+  function popupfunction() {
+    
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  };
+  </script>
+
+<script>
+  // When the user clicks on <div>, open the popup
+  function popupfunction() {
+    
+    var popup = document.getElementById("myPopup1");
+    popup.classList.toggle("show");
+  };
+  </script>
   </body>
   </html>
   
