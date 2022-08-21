@@ -1632,15 +1632,21 @@ color: #b0955e;
 
 /* Popup container */
 .popup {
+  text-align: center;
   position: relative;
-  display: inline-block;
+  display:inline-block;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
+
 
 /* The actual popup (appears on top) */
 .popup .popuptext {
   visibility: hidden;
-  width: 200px;
+  width: 150px;
   background-color: white;
   color:  #632d00;
   text-align: center;
@@ -1649,8 +1655,9 @@ color: #b0955e;
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
+  margin-left: -20px;
+  overflow: scroll;
+
 }
 
 /* Popup arrow */
