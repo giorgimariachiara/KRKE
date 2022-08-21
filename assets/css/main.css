@@ -87,6 +87,7 @@ font-size: 20px;
   font-family: Garamond;
   text-decoration: overline;
   text-decoration-color:#954e13;
+  margin-left: 50px;
 
 }
 .titletheme p{color:  #b0955e;
@@ -615,6 +616,8 @@ section {
   list-style: none;
   padding: 0;
   font-family: Garamond;
+  margin-left: 50px;
+  margin-right: 50px;
   
   
 }
@@ -622,6 +625,7 @@ section {
 .about .info-domain ul li {
   font-family: Garamond;
   font-size: 20px;
+  
   
 }
 
@@ -632,7 +636,7 @@ section {
   left: 0;
   top: -3px;
   font-family: Garamond;
-
+  
 }
 
 .about .info-domain p:last-child {
@@ -640,9 +644,12 @@ section {
   
 }
 
-.info-domain p{font-family:Garamond;
-  padding-top: 20px;
+.info-domain p{
+  font-family:Garamond;
   font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
 
 }
 
@@ -961,7 +968,8 @@ margin-left:30px;}
 }
   
   
-  .btn-light{position:absolute;
+  .btn-light{
+  position:absolute;
   bottom:0;
   width:80%;
   margin-bottom:10px;
@@ -971,7 +979,8 @@ margin-left:30px;}
   border:none;
   }
      
-  .btn-light:hover{background-color:white;
+  .btn-light:hover{
+    background-color:white;
   
      }
      
@@ -1421,6 +1430,12 @@ color: #954e13;
   text-decoration-style: double;
 }
 
+.highlight[property~="allitteration"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
 .content-container{
   background-color: rgba(176, 149, 94, 0.2);
   border-top-style:solid;
@@ -1541,3 +1556,77 @@ h3 {
  text-align: center;
 
 }
+
+.col-md-12 {
+margin-top: 150px;
+border-style: dotted;
+border-top: 30px;
+border-color:  #632d00;
+
+}
+
+
+.ocolor {
+color: #b0955e;
+}
+
+
+#contentcoll{
+  font-size: 20px;
+  color: #632d00;
+  font-family: Garamond;
+  background: none;
+  background: rgb(255, 255, 255, 0.8);
+  border-style:none;
+  margin-bottom:3px;
+
+}
+
+#contentcoll1{
+  font-size: 20px;
+  color: #632d00;
+  font-family: Garamond;
+  background: none;
+  background: rgb(255, 255, 255, 0.8);
+  border-style:none;
+  margin-bottom:3px;
+
+}
+
+#collapsible{
+  font-size: 20px;
+  color: #632d00;
+  font-family: Garamond;
+  background: none;
+  background: rgb(255, 255, 255, 0.8);
+  border-radius: 5px;
+  border-width:3px;
+  border-style:solid;
+  border-color:  #632d00;
+  margin-bottom:3px;
+
+}
+#collapsible1{
+  font-size: 20px;
+  color: #632d00;
+  font-family: Garamond;
+  border-style:solid;
+  border-radius: 5px;
+  border-width: 3px;
+  background: rgb(255, 255, 255, 0.8);
+  border-color:  #632d00;
+  margin-bottom:3px;
+
+}
+
+#nocoll{
+  font-size: 20px;
+  color: #632d00;
+  font-family: Garamond;
+  border-style:none;
+  background: none;
+  background: rgb(255, 255, 255, 0.8);
+  margin-bottom:3px;
+
+}
+
