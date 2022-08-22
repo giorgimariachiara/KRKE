@@ -821,6 +821,20 @@ text-align: center;
 }
 
 /*------------CARDS-QUERIES------------------------*/
+
+
+.logoqueries {
+  margin-left: 60px;
+}
+
+
+.navqueries {
+  padding-top:10px;
+  margin-left: 750px;
+}
+
+
+
 .table {
   font-size: 15px;
 }
@@ -835,11 +849,13 @@ text-align: center;
 }
 
 
-.modal-title{font-family:Garamond;
+.modal-title{
+font-family:Garamond;
 font-weight:bold;
 font-size:17px;}
 
-.info-query h2{font-size: 25px;
+.info-query h2{
+  font-size: 25px;
   letter-spacing: 1px;
   font-weight: 400;
   margin: 0;
@@ -855,7 +871,8 @@ font-size:17px;}
     font-size: 20px;
   }
 
-.card-container{ background-color:white; /*----url(' http://api.thumbr.it/whitenoise-361x370.png?')---*/
+.card-container{ 
+    background-color:white; /*----url(' http://api.thumbr.it/whitenoise-361x370.png?')---*/
     margin-top:100px;
     margin-left:70px;
     margin-right: 70px;
@@ -870,7 +887,7 @@ font-size:17px;}
    
    
 .col-sm-4{
-  display: flex;
+display: flex;
 display: -webkit-flex;
 flex-flow: row nowrap;
 -webkit-flex-flow: row nowrap;
@@ -881,7 +898,6 @@ justify-content: space-between;
 margin-top: 10px;
 flex: 1;
 padding: 25px ;
-
 margin-left: 10px;
 margin-right: 10px;
 border: 1px solid rgba(0,0,0,.125);
@@ -890,39 +906,6 @@ width:100%;
 
 }
 
-
-
-.center-fit {
-  padding: 0;
-    display: block;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-  margin-left:auto;
-  margin-right:auto;
-
-}
-
-
-#title{
-  font-family:Garamond;
-  font-size:13vw;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding-top: 150px;
-  color:#b0955e;
-  padding-bottom:30%;
-}
-
-
-#subtitle{
-   font-family: BebasNeue-Regular;
-    font-size: 1.5vw;
-    color: white;
-  font-size:75px;
-}
   
   .card-title-query{font-family:Garamond;
   color:#954e13;
@@ -984,39 +967,6 @@ margin-left:30px;}
   
      }
      
-     
-  .col-sm-4{
-  display: flex;
-  display: -webkit-flex;
-  flex-flow: row nowrap;
-  -webkit-flex-flow: row nowrap;
-  align-items: stretch;
-  -webkit-align-items: stretch;
-  justify-content: space-between;
-  -webkit-justify-content: space-between;
-  margin-top: 10px;
-  flex: 1;
-  padding: 25px ;
-  margin-top:40px ;
-  margin-left: 20px;
-  margin-right: 20px;
-  border: 10px solid rgba(0,0,0,.125);
-  border-radius: .15rem;
-  border-width: 7px;
-  width:100%;
-  border-color: #954e13 ;
-  } 
-
-.center-fit {
-    padding: 0;
-      display: block;
-      margin: auto;
-      height: 100%;
-      width: 100%;
-    margin-left:auto;
-    margin-right:auto;
-  
-  }
 
 .canto {
   margin-top: 50px;
