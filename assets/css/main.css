@@ -823,17 +823,6 @@ text-align: center;
 /*------------CARDS-QUERIES------------------------*/
 
 
-.logoqueries {
-  margin-left: 60px;
-}
-
-
-.navqueries {
-  padding-top:10px;
-  margin-left: 750px;
-}
-
-
 
 .table {
   font-size: 15px;
@@ -873,9 +862,9 @@ font-size:17px;}
 
 .card-container{ 
     background-color:white; /*----url(' http://api.thumbr.it/whitenoise-361x370.png?')---*/
-    margin-top:100px;
+    margin-top:70px;
     margin-left:70px;
-    margin-right: 70px;
+    margin-right: 0px;
     margin-bottom: 70px;
     padding-bottom:100px;
     
@@ -891,8 +880,8 @@ display: flex;
 display: -webkit-flex;
 flex-flow: row nowrap;
 -webkit-flex-flow: row nowrap;
-align-items: stretch;
--webkit-align-items: stretch;
+align-items:center;
+-webkit-align-items: center;
 justify-content: space-between;
 -webkit-justify-content: space-between;
 margin-top: 10px;
@@ -906,6 +895,11 @@ width:100%;
 
 }
 
+.queriestable { 
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
   
   .card-title-query{font-family:Garamond;
   color:#954e13;
@@ -1037,6 +1031,16 @@ margin-left:30px;}
   color:#b0955e;
 }
   
+
+.logoqueries {
+  margin-left: 100px;
+}
+
+
+.navqueries {
+  padding-top: 10px;
+  margin-left: 150px;
+}
 
   
 /*--------------------------------------------------------------
@@ -1294,6 +1298,7 @@ color: #954e13;
 
 .highlight[property~="musicality"]{
 	background-color: rgba(250, 0, 0, 0.5);
+  border-radius: 6px;
 }
 
 .highlight[property~="spleen"]{
@@ -1507,13 +1512,7 @@ h3 {
 
 }
 
-.col-md-12 {
-margin-top: 150px;
-border-style: dotted;
-border-top: 30px;
-border-color:  #632d00;
 
-}
 
 
 .ocolor {
@@ -1521,64 +1520,6 @@ color: #b0955e;
 }
 
 
-#contentcoll{
-  font-size: 20px;
-  color: #632d00;
-  font-family: Garamond;
-  background: none;
-  background: rgb(255, 255, 255, 0.8);
-  border-style:none;
-  margin-bottom:3px;
-
-}
-
-#contentcoll1{
-  font-size: 20px;
-  color: #632d00;
-  font-family: Garamond;
-  background: none;
-  background: rgb(255, 255, 255, 0.8);
-  border-style:none;
-  margin-bottom:3px;
-
-}
-
-#collapsible{
-  font-size: 20px;
-  color: #632d00;
-  font-family: Garamond;
-  background: none;
-  background: rgb(255, 255, 255, 0.8);
-  border-radius: 5px;
-  border-width:3px;
-  border-style:solid;
-  border-color:  #632d00;
-  margin-bottom:3px;
-
-}
-#collapsible1{
-  font-size: 20px;
-  color: #632d00;
-  font-family: Garamond;
-  border-style:solid;
-  border-radius: 5px;
-  border-width: 3px;
-  background: rgb(255, 255, 255, 0.8);
-  border-color:  #632d00;
-  margin-bottom:3px;
-
-}
-
-#nocoll{
-  font-size: 20px;
-  color: #632d00;
-  font-family: Garamond;
-  border-style:none;
-  background: none;
-  background: rgb(255, 255, 255, 0.8);
-  margin-bottom:3px;
-
-}
 
 /* Popup container */
 .popup {
