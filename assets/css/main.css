@@ -1391,6 +1391,18 @@ color: #954e13;
   text-decoration-style: double;
 }
 
+.highlight[property~="synecdoche"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
+.highlight[property~="hypallage"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
 .content-container{
   background-color: rgba(176, 149, 94, 0.2);
   border-top-style:solid;
