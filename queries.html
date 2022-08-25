@@ -112,10 +112,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ1</h4>
-		<h5 class="query-title">Which "Girone" of hell does Canto V refer to?</h5>
-        <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-							<p>select ?Place</p>
-							<p>where { divo:InfV divo:refers_to ?Place.}</p></div>
+		<h5 class="query-title">Which literary current do the poems refer to?</h5>
+        <div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+							<p>SELECT ?LiteraryCurrent</p>
+							<p>WHERE { symbo:ArtPoetique symbo:isPartOf ?LiteraryCurrent }</p></div>
         <!-- Button trigger modal -->
 <button type="button"
  class=" ciao btn btn-light mt-auto see-results" data-toggle="modal" data-target="#exampleModal">
@@ -159,12 +159,12 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ2</h4>
-		<h5 class="query-title">What are the lines in which Paolo and Francesca are involved?</h5>
+		<h5 class="query-title">In which lines is the musicality theme present?</h5>
 
-        <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-								<p>select ?Line</p>
-								<p>where { ?Line divo:related_character divo:PaoloSoul.</p>
-								<p>?Line divo:related_character divo:FrancescaSoul.}</p>
+        <div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/</p>
+								<p>SELECT ?Line</p>
+								<p>WHERE {?Line symbo:express symbo:Musicality}</p>
+								<p></p>
 </div>
         <!-- Button trigger modal -->
 <button type="button" class="ciao mt-auto btn btn-light "  data-toggle="modal" data-target="#exampleModal2">
@@ -176,7 +176,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel2">What are the lines in which Paolo and Francesca are involved?</h5>
+        <h5 class="modal-title" id="exampleModalLabel2">In which lines is the musicality theme present?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -190,21 +190,44 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://divo.github.io/Line108</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line9BM</td>
     </tr>
     <tr>
-       <td>http://divo.github.io/Line109</td>
+       <td>http://www.semanticweb.org/ontologies/SymbO#Line29AP</td>
     </tr>
     <tr>
-    <td>http://divo.github.io/Line74</td>
+    <td>http://www.semanticweb.org/ontologies/SymbO#Line12V</td>
     </tr>
 	 <tr>
-      <td>http://divo.github.io/Line80</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line14V</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/Line92</td>
+     <td>http://www.semanticweb.org/ontologies/SymbO#Line7V</td>
     </tr>
-	
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line23AP</td>
+     </tr>
+     <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line9V</td>
+     </tr>
+     <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line7BM</td>
+     </tr>
+	   <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line22AP</td>
+     </tr>
+     <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line1AP</td>
+     </tr>
+     <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line2AP</td>
+     </tr>
+     <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line7AP</td>
+     </tr>
+     <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line11V</td>
+     </tr>
   </tbody>
 </table>
       </div>
@@ -219,12 +242,11 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ3</h4>
-		<h5 class="query-title">What are the fictional characters mentioned in the text?</h5>
+		<h5 class="query-title">In which lines is the vague theme present?</h5>
 		
-        <div class="card-text"><p>PREFIX divo:http://divo.github.io/ </p>
-								<p>select distinct ?FictionalCharacter</p>
-								<p>where { divo:InfV divo:has_line ?Line.</p>
-								<p>?Line divo:related_character ?FictionalCharacter.}</p>
+        <div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org </p>
+								<p>SELECT ?Line</p>
+								<p>WHERE {?Line symbo:express symbo:Vague}</p>
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao mt-auto btn btn-light" data-toggle="modal" data-target="#exampleModal3">
@@ -236,7 +258,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel3">What are the fictional characters mentioned in the text?</h5>
+        <h5 class="modal-title" id="exampleModalLabel3">In which lines is the vague theme present?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -313,10 +335,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ4</h4>
-        <h5 class="query-title">What person inspired Paolo's soul?</h5>
+        <h5 class="query-title">In which lines is the journey theme present?</h5>
 		<div class= "card-text"><p>PREFIX divo:http://divo.github.io/</p>
-								<p>select ?Agent</p>
-								<p>where { ?Agent divo:has_inspired divo:PaoloSoul.}</p>
+                <p>SELECT ?Line</p>
+                <p>WHERE {?Line symbo:express symbo:Journey}</p>
 		</div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao mt-auto btn btn-light" data-toggle="modal" data-target="#exampleModal4">
@@ -328,7 +350,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel4">What person inspired Paolo's soul?</h5>
+        <h5 class="modal-title" id="exampleModalLabel4">In which lines is the journey theme present?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -337,13 +359,38 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <table class="table">
   <thead>
     <tr>
-      <th scope="col">Agent</th>
+      <th scope="col">Line</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>http://divo.github.io/PaoloMalatesta</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line32AP</td>
     </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line16BM</td>
+    </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line6BM</td>
+    </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line30AP</td>
+    </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line9BM</td>
+    </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line2BM</td>
+    </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line33AP</td>
+    </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line12BM</td>
+    </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line10BM</td>
+    </tr>
+
 	</tbody>
 	</table>
       </div>
@@ -359,10 +406,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ5</h4>
-        <h5 class="query-title">What is Dante's identifier?</h5>
+        <h5 class="query-title">In which lines is the spleen theme present?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-								<p>select ?x</p>
-								<p>where { divo:Dante divo:identifier ?x.}</p>
+      <p>SELECT ?Line</p>
+      <p>WHERE {?Line symbo:express symbo:Spleen}</p>
 		</div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal5">
@@ -374,7 +421,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel5">What is Dante's identifier?</h5>
+        <h5 class="modal-title" id="exampleModalLabel5">In which lines is the spleen theme present?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -383,16 +430,28 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <table class="table">
   <thead>
     <tr>
-      <th scope="col">Identifier</th>
+      <th scope="col">Line</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>http://dbpedia.org/page/Dante_Alighieri</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line3V</td>
 	  </tr>
 	  <tr>
-<td>http://viaf.org/viaf/97105654 </td>
+       <td>http://www.semanticweb.org/ontologies/SymbO#Line11BM </td>
     </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line1V </td>
+   </tr>
+   <tr>
+    <td>http://www.semanticweb.org/ontologies/SymbO#Line1BM </td>
+ </tr>
+ <tr>
+  <td>http://www.semanticweb.org/ontologies/SymbO#Line5V</td>
+</tr>
+<tr>
+  <td>http://www.semanticweb.org/ontologies/SymbO#Line4V </td>
+</tr>
 	</tbody>
 	</table>
       </div>
@@ -407,14 +466,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ6</h4>
-        <h5 class="query-title">What is the character that is mentioned most times?</h5>
+        <h5 class="query-title">In which lines is the boredom theme present?</h5>
 		<div class="card-text"> <p>PREFIX divo:http://divo.github.io/</p>
-<p>select ?Agent  (COUNT(?Line) as ?Agent_count)</p>
-<p>where {?Line divo:related_character ?Agent.}</p>
- <p>GROUP BY ?Agent</p>
- <p>ORDER BY DESC(?Agent_count)</p>
-<p>LIMIT 1 </p>
-
+  <p>SELECT ?Line</p>
+ <p>WHERE {?Line symbo:express symbo:Boredom}</p>
 		</div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal6">
@@ -425,7 +480,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel5">What is the character that is mentioned most times?</h5>
+        <h5 class="modal-title" id="exampleModalLabel5">In which lines is the boredom theme present?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -434,14 +489,12 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <table class="table">
   <thead>
     <tr>
-      <th scope="col">Agent</th>
-	  <th scope="col">times</th>
+      <th scope="col">Line</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>http://divo.github.io/PaoloSoul</td>
-	  <td>9</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line11BM</td>
 	  </tr>
 	</tbody>
 	</table>
@@ -462,11 +515,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ7</h4>
-        <h5 class="query-title">Which lines refer to Aeneid?</h5>
+        <h5 class="query-title">In which lines is the seerpoet theme present?</h5>
 		 <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-								<p>select ?Line</p>
-								<p>where {?Line divo:related_to ?LiteraryReference.</p>
-								<p>divo:Eneide divo:contains ?LiteraryReference.}</p>
+      <p>SELECT ?Line</p>
+      <p>WHERE {?Line symbo:express symbo:Boredom}</p>
 </div>
         <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal7">
@@ -478,7 +530,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Which lines refer to Aeneid?</h5>
+        <h5 class="modal-title" id="exampleModalLabel">In which lines is the seerpoet theme present?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -492,40 +544,13 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://divo.github.io/Line47</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line14V</td>
     </tr>
     <tr>
-       <td>http://divo.github.io/Line124</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line6V</td>
     </tr>
     <tr>
-    <td>http://divo.github.io/Line126</td>
-    </tr>
-	 <tr>
-      <td>http://divo.github.io/Line138</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line62</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line20</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line5</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line4</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line9</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line69</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line6</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line46</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line3V</td>
     </tr>
   </tbody>
 </table>
@@ -541,11 +566,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ8</h4>
-        <h5 class="query-title">What are the literary works related to Canto V?</h5>
+        <h5 class="query-title">In which lines is the escape theme present?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-							<p>select distinct ?LiteraryWork </p>
-							<p>where {?Line divo:related_to ?LiteraryReference.</p>
-							<p>?LiteraryWork divo:contains ?LiteraryReference}</p>
+      <p>SELECT ?Line</p>
+      <p>WHERE {?Line symbo:express symbo:Escape}</p>
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal8">
@@ -557,7 +581,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">What are the literary works related to Canto V?</h5>
+        <h5 class="modal-title" id="exampleModalLabel">In which lines is the escape theme present?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -566,43 +590,25 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
           <table class="table">
   <thead>
     <tr>
-      <th scope="col">Literary works</th>
+      <th scope="col">Line</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-       <td>http://divo.github.io/Eneide</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line16AP</td>
     </tr>
     <tr>
-    <td>http://divo.github.io/Convivio</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Line31AP</td>
     </tr>
 	 <tr>
-      <td>http://divo.github.io/DeAmore</td>
+    <td>http://www.semanticweb.org/ontologies/SymbO#Line9BM</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/HistoriarumAdversusPaganosLibriSeptem</td>
+    <td>http://www.semanticweb.org/ontologies/SymbO#Line2BM</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/CanticaInferno</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/VangeloSecondoMatteo</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Metamorfosi</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/CanticaParadiso</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/CanticaPurgatorio</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Tebaide</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/VitaNuova</td>
-    </tr>
+    <td>http://www.semanticweb.org/ontologies/SymbO#Line30AP</td>
+  </tr>
   </tbody>
 </table>
       </div>
@@ -617,10 +623,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ9</h4>
-        <h5 class="query-title">Who was the author of <br> the text "Historiarum adversus paganos libri septem"?</h5>
+        <h5 class="query-title">Which are the theme of Symbolism?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-							<p>select ?Agent </p>
-							<p>where {divo:HistoriarumAdversus<br>PaganosLibriSeptem <br>divo:created_by ?Agent.}</p>
+							<p>SELECT ?Theme </p>
+							<p>WHERE { symbo:Symbolism symbo:hasSubject ?Theme}</p>
 							
 </div>
          <!-- Button trigger modal -->
@@ -633,7 +639,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Who was the author of the text "Historiarum adversus paganos libri septem"?</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Which are the theme of Symbolism?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -642,13 +648,31 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
           <table class="table">
   <thead>
     <tr>
-      <th scope="col">Agent</th>
+      <th scope="col">Theme</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-       <td>http://divo.github.io/PaoloOrosio</td>
+       <td>http://www.semanticweb.org/ontologies/SymbO#Boredom</td>
     </tr>
+    <tr>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Escape</td>
+   </tr>
+   <tr>
+    <td>http://www.semanticweb.org/ontologies/SymbO#Journey</td>
+ </tr>
+ <tr>
+  <td>http://www.semanticweb.org/ontologies/SymbO#SeerPoet</td>
+</tr>
+<tr>
+  <td>http://www.semanticweb.org/ontologies/SymbO#Purity</td>
+</tr>
+<tr>
+  <td>http://www.semanticweb.org/ontologies/SymbO#Musicality</td>
+</tr>
+<tr>
+  <td>http://www.semanticweb.org/ontologies/SymbO#Spleen</td>
+</tr>
   </tbody>
 </table>
       </div>
@@ -664,17 +688,14 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ10</h4>
-        <h5 class="query-title">Which lines evoke the Divina Commedia itself?</h5>
+        <h5 class="query-title">Which is the most frequent theme in the poems?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-								<p>select ?Line</p>
-								<p>where{ {?Line divo:related_to  ?LiteraryReference.</p>
-								<p> divo:CanticaPurgatorio divo:contains ?LiteraryReference.}</p>
-								<p>UNION</p>
-								<p>{ ?Line divo:related_to  ?LiteraryReference. </p>
-								<p> divo:CanticaParadiso divo:contains ?LiteraryReference.}</p>
-								<p>UNION </p>
-								<p>{?Line divo:related_to  ?LiteraryReference. </p>
-								<p> divo:CanticaInferno divo:contains ?LiteraryReference.}} </p>
+								<p>SELECT ?Theme(COUNT(?Line) as?Theme_count)</p>
+								<p>WHERE{?Line symbo:express ?Theme.}</p>
+								<p> GROUP BY ?Theme</p>
+								<p>ORDER BY DESC(?Theme_count)</p>
+								<p>LIMIT 1 </p>
+
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal10">
@@ -686,7 +707,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Which lines evoke the Divina Commedia itself?</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Which is the most frequent theme in the poems?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -695,40 +716,16 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <table class="table">
   <thead>
     <tr>
-      <th scope="col">Line</th>
+      <th scope="col">Theme</th>
+      <th scope="col">Times</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-       <td>http://divo.github.io/Line128</td>
+       <td>http://www.semanticweb.org/ontologies/SymbO#Musicality</td>
+       <td>13</td>
     </tr>
-    <tr>
-    <td>http://divo.github.io/Line46</td>
-    </tr>
-	 <tr>
-      <td>http://divo.github.io/Line128</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line28</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line3</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line23</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line28</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line3</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line48</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/Line126</td>
-    </tr>
+    
   </tbody>
 </table>
       </div>
@@ -743,10 +740,16 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ11</h4>
-        <h5 class="query-title">What are the editions chosen to analyze the Canto V?</h5>
+        <h5 class="query-title">Which Poets have influenced the Authors?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-								<p>select ?Edition</p>
-<p>where { divo:DivinaCommedia divo:has_edition ?Edition.}</p></div>
+								<p>SELECT distinct ?Poet</p>
+<p>WHERE {</p>
+  <p>{?Poet symbo:influences symbo:StéphaneMallarmé.}</p>
+    <p>UNION</p>
+    <p>{?Poet symbo:influences symbo:ArthurRimbaud.}</p>
+    <p>UNION</p>
+    <p>{?Poet symbo:influences symbo:PaulVerlaine.}}</p>
+</div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal11">
   <b> See the results </b>
@@ -757,7 +760,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">What are the editions chosen to analyze the Canto V?</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Which Poets have influenced the Authors?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -766,21 +769,18 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <table class="table">
   <thead>
     <tr>
-      <th scope="col">Line</th>
+      <th scope="col">Poet</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-       <td>http://divo.github.io/ChiavacciLeonardiEdition</td>
+       <td>http://www.semanticweb.org/ontologies/SymbO#FrancescoPetrarca</td>
     </tr>
     <tr>
-    <td>http://divo.github.io/IngleseEdition</td>
+    <td>http://www.semanticweb.org/ontologies/SymbO#GiacomoLeopardi</td>
     </tr>
 	 <tr>
-      <td>http://divo.github.io/PasquiniQuaglioEdition</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/SapegnoEdition</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire</td>
     </tr>
   </tbody>
 </table>
@@ -796,11 +796,13 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ12</h4>
-        <H5 class="query-title">What are the comments to the lines referring to Minos?</h5>
+        <H5 class="query-title">Which is the most frequent figure of speech in "Voyelles"?</h5>
 		<div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-								<p>select ?Commentary</p>
-								<p>where {?Line divo:related_character divo:Minosse.</p>
-								<p> ?Line divo:has_commentary ?Commentary.}</p>
+								<p>SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)</p>
+								<p>WHERE{?Line symbo:contains ?FigureOfSpeech.</p>
+								<p> ?Line symbo:belongsTo symbo:Voyelles.}</p>
+                <p>GROUP BY ?FigureOfSpeech</p>
+                <p>ORDER BY DESC(?FigureOfSpeech_count)</p>
       	
 </div>
          <!-- Button trigger modal -->
@@ -813,7 +815,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">What are the comments to the lines referring to Minos?</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Which is the most frequent figure of speech in "Voyelles"?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -822,45 +824,14 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
           <table class="table">
   <thead>
     <tr>
-      <th scope="col">Commentary</th>
+      <th scope="col">FigureOfSpeech</th>
+      <th scope="col">Times</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-       <td>http://divo.github.io/CLedLine21</td>
-    </tr>
-    <tr>
-    <td>http://divo.github.io/IedLine21</td>
-    </tr>
-	 <tr>
-      <td>http://divo.github.io/PQedLine21</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/SedLine21</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/CLedLine4</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/IedLine4</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/PQedLine4</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/SedLine4</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/CLedLine9</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/IedLine9</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/PQedLine9</td>
-    </tr>
-	<tr>
-     <td>http://divo.github.io/SedLine9</td>
+       <td>http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV</td>
+       <td>7</td>
     </tr>
   </tbody>
 </table>
