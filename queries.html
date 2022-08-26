@@ -847,7 +847,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
 <div class="col-sm-4">
   <div class="card-queries">
     <div class="card-body d-flex flex-column">
-      <h4 class="card-title-query">CQ12</h4>
+      <h4 class="card-title-query">CQ13</h4>
       <H5 class="query-title">Which is the most frequent figure of speech in "Art Poétique"?</h5>
   <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
               <p>SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)</p>
@@ -899,7 +899,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
 <div class="col-sm-4">
   <div class="card-queries">
     <div class="card-body d-flex flex-column">
-      <h4 class="card-title-query">CQ12</h4>
+      <h4 class="card-title-query">CQ14</h4>
       <H5 class="query-title">Which is the most frequent figure of speech in "Brise Marine"?</h5>
   <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
               <p>SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)</p>
@@ -951,14 +951,12 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
 <div class="col-sm-4">
   <div class="card-queries">
     <div class="card-body d-flex flex-column">
-      <h4 class="card-title-query">CQ12</h4>
-      <H5 class="query-title">Which is the most frequent figure of speech in "Voyelles"?</h5>
+      <h4 class="card-title-query">CQ15</h4>
+      <H5 class="query-title">Which are the exponent of Symbolism?</h5>
   <div class="card-text"><p>PREFIX divo:http://divo.github.io/</p>
-              <p>SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)</p>
-              <p>WHERE{?Line symbo:contains ?FigureOfSpeech.</p>
-              <p> ?Line symbo:belongsTo symbo:Voyelles.}</p>
-              <p>GROUP BY ?FigureOfSpeech</p>
-              <p>ORDER BY DESC(?FigureOfSpeech_count)</p>
+              <p>SELECT ?Exponent</p>
+              <p>WHERE {?Exponent symbo:isExponentOf symbo:Symbolism}</p>
+              
       
 </div>
        <!-- Button trigger modal -->
@@ -971,7 +969,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
 <div class="modal-dialog" role="document">
   <div class="modal-content">
     <div class="modal-header">
-      <h5 class="modal-title" id="exampleModalLabel">Which is the most frequent figure of speech in "Voyelles"?</h5>
+      <h5 class="modal-title" id="exampleModalLabel">Which are the exponent of Symbolism?</h5>
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -980,15 +978,19 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <table class="table">
 <thead>
   <tr>
-    <th scope="col">FigureOfSpeech</th>
-    <th scope="col">Times</th>
+    <th scope="col">Exponent</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-     <td>http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV</td>
-     <td>7</td>
+     <td>http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine</td>
   </tr>
+  <tr>
+    <td>http://www.semanticweb.org/ontologies/SymbO#ArthurRimbaud</td>
+ </tr>
+ <tr>
+  <td>http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé</td>
+</tr>
 </tbody>
 </table>
     </div>
