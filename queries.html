@@ -115,7 +115,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
 		<h5 class="query-title">Which literary current do the poems refer to?</h5>
         <div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
 							<p>SELECT ?LiteraryCurrent</p>
-							<p>WHERE { symbo:ArtPoetique symbo:isPartOf ?LiteraryCurrent }</p></div>
+							<p>WHERE { <br>symbo:ArtPoetique symbo:isPartOf ?LiteraryCurrent <br>}</p></div>
         <!-- Button trigger modal -->
 <button type="button"
  class=" ciao btn btn-light mt-auto see-results" data-toggle="modal" data-target="#exampleModal">
@@ -127,7 +127,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel1">Which "Girone" of hell does Canto V refer to?</h5>
+        <h5 class="modal-title" id="exampleModalLabel1">Which literary current do the poems refer to?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -136,13 +136,13 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <table class="table">
   <thead>
     <tr>
-      <th scope="col">Places</th>
+      <th scope="col">Literary Current</th>
 	  
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>http://divo.github.io/CerchioSecondo</td>
+      <td>http://www.semanticweb.org/ontologies/SymbO#Symbolism</td>
 	</tr>
   </tbody>
 </table>
