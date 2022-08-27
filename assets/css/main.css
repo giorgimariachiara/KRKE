@@ -838,15 +838,14 @@ text-align: center;
 font-size: 13px;
 }
 
-<<<<<<< Updated upstream
-=======
+
 .modal-title{
 font-family:Garamond;
 font-weight:bold;
 font-size:17px;}
 
 
->>>>>>> Stashed changes
+
 .info-query h2{
   font-size: 25px;
   letter-spacing: 1px;
@@ -891,8 +890,7 @@ margin-right: 10px;
 margin-bottom: 10px;
 border: 1px solid rgba(0,0,0,.125);
 border-radius: .25rem;
-<<<<<<< Updated upstream
-=======
+
 background-color:white;
 
 
@@ -901,9 +899,7 @@ background-color:white;
 .ciao {
   text-align: center;
   margin-left: 35px;
->>>>>>> Stashed changes
 }
-
 .col-sm-4 p {
   font-size: 15px;
   font-family: Garamond;
@@ -1679,35 +1675,6 @@ color: #b0955e;
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
-}
-.portfolio #items-flters {
-  padding: 0;
-  margin: 0 auto 20px auto;
-  list-style: none;
-  text-align: center;
-}
-.portfolio #items-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 15px 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #444444;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 3px;
-}
-.portfolio #items-flters li:hover, .portfolio #items-flters li.filter-active {
-  color: #151515;
-  background: #ffc451;
-}
-.portfolio #items-flters li:last-child {
-  margin-right: 0;
-}
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
@@ -1783,56 +1750,3 @@ color: #b0955e;
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 40px;
-}
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #ffc451;
-}
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc451;
-}
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
-}
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.portfolio-details .portfolio-description p {
-  padding: 0;
-}
