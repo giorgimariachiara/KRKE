@@ -833,12 +833,20 @@ text-align: center;
   text-align:center;
   font-size:75px;}
 
-.col-sm-4 {
-  background-color:white;
 
-
+.modal td {
+font-size: 13px;
 }
 
+<<<<<<< Updated upstream
+=======
+.modal-title{
+font-family:Garamond;
+font-weight:bold;
+font-size:17px;}
+
+
+>>>>>>> Stashed changes
 .info-query h2{
   font-size: 25px;
   letter-spacing: 1px;
@@ -866,33 +874,41 @@ text-align: center;
     
 }
    
-.btn-light:hover{background-color:rgb(235, 210, 161);
+.btn-light:hover{
+  background-color:rgb(235, 210, 161);
 
    }
+  
+
    
-   
-.col-sm-4{
-display: flex;
-display: -webkit-flex;
-flex-flow: row nowrap;
--webkit-flex-flow: row nowrap;
-align-items:center;
--webkit-align-items: center;
-justify-content: space-between;
--webkit-justify-content: space-between;
+.col-sm-6{
+
 margin-top: 10px;
 flex: 1;
 padding: 25px ;
 margin-left: 10px;
 margin-right: 10px;
+margin-bottom: 10px;
 border: 1px solid rgba(0,0,0,.125);
 border-radius: .25rem;
+<<<<<<< Updated upstream
+=======
+background-color:white;
+
+
+}
+
+.ciao {
+  text-align: center;
+  margin-left: 35px;
+>>>>>>> Stashed changes
 }
 
 .col-sm-4 p {
   font-size: 15px;
   font-family: Garamond;
   text-align: left;
+
 }
 
 .col-sm-4 h5 {
@@ -901,8 +917,8 @@ border-radius: .25rem;
 }
 
 .queriestable { 
-  margin-left: 140px;
-  margin-right: 140px;
+  margin-left: 130px;
+  margin-right: 130px;
 
 }
   
@@ -914,15 +930,15 @@ border-radius: .25rem;
   font-style: bold;
 }
   
-  .query-title{font-weight: 600;
+  .query-title{
+    font-weight: 600;
   font-size: 18px;
    text-align: center;}
   
-  .modal-title{font-family:Garamond;
-  font-weight: bold;
-  font-size: 20px;}
+  
 
-  .query-subtitle {font-family: Garamond;
+  .query-subtitle {
+    font-family: Garamond;
     font-size: 30px;
     text-align:center;
     font-weight:500;
@@ -1654,4 +1670,169 @@ color: #b0955e;
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+
+
+
+
+/* knowledge graph sansepolcro19 */
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+.portfolio #items-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+.portfolio #items-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+.portfolio #items-flters li:hover, .portfolio #items-flters li.filter-active {
+  color: #151515;
+  background: #ffc451;
+}
+.portfolio #items-flters li:last-child {
+  margin-right: 0;
+}
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(21, 21, 21, 0.6);
+}
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(21, 21, 21, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.portfolio .portfolio-wrap img {
+  transition: all ease-in-out 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-info {
+  font-family: "Poppins", sans-serif;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  color: #ffc451;
+}
+.portfolio .portfolio-wrap:hover::before {
+  opacity: 1;
+}
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.2);
+}
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ffc451;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffc451;
+}
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
+}
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.portfolio-details .portfolio-description p {
+  padding: 0;
 }
