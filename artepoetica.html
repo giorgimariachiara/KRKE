@@ -31,20 +31,16 @@
   <link href="./assets/css/main.css" rel="stylesheet">
 
   <script>
-    window.onload = function(){
-      (function(e){
-      e.preventDefault();
+    function loadContentOne(){
       $('#content2').fadeOut(1);
       $('#content3').fadeOut(1);
       $('#content1').fadeIn('fast');
-    });
-  };
+    };
     </script>
-
 </head>
 
 
-<body>
+<body onload="loadContentOne()">
 
 
  <!-- ======= Header ======= -->
