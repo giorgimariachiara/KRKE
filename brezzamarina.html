@@ -30,20 +30,17 @@
     <link href="./assets/css/main.css" rel="stylesheet">
   
     <script>
-      $(window).on('load', function(){
-        (function(e){
-          e.preventDefault();
-          $('#content2').fadeOut(1);
-          $('#content3').fadeOut(1);
-          $('#content1').fadeIn('fast');
-        });
-      });
+      function loadContentOne(){
+        $('#content2').fadeOut(1);
+        $('#content3').fadeOut(1);
+        $('#content1').fadeIn('fast');
+      };
       </script>
   
   </head>
   
   
-  <body>
+  <body onload="loadContentOne()">
   
    <!-- ======= Header ======= -->
    <header id="header" class="header fixed-top d-flex align-items-center">
