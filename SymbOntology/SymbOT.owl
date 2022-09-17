@@ -1,0 +1,959 @@
+@prefix : <http://www.semanticweb.org/ontologies/SymbO#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix symbo: <http://www.semanticweb.org/ontologies/SymbO#> .
+@base <http://www.semanticweb.org/ontologies/SymbO> .
+
+<http://www.semanticweb.org/ontologies/SymbO> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/SymbO#belongsTo
+symbo:belongsTo rdf:type owl:ObjectProperty ;
+                rdfs:domain symbo:Poem ;
+                rdfs:range symbo:Line .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#contains
+symbo:contains rdf:type owl:ObjectProperty ;
+               rdfs:domain symbo:Poem ;
+               rdfs:range symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#express
+symbo:express rdf:type owl:ObjectProperty ;
+              rdfs:domain symbo:Line ;
+              rdfs:range symbo:Theme .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#hasAuthor
+symbo:hasAuthor rdf:type owl:ObjectProperty ;
+                rdfs:domain symbo:Poem ;
+                rdfs:range symbo:Poet .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#hasMeaning
+symbo:hasMeaning rdf:type owl:ObjectProperty ;
+                 rdfs:range symbo:Theme .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#hasName
+symbo:hasName rdf:type owl:ObjectProperty ;
+              rdfs:domain symbo:Person ;
+              owl:propertyDisjointWith symbo:hasTitle .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#hasSubject
+symbo:hasSubject rdf:type owl:ObjectProperty ;
+                 rdfs:domain symbo:LiteraryCurrent ;
+                 rdfs:range symbo:Theme .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#hasTheme
+symbo:hasTheme rdf:type owl:ObjectProperty ;
+               rdfs:domain symbo:Poem ;
+               rdfs:range symbo:Theme .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#hasTitle
+symbo:hasTitle rdf:type owl:ObjectProperty ;
+               rdfs:domain symbo:LiteraryCurrent ,
+                           symbo:Poem ,
+                           symbo:Theme .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#influences
+symbo:influences rdf:type owl:ObjectProperty ;
+                 rdfs:domain symbo:Person ,
+                             symbo:Poet ;
+                 rdfs:range symbo:Person ,
+                            symbo:Poet .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#isExponentOf
+symbo:isExponentOf rdf:type owl:ObjectProperty ;
+                   rdfs:domain symbo:Poet ;
+                   rdfs:range symbo:LiteraryCurrent .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#isInfluencedBy
+symbo:isInfluencedBy rdf:type owl:ObjectProperty ;
+                     rdfs:domain symbo:Person ,
+                                 symbo:Poet ;
+                     rdfs:range symbo:Person ,
+                                symbo:Poet .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#isPartOf
+symbo:isPartOf rdf:type owl:ObjectProperty ;
+               rdfs:domain symbo:Poem ;
+               rdfs:range symbo:LiteraryCurrent .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#isPresentIn
+symbo:isPresentIn rdf:type owl:ObjectProperty ;
+                  rdfs:domain symbo:Theme ;
+                  rdfs:range symbo:Poem .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#isRepresentedBy
+symbo:isRepresentedBy rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain symbo:Theme .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/SymbO#Denomination
+symbo:Denomination rdf:type owl:DatatypeProperty ;
+                   rdfs:domain symbo:Theme .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Name
+symbo:Name rdf:type owl:DatatypeProperty ;
+           rdfs:domain symbo:Person ;
+           rdfs:range rdfs:Literal ;
+           owl:propertyDisjointWith symbo:Title .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Term
+symbo:Term rdf:type owl:DatatypeProperty ;
+           rdfs:domain symbo:LiteraryCurrent .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Title
+symbo:Title rdf:type owl:DatatypeProperty ;
+            rdfs:domain symbo:Poem ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty symbo:hasTitle ;
+                          owl:allValuesFrom symbo:Poem
+                        ] ;
+            rdfs:range rdfs:Literal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech
+symbo:FigureOfSpeech rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line
+symbo:Line rdf:type owl:Class ;
+           rdfs:subClassOf symbo:Poem .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent
+symbo:LiteraryCurrent rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Person
+symbo:Person rdf:type owl:Class ;
+             owl:disjointWith symbo:Theme .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Poem
+symbo:Poem rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Poet
+symbo:Poet rdf:type owl:Class ;
+           rdfs:subClassOf symbo:Person .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Theme
+symbo:Theme rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/ontologies/SymbO#AllitterationAP
+symbo:AllitterationAP rdf:type owl:NamedIndividual ,
+                               symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#AllitterationV
+symbo:AllitterationV rdf:type owl:NamedIndividual ,
+                              symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#AnalogyAP
+symbo:AnalogyAP rdf:type owl:NamedIndividual ,
+                         symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP
+symbo:AnaphoraAP rdf:type owl:NamedIndividual ,
+                          symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#AnaphoreBM
+symbo:AnaphoreBM rdf:type owl:NamedIndividual ,
+                          symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#AntithesisAP
+symbo:AntithesisAP rdf:type owl:NamedIndividual ,
+                            symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#ArtPoetique
+symbo:ArtPoetique rdf:type owl:NamedIndividual ,
+                           symbo:Poem ;
+                  symbo:hasAuthor symbo:PaulVerlaine ;
+                  symbo:hasTheme symbo:Escape ,
+                                 symbo:Musicality ;
+                  symbo:isPartOf symbo:Symbolism ;
+                  symbo:Title "Arte Poetica"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#ArthurRimbaud
+symbo:ArthurRimbaud rdf:type owl:NamedIndividual ,
+                             symbo:Poet ;
+                    symbo:isExponentOf symbo:Symbolism ;
+                    symbo:Name "Arthur Rimbaud"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#AssonanceAP
+symbo:AssonanceAP rdf:type owl:NamedIndividual ,
+                           symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#AssonanceBM
+symbo:AssonanceBM rdf:type owl:NamedIndividual ,
+                           symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#AssonanceV
+symbo:AssonanceV rdf:type owl:NamedIndividual ,
+                          symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Boredom
+symbo:Boredom rdf:type owl:NamedIndividual ,
+                       symbo:Theme ;
+              symbo:isPresentIn symbo:BriseMarine ;
+              symbo:Denomination "Boredom"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#BriseMarine
+symbo:BriseMarine rdf:type owl:NamedIndividual ,
+                           symbo:Poem ;
+                  symbo:hasAuthor symbo:StéphaneMallarmé ;
+                  symbo:hasTheme symbo:Boredom ,
+                                 symbo:Escape ,
+                                 symbo:Spleen ;
+                  symbo:Title "Brezza Marina"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire
+symbo:CharlesBaudelaire rdf:type owl:NamedIndividual ,
+                                 symbo:Poet ;
+                        symbo:influences symbo:ArthurRimbaud ,
+                                         symbo:PaulVerlaine ,
+                                         symbo:StéphaneMallarmé ;
+                        symbo:isExponentOf symbo:Decadentism ;
+                        symbo:Name "Baudelaire" .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Decadentism
+symbo:Decadentism rdf:type owl:NamedIndividual ,
+                           symbo:LiteraryCurrent ;
+                  symbo:hasSubject symbo:Escape ,
+                                   symbo:Journey ,
+                                   symbo:Musicality ,
+                                   symbo:Purity ,
+                                   symbo:SeerPoet ,
+                                   symbo:Spleen ;
+                  symbo:Term "Decadentism"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#EnjembementAP
+symbo:EnjembementAP rdf:type owl:NamedIndividual ,
+                             symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Escape
+symbo:Escape rdf:type owl:NamedIndividual ,
+                      symbo:Theme ;
+             symbo:isPresentIn symbo:ArtPoetique ,
+                               symbo:BriseMarine ;
+             symbo:Denomination "Escape"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#FrancescoPetrarca
+symbo:FrancescoPetrarca rdf:type owl:NamedIndividual ,
+                                 symbo:Poet ;
+                        symbo:influences symbo:StéphaneMallarmé ;
+                        symbo:isExponentOf symbo:Romanticism ;
+                        symbo:Name "Francesco Petrarca"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#GiacomoLeopardi
+symbo:GiacomoLeopardi rdf:type owl:NamedIndividual ,
+                               symbo:Poet ;
+                      symbo:influences symbo:StéphaneMallarmé ;
+                      symbo:isExponentOf symbo:Romanticism ;
+                      symbo:Name "Giacomo Leopardi"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#HypallageAP
+symbo:HypallageAP rdf:type owl:NamedIndividual ,
+                           symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#HypallageV
+symbo:HypallageV rdf:type owl:NamedIndividual ,
+                          symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Journey
+symbo:Journey rdf:type owl:NamedIndividual ,
+                       symbo:Theme ;
+              symbo:isPresentIn symbo:ArtPoetique ,
+                                symbo:BriseMarine ,
+                                symbo:Voyelles ;
+              symbo:Denomination "Journey"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line10AP
+symbo:Line10AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AnaphoraAP ,
+                              symbo:PersonificationAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line10BM
+symbo:Line10BM rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:BriseMarine ;
+               symbo:contains symbo:AssonanceBM ;
+               symbo:express symbo:Journey .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line10V
+symbo:Line10V rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:Voyelles ;
+              symbo:contains symbo:SynaesthesiaV .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line11AP
+symbo:Line11AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AnaphoraAP ,
+                              symbo:SynaesthesiaAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line11BM
+symbo:Line11BM rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:BriseMarine ;
+               symbo:contains symbo:PersonificationBM ;
+               symbo:express symbo:Boredom ,
+                             symbo:Spleen .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line11V
+symbo:Line11V rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:Voyelles ;
+              symbo:contains symbo:AssonanceV ;
+              symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line12AP
+symbo:Line12AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:SynaesthesiaAP ;
+               symbo:express symbo:Vague .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line12BM
+symbo:Line12BM rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:BriseMarine ;
+               symbo:contains symbo:PersonificationBM ;
+               symbo:express symbo:Journey .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line12V
+symbo:Line12V rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:Voyelles ;
+              symbo:contains symbo:AllitterationV ,
+                             symbo:AssonanceV ,
+                             symbo:SynaesthesiaV ;
+              symbo:express symbo:Musicality ,
+                            symbo:Purity .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line13AP
+symbo:Line13AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AnaphoraAP ,
+                              symbo:MetaphoreAP ,
+                              symbo:SynecdocheAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line13BM
+symbo:Line13BM rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:BriseMarine ;
+               symbo:contains symbo:PersonificationBM .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line13V
+symbo:Line13V rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:Voyelles ;
+              symbo:express symbo:Purity .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line14AP
+symbo:Line14AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AnaphoraAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line14V
+symbo:Line14V rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:Voyelles ;
+              symbo:contains symbo:AssonanceV ,
+                             symbo:MetaphoreV ;
+              symbo:express symbo:Musicality ,
+                            symbo:SeerPoet .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line15AP
+symbo:Line15AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AnaphoraAP ,
+                              symbo:EnjembementAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line16AP
+symbo:Line16AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:EnjembementAP ;
+               symbo:express symbo:Escape .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line16BM
+symbo:Line16BM rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:BriseMarine ;
+               symbo:contains symbo:PersonificationBM ;
+               symbo:express symbo:Journey .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line17AP
+symbo:Line17AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:PersonificationAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line18AP
+symbo:Line18AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AllitterationAP ,
+                              symbo:PersonificationAP ;
+               symbo:express symbo:Purity .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line19AP
+symbo:Line19AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:MetaphoreAP ,
+                              symbo:PersonificationAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line1AP
+symbo:Line1AP rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:ArtPoetique ;
+              symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line1BM
+symbo:Line1BM rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:BriseMarine ;
+              symbo:contains symbo:PersonificationBM ;
+              symbo:express symbo:Spleen .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line1V
+symbo:Line1V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:belongsTo symbo:Voyelles ;
+             symbo:contains symbo:SynaesthesiaV ;
+             symbo:express symbo:Purity ,
+                           symbo:Spleen .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line21AP
+symbo:Line21AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:MetaphoreAP ,
+                              symbo:PersonificationAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line22AP
+symbo:Line22AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line23AP
+symbo:Line23AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:PersonificationAP ;
+               symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line25AP
+symbo:Line25AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:PersonificationAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line26AP
+symbo:Line26AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:EnjembementAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line27AP
+symbo:Line27AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:EnjembementAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line28AP
+symbo:Line28AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AllitterationAP ,
+                              symbo:AssonanceAP ,
+                              symbo:EnjembementAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line29AP
+symbo:Line29AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AnaphoraAP ;
+               symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line2AP
+symbo:Line2AP rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:ArtPoetique ;
+              symbo:contains symbo:AllitterationAP ;
+              symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line2BM
+symbo:Line2BM rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:BriseMarine ;
+              symbo:express symbo:Escape ,
+                            symbo:Journey .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line2V
+symbo:Line2V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:belongsTo symbo:Voyelles ;
+             symbo:contains symbo:PersonificationV .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line30AP
+symbo:Line30AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AnaphoraAP ,
+                              symbo:EnjembementAP ;
+               symbo:express symbo:Escape ,
+                             symbo:Journey .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line31AP
+symbo:Line31AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:EnjembementAP ,
+                              symbo:HypallageAP ;
+               symbo:express symbo:Escape .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line32AP
+symbo:Line32AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:EnjembementAP ;
+               symbo:express symbo:Journey .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line33AP
+symbo:Line33AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:AnaphoraAP ,
+                              symbo:EnjembementAP ;
+               symbo:express symbo:Journey .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line34AP
+symbo:Line34AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:EnjembementAP ,
+                              symbo:PersonificationAP ,
+                              symbo:SynaesthesiaAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line35AP
+symbo:Line35AP rdf:type owl:NamedIndividual ,
+                        symbo:Line ;
+               symbo:belongsTo symbo:ArtPoetique ;
+               symbo:contains symbo:EnjembementAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line3AP
+symbo:Line3AP rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:ArtPoetique ;
+              symbo:contains symbo:AllitterationAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line3V
+symbo:Line3V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:belongsTo symbo:Voyelles ;
+             symbo:contains symbo:HypallageV ,
+                            symbo:MetaphoreV ,
+                            symbo:SynaesthesiaV ;
+             symbo:express symbo:SeerPoet ,
+                           symbo:Spleen .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line4AP
+symbo:Line4AP rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:ArtPoetique ;
+              symbo:contains symbo:AllitterationAP ,
+                             symbo:AssonanceAP ,
+                             symbo:ParonomasiaAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line4V
+symbo:Line4V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:belongsTo symbo:Voyelles ;
+             symbo:contains symbo:HypallageV ,
+                            symbo:SynaesthesiaV ;
+             symbo:express symbo:Spleen .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line5BM
+symbo:Line5BM rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:BriseMarine ;
+              symbo:contains symbo:AssonanceBM ,
+                             symbo:PersonificationBM .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line5V
+symbo:Line5V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:belongsTo symbo:Voyelles ;
+             symbo:contains symbo:SynaesthesiaV ;
+             symbo:express symbo:Purity ,
+                           symbo:Spleen .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line6BM
+symbo:Line6BM rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:BriseMarine ;
+              symbo:express symbo:Journey .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line6V
+symbo:Line6V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:belongsTo symbo:Voyelles ;
+             symbo:contains symbo:HypallageV ;
+             symbo:express symbo:Purity ,
+                           symbo:SeerPoet .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line7AP
+symbo:Line7AP rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:ArtPoetique ;
+              symbo:contains symbo:MetaphoreAP ;
+              symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line7BM
+symbo:Line7BM rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:BriseMarine ;
+              symbo:contains symbo:AssonanceBM ;
+              symbo:express symbo:Musicality ,
+                            symbo:Purity .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line7V
+symbo:Line7V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:belongsTo symbo:Voyelles ;
+             symbo:contains symbo:AllitterationV ,
+                            symbo:AssonanceV ,
+                            symbo:SynaesthesiaV ;
+             symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line8AP
+symbo:Line8AP rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:ArtPoetique ;
+              symbo:contains symbo:AntithesisAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line8BM
+symbo:Line8BM rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:BriseMarine ;
+              symbo:contains symbo:AssonanceBM ;
+              symbo:express symbo:Purity .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line8V
+symbo:Line8V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:belongsTo symbo:Voyelles ;
+             symbo:contains symbo:OxymoronV .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line9AP
+symbo:Line9AP rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:ArtPoetique ;
+              symbo:contains symbo:AnaphoraAP ,
+                             symbo:MetaphoreAP .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line9BM
+symbo:Line9BM rdf:type owl:NamedIndividual ,
+                       symbo:Line ;
+              symbo:belongsTo symbo:BriseMarine ;
+              symbo:contains symbo:AssonanceBM ;
+              symbo:express symbo:Escape ,
+                            symbo:Journey ,
+                            symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Line9V
+symbo:Line9V rdf:type owl:NamedIndividual ,
+                      symbo:Line ;
+             symbo:contains symbo:AllitterationV ,
+                            symbo:AssonanceV ,
+                            symbo:SynaesthesiaV ;
+             symbo:express symbo:Musicality .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#MetaphoreAP
+symbo:MetaphoreAP rdf:type owl:NamedIndividual ,
+                           symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#MetaphoreBM
+symbo:MetaphoreBM rdf:type owl:NamedIndividual ,
+                           symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#MetaphoreV
+symbo:MetaphoreV rdf:type owl:NamedIndividual ,
+                          symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Musicality
+symbo:Musicality rdf:type owl:NamedIndividual ,
+                          symbo:Theme ;
+                 symbo:isPresentIn symbo:ArtPoetique ,
+                                   symbo:BriseMarine ,
+                                   symbo:Voyelles ;
+                 symbo:Denomination "Musicality"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#OxymoronAP
+symbo:OxymoronAP rdf:type owl:NamedIndividual ,
+                          symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#OxymoronV
+symbo:OxymoronV rdf:type owl:NamedIndividual ,
+                         symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#ParonomasiaAP
+symbo:ParonomasiaAP rdf:type owl:NamedIndividual ,
+                             symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine
+symbo:PaulVerlaine rdf:type owl:NamedIndividual ,
+                            symbo:Poet ;
+                   symbo:influences <http://www.semanticweb.org/ontologies/SymbO#GabrieleD'Annunzio> ;
+                   symbo:isExponentOf symbo:Symbolism ;
+                   symbo:isInfluencedBy symbo:CharlesBaudelaire ;
+                   symbo:Name "Paul Verlaine"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#PersonificationAP
+symbo:PersonificationAP rdf:type owl:NamedIndividual ,
+                                 symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#PersonificationBM
+symbo:PersonificationBM rdf:type owl:NamedIndividual ,
+                                 symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#PersonificationV
+symbo:PersonificationV rdf:type owl:NamedIndividual ,
+                                symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Purity
+symbo:Purity rdf:type owl:NamedIndividual ,
+                      symbo:Theme ;
+             symbo:isPresentIn symbo:ArtPoetique ,
+                               symbo:BriseMarine ,
+                               symbo:Voyelles ;
+             symbo:Denomination "Purity"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Romanticism
+symbo:Romanticism rdf:type owl:NamedIndividual ,
+                           symbo:LiteraryCurrent ;
+                  symbo:hasSubject symbo:Boredom ,
+                                   symbo:Escape ,
+                                   symbo:Journey ,
+                                   symbo:Spleen ;
+                  symbo:Term "Romanticism"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#SeerPoet
+symbo:SeerPoet rdf:type owl:NamedIndividual ,
+                        symbo:Theme ;
+               symbo:isPresentIn symbo:ArtPoetique ,
+                                 symbo:Voyelles ;
+               symbo:Denomination "SeerPoet"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Spleen
+symbo:Spleen rdf:type owl:NamedIndividual ,
+                      symbo:Theme ;
+             symbo:isPresentIn symbo:BriseMarine ,
+                               symbo:Voyelles ;
+             symbo:Denomination "Spleen"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé
+symbo:StéphaneMallarmé rdf:type owl:NamedIndividual ,
+                                symbo:Poet ;
+                       symbo:isExponentOf symbo:Symbolism ;
+                       symbo:isInfluencedBy symbo:CharlesBaudelaire ;
+                       symbo:Name "Stéphane Mallarmé"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Symbolism
+symbo:Symbolism rdf:type owl:NamedIndividual ,
+                         symbo:LiteraryCurrent ;
+                symbo:hasSubject symbo:Boredom ,
+                                 symbo:Escape ,
+                                 symbo:Journey ,
+                                 symbo:Musicality ,
+                                 symbo:Purity ,
+                                 symbo:SeerPoet ,
+                                 symbo:Spleen ;
+                symbo:Term "Symbolism"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaAP
+symbo:SynaesthesiaAP rdf:type owl:NamedIndividual ,
+                              symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV
+symbo:SynaesthesiaV rdf:type owl:NamedIndividual ,
+                             symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#SynecdocheAP
+symbo:SynecdocheAP rdf:type owl:NamedIndividual ,
+                            symbo:FigureOfSpeech .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Vague
+symbo:Vague rdf:type owl:NamedIndividual ,
+                     symbo:Theme ;
+            symbo:isPresentIn symbo:ArtPoetique ,
+                              symbo:BriseMarine ;
+            symbo:Denomination "Vague"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#Voyelles
+symbo:Voyelles rdf:type owl:NamedIndividual ,
+                        symbo:Poem ;
+               symbo:hasAuthor symbo:PaulVerlaine ;
+               symbo:hasTheme symbo:Boredom ,
+                              symbo:Escape ,
+                              symbo:Musicality ,
+                              symbo:Purity ,
+                              symbo:SeerPoet ;
+               symbo:Title "Vocali"^^rdfs:Literal .
+
+
+###  http://www.semanticweb.org/ontologies/SymbO#GabrieleD'Annunzio
+<http://www.semanticweb.org/ontologies/SymbO#GabrieleD'Annunzio> rdf:type owl:NamedIndividual ,
+                                                                          symbo:Poet ;
+                                                                 symbo:isExponentOf symbo:Decadentism ;
+                                                                 symbo:isInfluencedBy symbo:PaulVerlaine ;
+                                                                 symbo:Name "Gabriele D'annunzio"^^rdfs:Literal .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
