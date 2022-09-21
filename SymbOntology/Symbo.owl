@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/ontologies/SymbO">
-    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/SymbO#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/ontologies/SymbO"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -47,19 +47,10 @@
         <ObjectProperty IRI="#hasAuthor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasMeaning"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasName"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasSubject"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTheme"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTitle"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#influences"/>
@@ -71,25 +62,16 @@
         <ObjectProperty IRI="#isInfluencedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isPartOf"/>
+        <DataProperty IRI="#hasDenomination"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isPresentIn"/>
+        <DataProperty IRI="#hasDesignation"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isRepresentedBy"/>
+        <DataProperty IRI="#hasName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Denomination"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Name"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Term"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Title"/>
+        <DataProperty IRI="#hasTitle"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AllitterationAP"/>
@@ -397,10 +379,6 @@
     <Declaration>
         <NamedIndividual IRI="#GabrieleD&apos;Annunzio"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Line"/>
-        <Class IRI="#Poem"/>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Poet"/>
         <Class IRI="#Person"/>
@@ -833,19 +811,14 @@
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPartOf"/>
-        <NamedIndividual IRI="#ArtPoetique"/>
-        <NamedIndividual IRI="#Symbolism"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isExponentOf"/>
         <NamedIndividual IRI="#ArthurRimbaud"/>
         <NamedIndividual IRI="#Symbolism"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Boredom"/>
-        <NamedIndividual IRI="#BriseMarine"/>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAuthor"/>
@@ -865,7 +838,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTheme"/>
         <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#BriseMarine"/>
         <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#influences"/>
@@ -918,14 +906,9 @@
         <NamedIndividual IRI="#Spleen"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Escape"/>
-        <NamedIndividual IRI="#ArtPoetique"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Escape"/>
-        <NamedIndividual IRI="#BriseMarine"/>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#influences"/>
@@ -946,21 +929,6 @@
         <ObjectProperty IRI="#isExponentOf"/>
         <NamedIndividual IRI="#GiacomoLeopardi"/>
         <NamedIndividual IRI="#Romanticism"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Journey"/>
-        <NamedIndividual IRI="#ArtPoetique"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Journey"/>
-        <NamedIndividual IRI="#BriseMarine"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Journey"/>
-        <NamedIndividual IRI="#Voyelles"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#belongsTo"/>
@@ -1878,21 +1846,6 @@
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Musicality"/>
-        <NamedIndividual IRI="#ArtPoetique"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Musicality"/>
-        <NamedIndividual IRI="#BriseMarine"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Musicality"/>
-        <NamedIndividual IRI="#Voyelles"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#influences"/>
         <NamedIndividual IRI="#PaulVerlaine"/>
         <NamedIndividual IRI="#GabrieleD&apos;Annunzio"/>
@@ -1908,21 +1861,6 @@
         <NamedIndividual IRI="#CharlesBaudelaire"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Purity"/>
-        <NamedIndividual IRI="#ArtPoetique"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Purity"/>
-        <NamedIndividual IRI="#BriseMarine"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Purity"/>
-        <NamedIndividual IRI="#Voyelles"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSubject"/>
         <NamedIndividual IRI="#Romanticism"/>
         <NamedIndividual IRI="#Boredom"/>
@@ -1941,26 +1879,6 @@
         <ObjectProperty IRI="#hasSubject"/>
         <NamedIndividual IRI="#Romanticism"/>
         <NamedIndividual IRI="#Spleen"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#SeerPoet"/>
-        <NamedIndividual IRI="#ArtPoetique"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#SeerPoet"/>
-        <NamedIndividual IRI="#Voyelles"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Spleen"/>
-        <NamedIndividual IRI="#BriseMarine"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Spleen"/>
-        <NamedIndividual IRI="#Voyelles"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isExponentOf"/>
@@ -2008,14 +1926,9 @@
         <NamedIndividual IRI="#Spleen"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Symbolism"/>
         <NamedIndividual IRI="#Vague"/>
-        <NamedIndividual IRI="#ArtPoetique"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <NamedIndividual IRI="#Vague"/>
-        <NamedIndividual IRI="#BriseMarine"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAuthor"/>
@@ -2058,121 +1971,117 @@
         <NamedIndividual IRI="#PaulVerlaine"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Title"/>
+        <DataProperty IRI="#hasTitle"/>
         <NamedIndividual IRI="#ArtPoetique"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Arte Poetica</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#hasName"/>
         <NamedIndividual IRI="#ArthurRimbaud"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Arthur Rimbaud</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <NamedIndividual IRI="#Boredom"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Boredom</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Title"/>
+        <DataProperty IRI="#hasTitle"/>
         <NamedIndividual IRI="#BriseMarine"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Brezza Marina</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#hasName"/>
         <NamedIndividual IRI="#CharlesBaudelaire"/>
-        <Literal>Baudelaire</Literal>
+        <Literal>Charles Baudelaire</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Term"/>
+        <DataProperty IRI="#hasDesignation"/>
         <NamedIndividual IRI="#Decadentism"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Decadentism</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <NamedIndividual IRI="#Escape"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Escape</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#hasName"/>
         <NamedIndividual IRI="#FrancescoPetrarca"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Francesco Petrarca</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#hasName"/>
         <NamedIndividual IRI="#GiacomoLeopardi"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Giacomo Leopardi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <NamedIndividual IRI="#Journey"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Journey</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <NamedIndividual IRI="#Musicality"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Musicality</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#hasName"/>
         <NamedIndividual IRI="#PaulVerlaine"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Paul Verlaine</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <NamedIndividual IRI="#Purity"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Purity</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Term"/>
+        <DataProperty IRI="#hasDesignation"/>
         <NamedIndividual IRI="#Romanticism"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Romanticism</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <NamedIndividual IRI="#SeerPoet"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">SeerPoet</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <NamedIndividual IRI="#Spleen"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Spleen</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#hasName"/>
         <NamedIndividual IRI="#StéphaneMallarmé"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Stéphane Mallarmé</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Term"/>
+        <DataProperty IRI="#hasDesignation"/>
         <NamedIndividual IRI="#Symbolism"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Symbolism</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <NamedIndividual IRI="#Vague"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Vague</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Title"/>
+        <DataProperty IRI="#hasTitle"/>
         <NamedIndividual IRI="#Voyelles"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Vocali</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#hasName"/>
         <NamedIndividual IRI="#GabrieleD&apos;Annunzio"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Gabriele D&apos;annunzio</Literal>
     </DataPropertyAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#isRepresentedBy"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#belongsTo"/>
-        <Class IRI="#Poem"/>
+        <Class IRI="#Line"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#contains"/>
-        <Class IRI="#Poem"/>
+        <Class IRI="#Line"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#express"/>
@@ -2183,32 +2092,12 @@
         <Class IRI="#Poem"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasName"/>
-        <Class IRI="#Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSubject"/>
         <Class IRI="#LiteraryCurrent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTheme"/>
         <Class IRI="#Poem"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTitle"/>
-        <Class IRI="#LiteraryCurrent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTitle"/>
-        <Class IRI="#Poem"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTitle"/>
-        <Class IRI="#Theme"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#influences"/>
-        <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#influences"/>
@@ -2220,27 +2109,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isInfluencedBy"/>
-        <Class IRI="#Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isInfluencedBy"/>
         <Class IRI="#Poet"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isPartOf"/>
-        <Class IRI="#Poem"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <Class IRI="#Theme"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isRepresentedBy"/>
-        <Class IRI="#Theme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#belongsTo"/>
-        <Class IRI="#Line"/>
+        <Class IRI="#Poem"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#contains"/>
@@ -2255,20 +2128,12 @@
         <Class IRI="#Poet"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasMeaning"/>
-        <Class IRI="#Theme"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSubject"/>
         <Class IRI="#Theme"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTheme"/>
         <Class IRI="#Theme"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#influences"/>
-        <Class IRI="#Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#influences"/>
@@ -2280,58 +2145,63 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isInfluencedBy"/>
-        <Class IRI="#Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#isInfluencedBy"/>
         <Class IRI="#Poet"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#isPartOf"/>
-        <Class IRI="#LiteraryCurrent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#isPresentIn"/>
-        <Class IRI="#Poem"/>
-    </ObjectPropertyRange>
-    <DisjointObjectProperties>
-        <ObjectProperty IRI="#hasName"/>
-        <ObjectProperty IRI="#hasTitle"/>
-    </DisjointObjectProperties>
     <DataPropertyDomain>
-        <DataProperty IRI="#Denomination"/>
+        <DataProperty IRI="#hasDenomination"/>
         <Class IRI="#Theme"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Name"/>
-        <Class IRI="#Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Term"/>
+        <DataProperty IRI="#hasDesignation"/>
         <Class IRI="#LiteraryCurrent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Title"/>
-        <Class IRI="#Poem"/>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Title"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasTitle"/>
-            <Class IRI="#Poem"/>
-        </ObjectAllValuesFrom>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#Poem"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#hasDenomination"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Title"/>
+        <DataProperty IRI="#hasDesignation"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTitle"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DisjointDataProperties>
-        <DataProperty IRI="#Name"/>
-        <DataProperty IRI="#Title"/>
+        <DataProperty IRI="#hasDenomination"/>
+        <DataProperty IRI="#hasDesignation"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDenomination"/>
+        <DataProperty IRI="#hasName"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDenomination"/>
+        <DataProperty IRI="#hasTitle"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDesignation"/>
+        <DataProperty IRI="#hasName"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDesignation"/>
+        <DataProperty IRI="#hasTitle"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasName"/>
+        <DataProperty IRI="#hasTitle"/>
     </DisjointDataProperties>
 </Ontology>
 
