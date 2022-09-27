@@ -1358,6 +1358,13 @@ color: #954e13;
   text-decoration-style: double;
 }
 
+
+.highlight[property~="enjambement"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
 .highlight[property~="antithesis"]{
 	text-decoration: underline;
   text-decoration-color: darkred;
