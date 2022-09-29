@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>SymbO</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+  
+  <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="./assets/css/main.css" rel="stylesheet">
+  
+
+ <!-- ======= Header ======= -->
+ <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+  
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Symb<span class="ocolor">O</span></h1>
+      </a>
+  
+  
+  <!--navbar-->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="index.html#home"><span>Home</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="index.html#domain">Domain</a></li>
+              <li><a href="index.html#documentation">Documentation</a></li>
+              <li><a href="index.html#visualization">Knowledge Graph</a></li>
+            </ul>
+          </li>
+  
+          <li class="dropdown"><a href="analysis.html"><span>Poems</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="brezzamarina.html">Brise Marine</a></li>
+                <li><a href="vocali.html">Voyelles</a></li>
+                <li><a href="artepoetica.html">Art Poétique</a></li>
+              </ul>
+            </li>
+  
+          <li><a href="queries.html">Queries</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+  
+    </div>
+  </header><!-- End Header -->
+  
+  <div class="col-lg-12 text-center">
+      <div class="poeti">
+          <button class="butn1" id="butn1" type="button" >Poem's versions</button>
+          <button class="butn2" id="butn2" type="button"> Text analysis</button>
+          <button class="butn3" id="butn3" type="button">Content analysis</button>
+      </div>
+  </div>
+
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="d3sparql.js"></script>
+  <script>
+  function exec() {
+    /* Uncomment to see debug information in console */
+    // d3sparql.debug = true
+    var endpoint = d3.select("#endpoint").property("value")
+    var sparql = d3.select("#sparql").property("value")
+    d3sparql.query(endpoint, sparql, render)
+  }
+  function render(json) {
+    /* set options and call the d3spraql.xxxxx function in this library ... */
+    var config = {
+	  "selector": "#result"
+	}
+    d3sparql.xxxxx(json, config)
+  }
+  </script>
+ </head>
+ <body onload="exec()">
+  <form style="display:none">
+   <input id="endpoint" value="http://dbpedia.org/sparql" type="text">
+   <textarea id="sparql">
+    PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#
+    SELECT ?Line WHERE {?Line symbo:express symbo:Musicality}
+   </textarea>
+  </form>
+  <div id="result"></div>
+ </body>
+</html>
