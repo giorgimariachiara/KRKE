@@ -969,7 +969,7 @@ margin-left:30px;}
   margin-bottom:10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color:#dda06e;
+  background-color:darkred;
   border:none;
   }
      
@@ -1052,7 +1052,7 @@ margin-left:30px;}
 
 .navqueries {
   padding-top: 10px;
-  margin-left: 200px;
+  margin-left: 800px;
 }
 
 
@@ -1206,7 +1206,7 @@ text-align: center;
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color:  #b0955e;
+  background-color:  darkred;
   margin-top: 50px;
   padding: 20px 0;
   color: rgba(255, 255, 255, 0.7);
@@ -1309,7 +1309,10 @@ color: #954e13;
 
 
 
-
+.highlight[property~="seerpoet"]{
+	background-color: rgba(104, 254, 124, 0.5);
+  border-radius: 6px;
+}
 
 .highlight[property~="musicality"]{
 	background-color: rgba(250, 0, 0, 0.5);
@@ -1317,27 +1320,33 @@ color: #954e13;
 }
 
 .highlight[property~="spleen"]{
-	background-color: #666767;
+	background-color: #eb8825;
+  border-radius: 6px;
 }
 
 .highlight[property~="purity"]{
 	background-color: #00FAFA;
+  border-radius: 6px;
 }
 
 .highlight[property~="vague"]{
-	background-color: #006533;
+	background-color: #448f6a;
+  border-radius: 6px;
 }
 
 .highlight[property~="boredom"]{
-	background-color: #0800fa;
+	background-color: #6b66f9;
+  border-radius: 6px;
 }
 
 .highlight[property~="escape"]{
 	background-color: #ffdd00;
+  border-radius: 6px;
 }
 
 .highlight[property~="journey"]{
-	background-color: #002fff;
+	background-color: #ff0026;
+  border-radius: 6px;
 }
 
 .highlight[property~="assonance"]{
@@ -1350,9 +1359,17 @@ color: #954e13;
 	text-decoration: underline;
   text-decoration-color: darkred;
   text-decoration-style: double;
+  
 }
 
 .highlight[property~="paronomasia"]{
+	text-decoration: underline;
+  text-decoration-color: darkred;
+  text-decoration-style: double;
+}
+
+
+.highlight[property~="enjambement"]{
 	text-decoration: underline;
   text-decoration-color: darkred;
   text-decoration-style: double;
@@ -1783,4 +1800,12 @@ color: #b0955e;
   margin-bottom: 30px;
   color: #b0955e;
   font-size: 25px;
+}
+
+/*--------------------------------------------------------------
+# Webvowl
+--------------------------------------------------------------*/
+#webvowl {
+  margin-left: 70px;
+
 }
