@@ -1,1943 +1,1359 @@
-[ {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line18AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line19AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line29AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line15BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9BM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1BM"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationV",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line15AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line30AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line31AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line34AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#AntithesisAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poem" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasAuthor" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasTheme" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasTitle" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Arte Poetica"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isComposedOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line15AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line16AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line17AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line18AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line19AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line20AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line22AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line23AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line24AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line25AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line26AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line27AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line28AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line29AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line30AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line31AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line32AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line33AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line34AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line35AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line36AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line37AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArthurRimbaud",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poet" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasName" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Arthur Rimbaud"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isAuthorOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExponentOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isInfluencedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line29AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceBM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9BM"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceV",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poem" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasAuthor" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasTheme" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasTitle" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Brezza Marina"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isComposedOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line15BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line16BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9BM"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poet" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasName" : [ {
-    "@value" : "Charles Baudelaire"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#influences" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArthurRimbaud"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExponentOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDesignation" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Decadentism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasExponent" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#GabrieleDAnnunzio"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasSubject" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SeerPoet"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line16AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line17AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line27AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line28AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line29AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line31AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line32AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line33AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line34AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line35AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line36AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Theme" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDenomination" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Escape"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line31AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line33AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9BM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Romanticism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isThemeOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "A figure of speech is a word or phrase that possesses a separate meaning from its literal definition"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#FrancescoPetrarca",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poet" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasName" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Francesco Petrarca"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#influences" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExponentOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Romanticism"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#GabrieleDAnnunzio",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poet" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasName" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Gabriele D'annunzio"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExponentOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isInfluencedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#GiacomoLeopardi",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poet" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasName" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Giacomo Leopardi"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#influences" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExponentOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Romanticism"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#HypallageAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line32AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#HypallageV",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Theme" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDenomination" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Journey"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line31AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line32AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line33AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line34AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9BM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Romanticism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "A line is a subdivision of a poem, specifically a group of words arranged into a row that ends for a reason other than the right-hand margin."
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#MetaphoreAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationBM"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynecdocheAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#MetaphoreV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SeerPoet"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line15AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line15BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line16AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line16BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line17AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line18AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line19AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line20AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#MetaphoreAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line22AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#MetaphoreAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line23AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line24AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line24AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line25AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line26AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line27AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line28AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line29AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line30AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line31AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line32AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#HypallageAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line33AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line34AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line35AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line36AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line37AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#MetaphoreV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SeerPoet"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceAP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ParonomasiaAP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#HypallageV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationBM"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#HypallageV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SeerPoet"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#MetaphoreAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#OxymoronV"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9AP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AntithesisAP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasTheme" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9BM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceBM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9V",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Line" ],
-  "http://www.semanticweb.org/ontologies/SymbO#belongsTo" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#contains" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AllitterationV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#AssonanceV"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#express" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Literary movements are a way to divide literature into categories of similar philosophical, topical, or aesthetic features, as opposed to divisions by genre or period."
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#MetaphoreAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line20AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line22AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#MetaphoreV",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Theme" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDenomination" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Musicality"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line23AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line30AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9V"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isThemeOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#OxymoronV",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#ParonomasiaAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poet" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasName" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Paul Verlaine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#influences" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#GabrieleDAnnunzio"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isAuthorOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExponentOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isInfluencedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Person",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "A human being regarded as an individual."
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line17AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line18AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line19AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line20AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line22AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line24AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line25AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line26AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line35AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line36AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line37AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationBM",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5BM"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#PersonificationV",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poem",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "A piece of writing in which the expression of feelings and ideas is given intensity by particular attention to diction (sometimes involving rhyme), rhythm, and imagery."
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "One (such as a creative artist) of great imaginative and expressive capabilities and special sensitivity to the medium that writes poems"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Person"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Theme" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDenomination" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Purity"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line19AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8BM"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isThemeOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Romanticism",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDesignation" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Romanticism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasExponent" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#FrancescoPetrarca"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#GiacomoLeopardi"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasSubject" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#SeerPoet",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Theme" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDenomination" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "SeerPoet"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6V"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isThemeOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Theme" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDenomination" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Spleen"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5V"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Romanticism"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isThemeOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poet" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasName" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Stéphane Mallarmé"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#influences" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#FrancescoPetrarca"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isAuthorOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExponentOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isInfluencedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#GiacomoLeopardi"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDesignation" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasExponent" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArthurRimbaud"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasSubject" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Journey"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SeerPoet"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line35AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#SynecdocheAP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech" ],
-  "http://www.semanticweb.org/ontologies/SymbO#isContainedIn" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14AP"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "An idea, concept or topic that recurs in or pervades a work of art or literature."
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Vague",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Theme" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasDenomination" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Vague"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasSubject" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Symbolism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line10BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line15AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line15BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line16AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line33AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3BM"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8AP"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9AP"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Decadentism"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isThemeOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#BriseMarine"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#Voyelles",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/ontologies/SymbO#Poem" ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasAuthor" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#ArthurRimbaud"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasTheme" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Escape"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Musicality"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Purity"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#SeerPoet"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Spleen"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#hasTitle" : [ {
-    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "Vocali"
-  } ],
-  "http://www.semanticweb.org/ontologies/SymbO#isComposedOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line11V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line12V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line13V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line14V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line1V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line2V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line3V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line4V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line5V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line6V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line7V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line8V"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line9V"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#belongsTo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poem"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#isComposedOf"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#contains",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#isContainedIn"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#express",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasAuthor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poem"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#isAuthorOf"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasDenomination",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ],
-  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasDesignation"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasName"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasTitle"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasDesignation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ],
-  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasName"
-  }, {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasTitle"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasExponent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#isExponentOf"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasName",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ],
-  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasTitle"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasSubject",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasTheme",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poem"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#isThemeOf"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#hasTitle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poem"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#influences",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#isInfluencedBy"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#isAuthorOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poem"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#isComposedOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poem"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#isContainedIn",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#isExponentOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Line"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#isInfluencedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poet"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/ontologies/SymbO#isThemeOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Theme"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/ontologies/SymbO#Poem"
-  } ]
-} ]
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://www.semanticweb.org/ontologies/SymbO"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/ontologies/SymbO",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "symbo": "http://www.semanticweb.org/ontologies/SymbO#"
+    },
+    "iri": "http://www.semanticweb.org/ontologies/SymbO"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.51",
+      "translation": [
+        190.54,
+        233.06
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "4",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "6",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "17",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "4",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        659.82,
+        992.13
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        288.32,
+        613.37
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1188.98,
+        -4.93
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        361.83,
+        172.58
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#LiteraryCurrent",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "LiteraryCurrent"
+      },
+      "comment": {
+        "undefined": "Literary movements are a way to divide literature into categories of similar philosophical, topical, or aesthetic features, as opposed to divisions by genre or period."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Romanticism",
+          "labels": {
+            "IRI-based": "Romanticism"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Symbolism",
+          "labels": {
+            "IRI-based": "Symbolism"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Decadentism",
+          "labels": {
+            "IRI-based": "Decadentism"
+          }
+        }
+      ],
+      "pos": [
+        543.6,
+        600.57
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#Poet",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "Poet"
+      },
+      "comment": {
+        "undefined": "One (such as a creative artist) of great imaginative and expressive capabilities and special sensitivity to the medium that writes poems"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#GiacomoLeopardi",
+          "labels": {
+            "IRI-based": "GiacomoLeopardi"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé",
+          "labels": {
+            "IRI-based": "StéphaneMallarmé"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#FrancescoPetrarca",
+          "labels": {
+            "IRI-based": "FrancescoPetrarca"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#ArthurRimbaud",
+          "labels": {
+            "IRI-based": "ArthurRimbaud"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#GabrieleDAnnunzio",
+          "labels": {
+            "IRI-based": "GabrieleDAnnunzio"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire",
+          "labels": {
+            "IRI-based": "CharlesBaudelaire"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine",
+          "labels": {
+            "IRI-based": "PaulVerlaine"
+          }
+        }
+      ],
+      "pos": [
+        951.88,
+        562.63
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#Poem",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "Poem"
+      },
+      "comment": {
+        "undefined": "A piece of writing in which the expression of feelings and ideas is given intensity by particular attention to diction (sometimes involving rhyme), rhythm, and imagery."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#BriseMarine",
+          "labels": {
+            "IRI-based": "BriseMarine"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#ArtPoetique",
+          "labels": {
+            "IRI-based": "ArtPoetique"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Voyelles",
+          "labels": {
+            "IRI-based": "Voyelles"
+          }
+        }
+      ],
+      "pos": [
+        1000.46,
+        163.04
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#FigureOfSpeech",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "FigureOfSpeech"
+      },
+      "comment": {
+        "undefined": "A figure of speech is a word or phrase that possesses a separate meaning from its literal definition"
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#ParonomasiaAP",
+          "labels": {
+            "IRI-based": "ParonomasiaAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#MetaphoreV",
+          "labels": {
+            "IRI-based": "MetaphoreV"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#AssonanceV",
+          "labels": {
+            "IRI-based": "AssonanceV"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#OxymoronV",
+          "labels": {
+            "IRI-based": "OxymoronV"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#AllitterationBM",
+          "labels": {
+            "IRI-based": "AllitterationBM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#AllitterationAP",
+          "labels": {
+            "IRI-based": "AllitterationAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#HypallageV",
+          "labels": {
+            "IRI-based": "HypallageV"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#HypallageAP",
+          "labels": {
+            "IRI-based": "HypallageAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#SynecdocheAP",
+          "labels": {
+            "IRI-based": "SynecdocheAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaAP",
+          "labels": {
+            "IRI-based": "SynaesthesiaAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#AllitterationV",
+          "labels": {
+            "IRI-based": "AllitterationV"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#EnjembementAP",
+          "labels": {
+            "IRI-based": "EnjembementAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#MetaphoreAP",
+          "labels": {
+            "IRI-based": "MetaphoreAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#PersonificationAP",
+          "labels": {
+            "IRI-based": "PersonificationAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#AssonanceBM",
+          "labels": {
+            "IRI-based": "AssonanceBM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#PersonificationV",
+          "labels": {
+            "IRI-based": "PersonificationV"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#AntithesisAP",
+          "labels": {
+            "IRI-based": "AntithesisAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#PersonificationBM",
+          "labels": {
+            "IRI-based": "PersonificationBM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#AnaphoraAP",
+          "labels": {
+            "IRI-based": "AnaphoraAP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV",
+          "labels": {
+            "IRI-based": "SynaesthesiaV"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#AssonanceAP",
+          "labels": {
+            "IRI-based": "AssonanceAP"
+          }
+        }
+      ],
+      "pos": [
+        324.58,
+        -214.75
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#Theme",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "Theme"
+      },
+      "comment": {
+        "undefined": "An idea, concept or topic that recurs in or pervades a work of art or literature."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Vague",
+          "labels": {
+            "IRI-based": "Vague"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Escape",
+          "labels": {
+            "IRI-based": "Escape"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Spleen",
+          "labels": {
+            "IRI-based": "Spleen"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Musicality",
+          "labels": {
+            "IRI-based": "Musicality"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#SeerPoet",
+          "labels": {
+            "IRI-based": "SeerPoet"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Purity",
+          "labels": {
+            "IRI-based": "Purity"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Journey",
+          "labels": {
+            "IRI-based": "Journey"
+          }
+        }
+      ],
+      "pos": [
+        615.75,
+        222.83
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#Line",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "Line"
+      },
+      "comment": {
+        "undefined": "A line is a subdivision of a poem, specifically a group of words arranged into a row that ends for a reason other than the right-hand margin."
+      },
+      "individuals": [
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line6V",
+          "labels": {
+            "IRI-based": "Line6V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line1AP",
+          "labels": {
+            "IRI-based": "Line1AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line19AP",
+          "labels": {
+            "IRI-based": "Line19AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line3AP",
+          "labels": {
+            "IRI-based": "Line3AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line2V",
+          "labels": {
+            "IRI-based": "Line2V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line36AP",
+          "labels": {
+            "IRI-based": "Line36AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line11AP",
+          "labels": {
+            "IRI-based": "Line11AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line13AP",
+          "labels": {
+            "IRI-based": "Line13AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line34AP",
+          "labels": {
+            "IRI-based": "Line34AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line15AP",
+          "labels": {
+            "IRI-based": "Line15AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line17AP",
+          "labels": {
+            "IRI-based": "Line17AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line11BM",
+          "labels": {
+            "IRI-based": "Line11BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line11V",
+          "labels": {
+            "IRI-based": "Line11V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line13BM",
+          "labels": {
+            "IRI-based": "Line13BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line20AP",
+          "labels": {
+            "IRI-based": "Line20AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line9AP",
+          "labels": {
+            "IRI-based": "Line9AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line5BM",
+          "labels": {
+            "IRI-based": "Line5BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line7BM",
+          "labels": {
+            "IRI-based": "Line7BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line5V",
+          "labels": {
+            "IRI-based": "Line5V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line9BM",
+          "labels": {
+            "IRI-based": "Line9BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line1V",
+          "labels": {
+            "IRI-based": "Line1V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line23AP",
+          "labels": {
+            "IRI-based": "Line23AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line16BM",
+          "labels": {
+            "IRI-based": "Line16BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line25AP",
+          "labels": {
+            "IRI-based": "Line25AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line27AP",
+          "labels": {
+            "IRI-based": "Line27AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line1BM",
+          "labels": {
+            "IRI-based": "Line1BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line3BM",
+          "labels": {
+            "IRI-based": "Line3BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line29AP",
+          "labels": {
+            "IRI-based": "Line29AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line32AP",
+          "labels": {
+            "IRI-based": "Line32AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line30AP",
+          "labels": {
+            "IRI-based": "Line30AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line12V",
+          "labels": {
+            "IRI-based": "Line12V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line9V",
+          "labels": {
+            "IRI-based": "Line9V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line4V",
+          "labels": {
+            "IRI-based": "Line4V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line2AP",
+          "labels": {
+            "IRI-based": "Line2AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line4AP",
+          "labels": {
+            "IRI-based": "Line4AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line35AP",
+          "labels": {
+            "IRI-based": "Line35AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line12AP",
+          "labels": {
+            "IRI-based": "Line12AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line33AP",
+          "labels": {
+            "IRI-based": "Line33AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line14AP",
+          "labels": {
+            "IRI-based": "Line14AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line16AP",
+          "labels": {
+            "IRI-based": "Line16AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line18AP",
+          "labels": {
+            "IRI-based": "Line18AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line37AP",
+          "labels": {
+            "IRI-based": "Line37AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line10BM",
+          "labels": {
+            "IRI-based": "Line10BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line13V",
+          "labels": {
+            "IRI-based": "Line13V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line12BM",
+          "labels": {
+            "IRI-based": "Line12BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line14BM",
+          "labels": {
+            "IRI-based": "Line14BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line8AP",
+          "labels": {
+            "IRI-based": "Line8AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line8V",
+          "labels": {
+            "IRI-based": "Line8V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line7V",
+          "labels": {
+            "IRI-based": "Line7V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line4BM",
+          "labels": {
+            "IRI-based": "Line4BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line6BM",
+          "labels": {
+            "IRI-based": "Line6BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line3V",
+          "labels": {
+            "IRI-based": "Line3V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line8BM",
+          "labels": {
+            "IRI-based": "Line8BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line22AP",
+          "labels": {
+            "IRI-based": "Line22AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line15BM",
+          "labels": {
+            "IRI-based": "Line15BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line24AP",
+          "labels": {
+            "IRI-based": "Line24AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line26AP",
+          "labels": {
+            "IRI-based": "Line26AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line2BM",
+          "labels": {
+            "IRI-based": "Line2BM"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line28AP",
+          "labels": {
+            "IRI-based": "Line28AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line31AP",
+          "labels": {
+            "IRI-based": "Line31AP"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line14V",
+          "labels": {
+            "IRI-based": "Line14V"
+          }
+        },
+        {
+          "iri": "http://www.semanticweb.org/ontologies/SymbO#Line10AP",
+          "labels": {
+            "IRI-based": "Line10AP"
+          }
+        }
+      ],
+      "pos": [
+        737.1,
+        -164.18
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#Person",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "Person"
+      },
+      "comment": {
+        "undefined": "A human being regarded as an individual."
+      },
+      "pos": [
+        884.97,
+        924.5
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "7",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "10",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "12",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "14",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "16",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "18",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "20",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "21",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "22",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "23",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "25",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "26",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "27",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "28",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "13",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "29",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "30",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "3",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "31",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "32",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#hasTheme",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "hasTheme"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "2",
+      "inverse": "3",
+      "pos": [
+        810.84,
+        192.51
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "8",
+      "range": "9",
+      "pos": [
+        916.46,
+        754.2
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#hasName",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "hasName"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "9",
+      "range": "4",
+      "pos": [
+        761.7,
+        961.53
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#hasTitle",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "hasTitle"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "1",
+      "range": "6",
+      "pos": [
+        1113.78,
+        62.07
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#influences",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "influences"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "inverse": "13",
+      "pos": [
+        1097.09,
+        621.58
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#isExpressedBy",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "isExpressedBy"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "15",
+      "inverse": "26",
+      "pos": [
+        673.95,
+        37.2
+      ]
+    },
+    {
+      "id": "16",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "2",
+      "range": "9"
+    },
+    {
+      "id": "18",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#hasDenomination",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "hasDenomination"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "2",
+      "range": "17",
+      "pos": [
+        466.9,
+        193.37
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#isComposedOf",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "isComposedOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "15",
+      "inverse": "30",
+      "pos": [
+        875.69,
+        8.02
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#hasAuthor",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "hasAuthor"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "1",
+      "range": "8",
+      "inverse": "22",
+      "pos": [
+        976.51,
+        360.08
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#isAuthorOf",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "isAuthorOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "8",
+      "range": "1",
+      "inverse": "21"
+    },
+    {
+      "id": "23",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#isExponentOf",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "isExponentOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "8",
+      "range": "19",
+      "inverse": "25",
+      "pos": [
+        744.98,
+        581.85
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#hasExponent",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "hasExponent"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "19",
+      "range": "8",
+      "inverse": "23"
+    },
+    {
+      "id": "26",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#express",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "express"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "15",
+      "range": "2",
+      "inverse": "14"
+    },
+    {
+      "id": "27",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#contains",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "contains"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "15",
+      "range": "24",
+      "inverse": "28",
+      "pos": [
+        526.66,
+        -189.98
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#isContainedIn",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "isContainedIn"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "24",
+      "range": "15",
+      "inverse": "27"
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#isInfluencedBy",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "isInfluencedBy"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "inverse": "12"
+    },
+    {
+      "id": "29",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#hasDesignation",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "hasDesignation"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "19",
+      "range": "5",
+      "pos": [
+        396.2,
+        607.96
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#belongsTo",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "belongsTo"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "15",
+      "range": "1",
+      "inverse": "20"
+    },
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#isThemeOf",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "isThemeOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "1",
+      "inverse": "0"
+    },
+    {
+      "id": "31",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#hasSubject",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "hasSubject"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "19",
+      "range": "2",
+      "inverse": "32",
+      "pos": [
+        579.15,
+        414.42
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.semanticweb.org/ontologies/SymbO#isSubjectOf",
+      "baseIri": "http://www.semanticweb.org/ontologies/SymbO",
+      "label": {
+        "IRI-based": "isSubjectOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "19",
+      "inverse": "31"
+    }
+  ]
+}
