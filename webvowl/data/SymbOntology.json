@@ -1,0 +1,1359 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema",
+      "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl"
+    ],
+    "prefixList": {
+      "SymbOntology": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.57",
+      "translation": [
+        206.6,
+        54.92
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "7",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "19",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Poem",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "Poem"
+      },
+      "comment": {
+        "undefined": "A piece of writing in which the expression of feelings and ideas is given intensity by particular attention to diction (sometimes involving rhyme), rhythm, and imagery."
+      },
+      "individuals": [
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#ArtPoetique",
+          "labels": {
+            "IRI-based": "ArtPoetique"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#BriseMarine",
+          "labels": {
+            "IRI-based": "BriseMarine"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Voyelles",
+          "labels": {
+            "IRI-based": "Voyelles"
+          }
+        }
+      ],
+      "pos": [
+        592.84,
+        115.96
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -262.31,
+        309.07
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        559.71,
+        816.6
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        690.98,
+        -127.85
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        355.89,
+        336.55
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#LiteraryCurrent",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "LiteraryCurrent"
+      },
+      "comment": {
+        "undefined": "Literary movements are a way to divide literature into categories of similar philosophical, topical, or aesthetic features, as opposed to divisions by genre or period."
+      },
+      "individuals": [
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Decadentism",
+          "labels": {
+            "IRI-based": "Decadentism"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Romanticism",
+          "labels": {
+            "IRI-based": "Romanticism"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Symbolism",
+          "labels": {
+            "IRI-based": "Symbolism"
+          }
+        }
+      ],
+      "pos": [
+        185.61,
+        504.35
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#FigureOfSpeech",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "FigureOfSpeech"
+      },
+      "comment": {
+        "undefined": "A figure of speech is a word or phrase that possesses a separate meaning from its literal definition"
+      },
+      "individuals": [
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AllitterationV",
+          "labels": {
+            "IRI-based": "AllitterationV"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AssonanceAP",
+          "labels": {
+            "IRI-based": "AssonanceAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AnaphoraAP",
+          "labels": {
+            "IRI-based": "AnaphoraAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AssonanceV",
+          "labels": {
+            "IRI-based": "AssonanceV"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#MetaphoreAP",
+          "labels": {
+            "IRI-based": "MetaphoreAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#OxymoronV",
+          "labels": {
+            "IRI-based": "OxymoronV"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AllitterationBM",
+          "labels": {
+            "IRI-based": "AllitterationBM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#ParonomasiaAP",
+          "labels": {
+            "IRI-based": "ParonomasiaAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SynaesthesiaAP",
+          "labels": {
+            "IRI-based": "SynaesthesiaAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#HypallageAP",
+          "labels": {
+            "IRI-based": "HypallageAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SynaesthesiaV",
+          "labels": {
+            "IRI-based": "SynaesthesiaV"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AntithesisAP",
+          "labels": {
+            "IRI-based": "AntithesisAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#HypallageV",
+          "labels": {
+            "IRI-based": "HypallageV"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PersonificationBM",
+          "labels": {
+            "IRI-based": "PersonificationBM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SynecdocheAP",
+          "labels": {
+            "IRI-based": "SynecdocheAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AllitterationAP",
+          "labels": {
+            "IRI-based": "AllitterationAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PersonificationAP",
+          "labels": {
+            "IRI-based": "PersonificationAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PersonificationV",
+          "labels": {
+            "IRI-based": "PersonificationV"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#EnjembementAP",
+          "labels": {
+            "IRI-based": "EnjembementAP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#MetaphoreV",
+          "labels": {
+            "IRI-based": "MetaphoreV"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AssonanceBM",
+          "labels": {
+            "IRI-based": "AssonanceBM"
+          }
+        }
+      ],
+      "pos": [
+        1047.12,
+        717.34
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Poet",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "Poet"
+      },
+      "comment": {
+        "undefined": "One (such as a creative artist) of great imaginative and expressive capabilities and special sensitivity to the medium that writes poems"
+      },
+      "individuals": [
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PaulVerlaine",
+          "labels": {
+            "IRI-based": "PaulVerlaine"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#ArthurRimbaud",
+          "labels": {
+            "IRI-based": "ArthurRimbaud"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#GiacomoLeopardi",
+          "labels": {
+            "IRI-based": "GiacomoLeopardi"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé",
+          "labels": {
+            "IRI-based": "StéphaneMallarmé"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire",
+          "labels": {
+            "IRI-based": "CharlesBaudelaire"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#FrancescoPetrarca",
+          "labels": {
+            "IRI-based": "FrancescoPetrarca"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#GabrieleDAnnunzio",
+          "labels": {
+            "IRI-based": "GabrieleDAnnunzio"
+          }
+        }
+      ],
+      "pos": [
+        180.87,
+        74.84
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Person",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "Person"
+      },
+      "comment": {
+        "undefined": "A human being regarded as an individual."
+      },
+      "pos": [
+        -48.88,
+        377.01
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "Line"
+      },
+      "comment": {
+        "undefined": "A line is a subdivision of a poem, specifically a group of words arranged into a row that ends for a reason other than the right-hand margin."
+      },
+      "individuals": [
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line23AP",
+          "labels": {
+            "IRI-based": "Line23AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line16BM",
+          "labels": {
+            "IRI-based": "Line16BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14BM",
+          "labels": {
+            "IRI-based": "Line14BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12BM",
+          "labels": {
+            "IRI-based": "Line12BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line13V",
+          "labels": {
+            "IRI-based": "Line13V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line10BM",
+          "labels": {
+            "IRI-based": "Line10BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line6BM",
+          "labels": {
+            "IRI-based": "Line6BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line4BM",
+          "labels": {
+            "IRI-based": "Line4BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line29AP",
+          "labels": {
+            "IRI-based": "Line29AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line2BM",
+          "labels": {
+            "IRI-based": "Line2BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line27AP",
+          "labels": {
+            "IRI-based": "Line27AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line25AP",
+          "labels": {
+            "IRI-based": "Line25AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8AP",
+          "labels": {
+            "IRI-based": "Line8AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line4AP",
+          "labels": {
+            "IRI-based": "Line4AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line4V",
+          "labels": {
+            "IRI-based": "Line4V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8V",
+          "labels": {
+            "IRI-based": "Line8V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line35AP",
+          "labels": {
+            "IRI-based": "Line35AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12AP",
+          "labels": {
+            "IRI-based": "Line12AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line33AP",
+          "labels": {
+            "IRI-based": "Line33AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line10AP",
+          "labels": {
+            "IRI-based": "Line10AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line31AP",
+          "labels": {
+            "IRI-based": "Line31AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14V",
+          "labels": {
+            "IRI-based": "Line14V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1AP",
+          "labels": {
+            "IRI-based": "Line1AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line18AP",
+          "labels": {
+            "IRI-based": "Line18AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line16AP",
+          "labels": {
+            "IRI-based": "Line16AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line37AP",
+          "labels": {
+            "IRI-based": "Line37AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14AP",
+          "labels": {
+            "IRI-based": "Line14AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3V",
+          "labels": {
+            "IRI-based": "Line3V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8BM",
+          "labels": {
+            "IRI-based": "Line8BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line7V",
+          "labels": {
+            "IRI-based": "Line7V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line24AP",
+          "labels": {
+            "IRI-based": "Line24AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line15BM",
+          "labels": {
+            "IRI-based": "Line15BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line22AP",
+          "labels": {
+            "IRI-based": "Line22AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11V",
+          "labels": {
+            "IRI-based": "Line11V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line20AP",
+          "labels": {
+            "IRI-based": "Line20AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line13BM",
+          "labels": {
+            "IRI-based": "Line13BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11BM",
+          "labels": {
+            "IRI-based": "Line11BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line5BM",
+          "labels": {
+            "IRI-based": "Line5BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3BM",
+          "labels": {
+            "IRI-based": "Line3BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line28AP",
+          "labels": {
+            "IRI-based": "Line28AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1BM",
+          "labels": {
+            "IRI-based": "Line1BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line26AP",
+          "labels": {
+            "IRI-based": "Line26AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9AP",
+          "labels": {
+            "IRI-based": "Line9AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line2V",
+          "labels": {
+            "IRI-based": "Line2V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3AP",
+          "labels": {
+            "IRI-based": "Line3AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line6V",
+          "labels": {
+            "IRI-based": "Line6V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line13AP",
+          "labels": {
+            "IRI-based": "Line13AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line34AP",
+          "labels": {
+            "IRI-based": "Line34AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11AP",
+          "labels": {
+            "IRI-based": "Line11AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line32AP",
+          "labels": {
+            "IRI-based": "Line32AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12V",
+          "labels": {
+            "IRI-based": "Line12V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line30AP",
+          "labels": {
+            "IRI-based": "Line30AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line2AP",
+          "labels": {
+            "IRI-based": "Line2AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line19AP",
+          "labels": {
+            "IRI-based": "Line19AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line17AP",
+          "labels": {
+            "IRI-based": "Line17AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line15AP",
+          "labels": {
+            "IRI-based": "Line15AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line36AP",
+          "labels": {
+            "IRI-based": "Line36AP"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1V",
+          "labels": {
+            "IRI-based": "Line1V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9BM",
+          "labels": {
+            "IRI-based": "Line9BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line7BM",
+          "labels": {
+            "IRI-based": "Line7BM"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line5V",
+          "labels": {
+            "IRI-based": "Line5V"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9V",
+          "labels": {
+            "IRI-based": "Line9V"
+          }
+        }
+      ],
+      "pos": [
+        940.73,
+        323.63
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Theme",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "Theme"
+      },
+      "comment": {
+        "undefined": "An idea, concept or topic that recurs in or pervades a work of art or literature."
+      },
+      "individuals": [
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Musicality",
+          "labels": {
+            "IRI-based": "Musicality"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Spleen",
+          "labels": {
+            "IRI-based": "Spleen"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Vague",
+          "labels": {
+            "IRI-based": "Vague"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Journey",
+          "labels": {
+            "IRI-based": "Journey"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Escape",
+          "labels": {
+            "IRI-based": "Escape"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Purity",
+          "labels": {
+            "IRI-based": "Purity"
+          }
+        },
+        {
+          "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SeerPoet",
+          "labels": {
+            "IRI-based": "SeerPoet"
+          }
+        }
+      ],
+      "pos": [
+        587.22,
+        545.2
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "1",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "5",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "8",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "10",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "12",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "9",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "15",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "18",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "20",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "22",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "23",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "24",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "25",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "26",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "28",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "14",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "30",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "31",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "32",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "29",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "4",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "1",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasExponent",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "hasExponent"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "3",
+      "inverse": "4",
+      "pos": [
+        183.27,
+        292.37
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasDenomination",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "hasDenomination"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "6",
+      "range": "7",
+      "pos": [
+        570.36,
+        711.53
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasAuthor",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "hasAuthor"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "0",
+      "range": "3",
+      "inverse": "9",
+      "pos": [
+        389.61,
+        95.68
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasSubject",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "hasSubject"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "2",
+      "range": "6",
+      "inverse": "11",
+      "pos": [
+        383.66,
+        524.5
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#belongsTo",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "belongsTo"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "13",
+      "range": "0",
+      "inverse": "14",
+      "pos": [
+        757.32,
+        214.15
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isAuthorOf",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "isAuthorOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "3",
+      "range": "0",
+      "inverse": "8"
+    },
+    {
+      "id": "15",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isContainedIn",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "isContainedIn"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "16",
+      "range": "13",
+      "inverse": "24",
+      "pos": [
+        995.02,
+        524.55
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasTitle",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "hasTitle"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "0",
+      "range": "19",
+      "pos": [
+        652.24,
+        -31.6
+      ]
+    },
+    {
+      "id": "20",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "3",
+      "range": "21",
+      "pos": [
+        59.45,
+        234.54
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#influences",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "influences"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "3",
+      "range": "3",
+      "inverse": "23",
+      "pos": [
+        138.4,
+        -77.64
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isInfluencedBy",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "isInfluencedBy"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "3",
+      "range": "3",
+      "inverse": "22"
+    },
+    {
+      "id": "24",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#contains",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "contains"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "13",
+      "range": "16",
+      "inverse": "15"
+    },
+    {
+      "id": "25",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isExpressedBy",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "isExpressedBy"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "6",
+      "range": "13",
+      "inverse": "31",
+      "pos": [
+        756.98,
+        438.8
+      ]
+    },
+    {
+      "id": "26",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "21",
+      "range": "6"
+    },
+    {
+      "id": "28",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasTheme",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "hasTheme"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "0",
+      "range": "6",
+      "inverse": "29",
+      "pos": [
+        590.07,
+        327.81
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isComposedOf",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "isComposedOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "0",
+      "range": "13",
+      "inverse": "12"
+    },
+    {
+      "id": "30",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasName",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "hasName"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "21",
+      "range": "17",
+      "pos": [
+        -166.17,
+        339.68
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#express",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "express"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "13",
+      "range": "6",
+      "inverse": "25"
+    },
+    {
+      "id": "11",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isSubjectOf",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "isSubjectOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "6",
+      "range": "2",
+      "inverse": "10"
+    },
+    {
+      "id": "32",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasDesignation",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "hasDesignation"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "2",
+      "range": "27",
+      "pos": [
+        289.21,
+        402.25
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isThemeOf",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "isThemeOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "6",
+      "range": "0",
+      "inverse": "28"
+    },
+    {
+      "id": "4",
+      "iri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isExponentOf",
+      "baseIri": "https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl",
+      "label": {
+        "IRI-based": "isExponentOf"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "3",
+      "range": "2",
+      "inverse": "1"
+    }
+  ]
+}
