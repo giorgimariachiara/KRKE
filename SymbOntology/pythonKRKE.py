@@ -63,11 +63,6 @@ SELECT ?Author
 WHERE { symbo:ArtPoetique symbo:hasAuthor ?Author} 
 '''
 
-CompetencyQuestion11 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
-SELECT ?Author 
-WHERE { symbo:ArtPoetique symbo:hasAuthor ?Author} 
-'''
-
 CompetencyQuestion12 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
 SELECT ?Exponent
 WHERE { ?Exponent symbo:isExponentOf symbo:Symbolism} 
@@ -78,7 +73,7 @@ SELECT ?Exponent
 WHERE { ?Exponent symbo:isExponentOf symbo:Decadentism} 
 '''
 
-CompetencyQuestion13 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+CompetencyQuestion14 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
 SELECT distinct ?Poet 
 WHERE { ?Poet symbo:isInfluencedBy symbo:StéphaneMallarmé} 
 UNION
@@ -87,7 +82,7 @@ UNION
 { ?Poet symbo:isInfluencedBy symbo:PaulVerlaine} }
 '''
 
-CompetencyQuestion14 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+CompetencyQuestion15 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
 SELECT distinct ?Poet 
 WHERE { symbo:StéphaneMallarmé symbo:influences ?Poet} 
 UNION
@@ -97,7 +92,7 @@ UNION
 '''
 
 
-CompetencyQuestion15 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+CompetencyQuestion16 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
 SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)
 WHERE{?Line symbo:contains ?FigureOfSpeech.
 ?Line symbo:belongsTo symbo:Voyelles.}
@@ -107,7 +102,7 @@ LIMIT 1
 '''
 
 
-CompetencyQuestion16 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+CompetencyQuestion17 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
 SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)
 WHERE{?Line symbo:contains ?FigureOfSpeech.
 ?Line symbo:belongsTo symbo:ArtPoetique.}
@@ -117,7 +112,7 @@ LIMIT 1
 '''
 
 
-CompetencyQuestion17 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+CompetencyQuestion18 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
 SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)
 WHERE{?Line symbo:contains ?FigureOfSpeech.
 ?Line symbo:belongsTo symbo:BriseMarine.}
@@ -127,13 +122,16 @@ LIMIT 1
 '''
 
 
-CompetencyQuestion18 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+CompetencyQuestion19 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
 SELECT ?Theme 
 WHERE { symbo:Symbolism symbo:hasSubject ?Theme}
 '''
 
-
-
+CompetencyQuestion20 = 
+'''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+SELECT ?Theme 
+WHERE { symbo:Symbolism symbo:hasSubject ?Theme}
+'''
 
 
 
