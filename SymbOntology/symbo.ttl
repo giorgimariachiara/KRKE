@@ -1,0 +1,1253 @@
+@prefix : <https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix SymbOntology: <https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#> .
+@base <https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl> .
+
+<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#belongsTo
+SymbOntology:belongsTo rdf:type owl:ObjectProperty ;
+                       owl:inverseOf SymbOntology:isComposedOf ;
+                       rdfs:domain SymbOntology:Line ;
+                       rdfs:range SymbOntology:Poem .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#contains
+SymbOntology:contains rdf:type owl:ObjectProperty ;
+                      owl:inverseOf SymbOntology:isContainedIn ;
+                      rdfs:domain SymbOntology:Line ;
+                      rdfs:range SymbOntology:FigureOfSpeech .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#express
+SymbOntology:express rdf:type owl:ObjectProperty ;
+                     owl:inverseOf SymbOntology:isExpressedBy ;
+                     rdfs:domain SymbOntology:Line ;
+                     rdfs:range SymbOntology:Theme .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasAuthor
+SymbOntology:hasAuthor rdf:type owl:ObjectProperty ;
+                       owl:inverseOf SymbOntology:isAuthorOf ;
+                       rdfs:domain SymbOntology:Poem ;
+                       rdfs:range SymbOntology:Poet .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasExponent
+SymbOntology:hasExponent rdf:type owl:ObjectProperty ;
+                         owl:inverseOf SymbOntology:isExponentOf ;
+                         rdfs:domain SymbOntology:LiteraryCurrent ;
+                         rdfs:range SymbOntology:Poet .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasSubject
+SymbOntology:hasSubject rdf:type owl:ObjectProperty ;
+                        owl:inverseOf SymbOntology:isSubjectOf ;
+                        rdfs:domain SymbOntology:LiteraryCurrent ;
+                        rdfs:range SymbOntology:Theme .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasTheme
+SymbOntology:hasTheme rdf:type owl:ObjectProperty ;
+                      owl:inverseOf SymbOntology:isThemeOf ;
+                      rdfs:domain SymbOntology:Poem ;
+                      rdfs:range SymbOntology:Theme .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#influences
+SymbOntology:influences rdf:type owl:ObjectProperty ;
+                        owl:inverseOf SymbOntology:isInfluencedBy ;
+                        rdfs:domain SymbOntology:Poet ;
+                        rdfs:range SymbOntology:Poet .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isAuthorOf
+SymbOntology:isAuthorOf rdf:type owl:ObjectProperty ;
+                        rdfs:domain SymbOntology:Poet ;
+                        rdfs:range SymbOntology:Poem .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isComposedOf
+SymbOntology:isComposedOf rdf:type owl:ObjectProperty ;
+                          rdfs:domain SymbOntology:Poem ;
+                          rdfs:range SymbOntology:Line .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isContainedIn
+SymbOntology:isContainedIn rdf:type owl:ObjectProperty ;
+                           rdfs:domain SymbOntology:FigureOfSpeech ;
+                           rdfs:range SymbOntology:Line .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isExponentOf
+SymbOntology:isExponentOf rdf:type owl:ObjectProperty ;
+                          rdfs:domain SymbOntology:Poet ;
+                          rdfs:range SymbOntology:LiteraryCurrent .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isExpressedBy
+SymbOntology:isExpressedBy rdf:type owl:ObjectProperty ;
+                           rdfs:domain SymbOntology:Theme ;
+                           rdfs:range SymbOntology:Line .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isInfluencedBy
+SymbOntology:isInfluencedBy rdf:type owl:ObjectProperty ;
+                            rdfs:domain SymbOntology:Poet ;
+                            rdfs:range SymbOntology:Poet .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isSubjectOf
+SymbOntology:isSubjectOf rdf:type owl:ObjectProperty ;
+                         rdfs:domain SymbOntology:Theme ;
+                         rdfs:range SymbOntology:LiteraryCurrent .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#isThemeOf
+SymbOntology:isThemeOf rdf:type owl:ObjectProperty ;
+                       rdfs:domain SymbOntology:Theme ;
+                       rdfs:range SymbOntology:Poem .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasDenomination
+SymbOntology:hasDenomination rdf:type owl:DatatypeProperty ;
+                             rdfs:domain SymbOntology:Theme ;
+                             rdfs:range rdfs:Literal ;
+                             owl:propertyDisjointWith SymbOntology:hasDesignation ,
+                                                      SymbOntology:hasName ,
+                                                      SymbOntology:hasTitle .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasDesignation
+SymbOntology:hasDesignation rdf:type owl:DatatypeProperty ;
+                            rdfs:domain SymbOntology:LiteraryCurrent ;
+                            rdfs:range rdfs:Literal ;
+                            owl:propertyDisjointWith SymbOntology:hasName ,
+                                                     SymbOntology:hasTitle .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasName
+SymbOntology:hasName rdf:type owl:DatatypeProperty ;
+                     rdfs:domain SymbOntology:Person ;
+                     rdfs:range rdfs:Literal ;
+                     owl:propertyDisjointWith SymbOntology:hasTitle .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#hasTitle
+SymbOntology:hasTitle rdf:type owl:DatatypeProperty ;
+                      rdfs:domain SymbOntology:Poem ;
+                      rdfs:range rdfs:Literal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#FigureOfSpeech
+SymbOntology:FigureOfSpeech rdf:type owl:Class ;
+                            rdfs:comment "A figure of speech is a word or phrase that possesses a separate meaning from its literal definition"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line
+SymbOntology:Line rdf:type owl:Class ;
+                  rdfs:comment "A line is a subdivision of a poem, specifically a group of words arranged into a row that ends for a reason other than the right-hand margin."^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#LiteraryCurrent
+SymbOntology:LiteraryCurrent rdf:type owl:Class ;
+                             rdfs:comment "Literary movements are a way to divide literature into categories of similar philosophical, topical, or aesthetic features, as opposed to divisions by genre or period."^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Person
+SymbOntology:Person rdf:type owl:Class ;
+                    owl:disjointWith SymbOntology:Theme ;
+                    rdfs:comment "A human being regarded as an individual."^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Poem
+SymbOntology:Poem rdf:type owl:Class ;
+                  rdfs:comment "A piece of writing in which the expression of feelings and ideas is given intensity by particular attention to diction (sometimes involving rhyme), rhythm, and imagery."^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Poet
+SymbOntology:Poet rdf:type owl:Class ;
+                  rdfs:subClassOf SymbOntology:Person ;
+                  rdfs:comment "One (such as a creative artist) of great imaginative and expressive capabilities and special sensitivity to the medium that writes poems"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Theme
+SymbOntology:Theme rdf:type owl:Class ;
+                   rdfs:comment "An idea, concept or topic that recurs in or pervades a work of art or literature."^^rdfs:Literal .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AllitterationAP
+SymbOntology:AllitterationAP rdf:type owl:NamedIndividual ,
+                                      SymbOntology:FigureOfSpeech ;
+                             SymbOntology:isContainedIn SymbOntology:Line18AP ,
+                                                        SymbOntology:Line19AP ,
+                                                        SymbOntology:Line29AP ,
+                                                        SymbOntology:Line2AP ,
+                                                        SymbOntology:Line3AP ,
+                                                        SymbOntology:Line4AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AllitterationBM
+SymbOntology:AllitterationBM rdf:type owl:NamedIndividual ,
+                                      SymbOntology:FigureOfSpeech ;
+                             SymbOntology:isContainedIn SymbOntology:Line10BM ,
+                                                        SymbOntology:Line11BM ,
+                                                        SymbOntology:Line12BM ,
+                                                        SymbOntology:Line14BM ,
+                                                        SymbOntology:Line15BM ,
+                                                        SymbOntology:Line2BM ,
+                                                        SymbOntology:Line4BM ,
+                                                        SymbOntology:Line6BM ,
+                                                        SymbOntology:Line7BM ,
+                                                        SymbOntology:Line9BM ;
+                             SymbOntology:isExpressedBy SymbOntology:Line1BM .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AllitterationV
+SymbOntology:AllitterationV rdf:type owl:NamedIndividual ,
+                                     SymbOntology:FigureOfSpeech ;
+                            SymbOntology:isContainedIn SymbOntology:Line12V ,
+                                                       SymbOntology:Line7V ,
+                                                       SymbOntology:Line9V .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AnaphoraAP
+SymbOntology:AnaphoraAP rdf:type owl:NamedIndividual ,
+                                 SymbOntology:FigureOfSpeech ;
+                        SymbOntology:isContainedIn SymbOntology:Line10AP ,
+                                                   SymbOntology:Line11AP ,
+                                                   SymbOntology:Line12AP ,
+                                                   SymbOntology:Line14AP ,
+                                                   SymbOntology:Line15AP ,
+                                                   SymbOntology:Line1AP ,
+                                                   SymbOntology:Line30AP ,
+                                                   SymbOntology:Line31AP ,
+                                                   SymbOntology:Line34AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AntithesisAP
+SymbOntology:AntithesisAP rdf:type owl:NamedIndividual ,
+                                   SymbOntology:FigureOfSpeech ;
+                          SymbOntology:isContainedIn SymbOntology:Line9AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#ArtPoetique
+SymbOntology:ArtPoetique rdf:type owl:NamedIndividual ,
+                                  SymbOntology:Poem ;
+                         SymbOntology:hasAuthor SymbOntology:PaulVerlaine ;
+                         SymbOntology:hasTheme SymbOntology:Escape ,
+                                               SymbOntology:Musicality ,
+                                               SymbOntology:Vague ;
+                         SymbOntology:isComposedOf SymbOntology:Line10AP ,
+                                                   SymbOntology:Line11AP ,
+                                                   SymbOntology:Line12AP ,
+                                                   SymbOntology:Line13AP ,
+                                                   SymbOntology:Line14AP ,
+                                                   SymbOntology:Line15AP ,
+                                                   SymbOntology:Line16AP ,
+                                                   SymbOntology:Line17AP ,
+                                                   SymbOntology:Line18AP ,
+                                                   SymbOntology:Line19AP ,
+                                                   SymbOntology:Line1AP ,
+                                                   SymbOntology:Line20AP ,
+                                                   SymbOntology:Line22AP ,
+                                                   SymbOntology:Line23AP ,
+                                                   SymbOntology:Line24AP ,
+                                                   SymbOntology:Line25AP ,
+                                                   SymbOntology:Line26AP ,
+                                                   SymbOntology:Line27AP ,
+                                                   SymbOntology:Line28AP ,
+                                                   SymbOntology:Line29AP ,
+                                                   SymbOntology:Line2AP ,
+                                                   SymbOntology:Line30AP ,
+                                                   SymbOntology:Line31AP ,
+                                                   SymbOntology:Line32AP ,
+                                                   SymbOntology:Line33AP ,
+                                                   SymbOntology:Line34AP ,
+                                                   SymbOntology:Line35AP ,
+                                                   SymbOntology:Line36AP ,
+                                                   SymbOntology:Line37AP ,
+                                                   SymbOntology:Line3AP ,
+                                                   SymbOntology:Line4AP ,
+                                                   SymbOntology:Line8AP ,
+                                                   SymbOntology:Line9AP ;
+                         SymbOntology:hasTitle "Arte Poetica"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#ArthurRimbaud
+SymbOntology:ArthurRimbaud rdf:type owl:NamedIndividual ,
+                                    SymbOntology:Poet ;
+                           SymbOntology:isAuthorOf SymbOntology:Voyelles ;
+                           SymbOntology:isExponentOf SymbOntology:Symbolism ;
+                           SymbOntology:isInfluencedBy SymbOntology:CharlesBaudelaire ;
+                           SymbOntology:hasName "Arthur Rimbaud"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AssonanceAP
+SymbOntology:AssonanceAP rdf:type owl:NamedIndividual ,
+                                  SymbOntology:FigureOfSpeech ;
+                         SymbOntology:isContainedIn SymbOntology:Line29AP ,
+                                                    SymbOntology:Line4AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AssonanceBM
+SymbOntology:AssonanceBM rdf:type owl:NamedIndividual ,
+                                  SymbOntology:FigureOfSpeech ;
+                         SymbOntology:isContainedIn SymbOntology:Line10BM ,
+                                                    SymbOntology:Line5BM ,
+                                                    SymbOntology:Line6BM ,
+                                                    SymbOntology:Line7BM ,
+                                                    SymbOntology:Line8BM ,
+                                                    SymbOntology:Line9BM .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AssonanceV
+SymbOntology:AssonanceV rdf:type owl:NamedIndividual ,
+                                 SymbOntology:FigureOfSpeech ;
+                        SymbOntology:isContainedIn SymbOntology:Line11V ,
+                                                   SymbOntology:Line12V ,
+                                                   SymbOntology:Line14V ,
+                                                   SymbOntology:Line7V ,
+                                                   SymbOntology:Line9V .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#BriseMarine
+SymbOntology:BriseMarine rdf:type owl:NamedIndividual ,
+                                  SymbOntology:Poem ;
+                         SymbOntology:hasAuthor SymbOntology:StéphaneMallarmé ;
+                         SymbOntology:hasTheme SymbOntology:Escape ,
+                                               SymbOntology:Musicality ,
+                                               SymbOntology:Purity ,
+                                               SymbOntology:Spleen ,
+                                               SymbOntology:Vague ;
+                         SymbOntology:isComposedOf SymbOntology:Line10BM ,
+                                                   SymbOntology:Line11BM ,
+                                                   SymbOntology:Line12BM ,
+                                                   SymbOntology:Line13BM ,
+                                                   SymbOntology:Line14BM ,
+                                                   SymbOntology:Line15BM ,
+                                                   SymbOntology:Line16BM ,
+                                                   SymbOntology:Line1BM ,
+                                                   SymbOntology:Line2BM ,
+                                                   SymbOntology:Line3BM ,
+                                                   SymbOntology:Line4BM ,
+                                                   SymbOntology:Line5BM ,
+                                                   SymbOntology:Line6BM ,
+                                                   SymbOntology:Line7BM ,
+                                                   SymbOntology:Line8BM ,
+                                                   SymbOntology:Line9BM ;
+                         SymbOntology:hasTitle "Brezza Marina"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire
+SymbOntology:CharlesBaudelaire rdf:type owl:NamedIndividual ,
+                                        SymbOntology:Poet ;
+                               SymbOntology:influences SymbOntology:ArthurRimbaud ,
+                                                       SymbOntology:PaulVerlaine ,
+                                                       SymbOntology:StéphaneMallarmé ;
+                               SymbOntology:isExponentOf SymbOntology:Decadentism ;
+                               SymbOntology:hasName "Charles Baudelaire"^^xsd:string .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Decadentism
+SymbOntology:Decadentism rdf:type owl:NamedIndividual ,
+                                  SymbOntology:LiteraryCurrent ;
+                         SymbOntology:hasExponent SymbOntology:CharlesBaudelaire ,
+                                                  SymbOntology:GabrieleDAnnunzio ;
+                         SymbOntology:hasSubject SymbOntology:Escape ,
+                                                 SymbOntology:Journey ,
+                                                 SymbOntology:Musicality ,
+                                                 SymbOntology:Purity ,
+                                                 SymbOntology:SeerPoet ,
+                                                 SymbOntology:Spleen ,
+                                                 SymbOntology:Vague ;
+                         SymbOntology:hasDesignation "Decadentism"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#EnjembementAP
+SymbOntology:EnjembementAP rdf:type owl:NamedIndividual ,
+                                    SymbOntology:FigureOfSpeech ;
+                           SymbOntology:isContainedIn SymbOntology:Line16AP ,
+                                                      SymbOntology:Line17AP ,
+                                                      SymbOntology:Line27AP ,
+                                                      SymbOntology:Line28AP ,
+                                                      SymbOntology:Line29AP ,
+                                                      SymbOntology:Line31AP ,
+                                                      SymbOntology:Line32AP ,
+                                                      SymbOntology:Line33AP ,
+                                                      SymbOntology:Line34AP ,
+                                                      SymbOntology:Line35AP ,
+                                                      SymbOntology:Line36AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Escape
+SymbOntology:Escape rdf:type owl:NamedIndividual ,
+                             SymbOntology:Theme ;
+                    SymbOntology:isExpressedBy SymbOntology:Line2BM ,
+                                               SymbOntology:Line31AP ,
+                                               SymbOntology:Line33AP ,
+                                               SymbOntology:Line9BM ;
+                    SymbOntology:isSubjectOf SymbOntology:Decadentism ,
+                                             SymbOntology:Romanticism ,
+                                             SymbOntology:Symbolism ;
+                    SymbOntology:isThemeOf SymbOntology:ArtPoetique ,
+                                           SymbOntology:BriseMarine ,
+                                           SymbOntology:Voyelles ;
+                    SymbOntology:hasDenomination "Escape"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#FrancescoPetrarca
+SymbOntology:FrancescoPetrarca rdf:type owl:NamedIndividual ,
+                                        SymbOntology:Poet ;
+                               SymbOntology:influences SymbOntology:StéphaneMallarmé ;
+                               SymbOntology:isExponentOf SymbOntology:Romanticism ;
+                               SymbOntology:hasName "Francesco Petrarca"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#GabrieleDAnnunzio
+SymbOntology:GabrieleDAnnunzio rdf:type owl:NamedIndividual ,
+                                        SymbOntology:Poet ;
+                               SymbOntology:isExponentOf SymbOntology:Decadentism ;
+                               SymbOntology:isInfluencedBy SymbOntology:PaulVerlaine ;
+                               SymbOntology:hasName "Gabriele D'annunzio"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#GiacomoLeopardi
+SymbOntology:GiacomoLeopardi rdf:type owl:NamedIndividual ,
+                                      SymbOntology:Poet ;
+                             SymbOntology:influences SymbOntology:StéphaneMallarmé ;
+                             SymbOntology:isExponentOf SymbOntology:Romanticism ;
+                             SymbOntology:hasName "Giacomo Leopardi"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#HypallageAP
+SymbOntology:HypallageAP rdf:type owl:NamedIndividual ,
+                                  SymbOntology:FigureOfSpeech ;
+                         SymbOntology:isContainedIn SymbOntology:Line32AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#HypallageV
+SymbOntology:HypallageV rdf:type owl:NamedIndividual ,
+                                 SymbOntology:FigureOfSpeech ;
+                        SymbOntology:isContainedIn SymbOntology:Line4V ,
+                                                   SymbOntology:Line6V .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Journey
+SymbOntology:Journey rdf:type owl:NamedIndividual ,
+                              SymbOntology:Theme ;
+                     SymbOntology:isExpressedBy SymbOntology:Line10BM ,
+                                                SymbOntology:Line2BM ,
+                                                SymbOntology:Line31AP ,
+                                                SymbOntology:Line32AP ,
+                                                SymbOntology:Line33AP ,
+                                                SymbOntology:Line34AP ,
+                                                SymbOntology:Line6BM ,
+                                                SymbOntology:Line9BM ;
+                     SymbOntology:isSubjectOf SymbOntology:Decadentism ,
+                                              SymbOntology:Romanticism ,
+                                              SymbOntology:Symbolism ;
+                     SymbOntology:hasDenomination "Journey"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line10AP
+SymbOntology:Line10AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ,
+                                            SymbOntology:MetaphoreAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line10BM
+SymbOntology:Line10BM rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                      SymbOntology:contains SymbOntology:AllitterationBM ,
+                                            SymbOntology:AssonanceBM ;
+                      SymbOntology:express SymbOntology:Journey ,
+                                           SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11AP
+SymbOntology:Line11AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ,
+                                            SymbOntology:PersonificationAP ;
+                      SymbOntology:express SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11BM
+SymbOntology:Line11BM rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                      SymbOntology:contains SymbOntology:AllitterationBM ,
+                                            SymbOntology:PersonificationBM ;
+                      SymbOntology:express SymbOntology:Spleen .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11V
+SymbOntology:Line11V rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:Voyelles ;
+                     SymbOntology:contains SymbOntology:AssonanceV ,
+                                           SymbOntology:PersonificationV ;
+                     SymbOntology:express SymbOntology:Musicality .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12AP
+SymbOntology:Line12AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ,
+                                            SymbOntology:SynaesthesiaAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12BM
+SymbOntology:Line12BM rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                      SymbOntology:contains SymbOntology:AllitterationBM ;
+                      SymbOntology:express SymbOntology:Journey .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12V
+SymbOntology:Line12V rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:Voyelles ;
+                     SymbOntology:contains SymbOntology:AllitterationV ,
+                                           SymbOntology:AssonanceV ,
+                                           SymbOntology:PersonificationV ;
+                     SymbOntology:express SymbOntology:Musicality ,
+                                          SymbOntology:Purity .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line13AP
+SymbOntology:Line13AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:SynaesthesiaAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line13BM
+SymbOntology:Line13BM rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                      SymbOntology:contains SymbOntology:AllitterationBM ,
+                                            SymbOntology:PersonificationBM .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line13V
+SymbOntology:Line13V rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:Voyelles ;
+                     SymbOntology:express SymbOntology:Purity .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14AP
+SymbOntology:Line14AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ,
+                                            SymbOntology:SynecdocheAP ;
+                      SymbOntology:express SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14BM
+SymbOntology:Line14BM rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                      SymbOntology:contains SymbOntology:AllitterationBM .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14V
+SymbOntology:Line14V rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:Voyelles ;
+                     SymbOntology:contains SymbOntology:AssonanceV ,
+                                           SymbOntology:MetaphoreV ,
+                                           SymbOntology:PersonificationV ;
+                     SymbOntology:express SymbOntology:Musicality ,
+                                          SymbOntology:SeerPoet .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line15AP
+SymbOntology:Line15AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ;
+                      SymbOntology:express SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line15BM
+SymbOntology:Line15BM rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                      SymbOntology:contains SymbOntology:AllitterationBM ;
+                      SymbOntology:express SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line16AP
+SymbOntology:Line16AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ,
+                                            SymbOntology:EnjembementAP ;
+                      SymbOntology:express SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line16BM
+SymbOntology:Line16BM rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                      SymbOntology:contains SymbOntology:AllitterationBM ,
+                                            SymbOntology:PersonificationBM ;
+                      SymbOntology:express SymbOntology:Journey ,
+                                           SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line17AP
+SymbOntology:Line17AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:EnjembementAP ,
+                                            SymbOntology:PersonificationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line18AP
+SymbOntology:Line18AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AllitterationAP ,
+                                            SymbOntology:PersonificationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line19AP
+SymbOntology:Line19AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AllitterationAP ,
+                                            SymbOntology:PersonificationAP ;
+                      SymbOntology:express SymbOntology:Purity .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1AP
+SymbOntology:Line1AP rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                     SymbOntology:contains SymbOntology:AnaphoraAP ;
+                     SymbOntology:express SymbOntology:Musicality .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1BM
+SymbOntology:Line1BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:contains SymbOntology:AllitterationBM ,
+                                           SymbOntology:PersonificationBM ;
+                     SymbOntology:express SymbOntology:Spleen .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1V
+SymbOntology:Line1V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:SynaesthesiaV ;
+                    SymbOntology:express SymbOntology:Purity ,
+                                         SymbOntology:Spleen .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line20AP
+SymbOntology:Line20AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:MetaphoreAP ,
+                                            SymbOntology:PersonificationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line22AP
+SymbOntology:Line22AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:MetaphoreAP ,
+                                            SymbOntology:PersonificationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line23AP
+SymbOntology:Line23AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:express SymbOntology:Musicality ;
+                      SymbOntology:isExpressedBy SymbOntology:Line24AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line24AP
+SymbOntology:Line24AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:PersonificationAP ;
+                      SymbOntology:express SymbOntology:Musicality .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line25AP
+SymbOntology:Line25AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:PersonificationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line26AP
+SymbOntology:Line26AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:PersonificationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line27AP
+SymbOntology:Line27AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:EnjembementAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line28AP
+SymbOntology:Line28AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:EnjembementAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line29AP
+SymbOntology:Line29AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AllitterationAP ,
+                                            SymbOntology:AssonanceAP ,
+                                            SymbOntology:EnjembementAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line2AP
+SymbOntology:Line2AP rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                     SymbOntology:contains SymbOntology:AllitterationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line2BM
+SymbOntology:Line2BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:contains SymbOntology:AllitterationBM ;
+                     SymbOntology:express SymbOntology:Escape ,
+                                          SymbOntology:Journey .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line2V
+SymbOntology:Line2V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:PersonificationV ;
+                    SymbOntology:isContainedIn SymbOntology:Line6V .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line30AP
+SymbOntology:Line30AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ;
+                      SymbOntology:express SymbOntology:Musicality .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line31AP
+SymbOntology:Line31AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ,
+                                            SymbOntology:EnjembementAP ;
+                      SymbOntology:express SymbOntology:Escape ,
+                                           SymbOntology:Journey .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line32AP
+SymbOntology:Line32AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:EnjembementAP ,
+                                            SymbOntology:HypallageAP ;
+                      SymbOntology:express SymbOntology:Journey .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line33AP
+SymbOntology:Line33AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:EnjembementAP ;
+                      SymbOntology:express SymbOntology:Escape ,
+                                           SymbOntology:Journey ,
+                                           SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line34AP
+SymbOntology:Line34AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:AnaphoraAP ,
+                                            SymbOntology:EnjembementAP ;
+                      SymbOntology:express SymbOntology:Journey .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line35AP
+SymbOntology:Line35AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:EnjembementAP ,
+                                            SymbOntology:PersonificationAP ,
+                                            SymbOntology:SynaesthesiaAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line36AP
+SymbOntology:Line36AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:EnjembementAP ,
+                                            SymbOntology:PersonificationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line37AP
+SymbOntology:Line37AP rdf:type owl:NamedIndividual ,
+                               SymbOntology:Line ;
+                      SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                      SymbOntology:contains SymbOntology:PersonificationAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3AP
+SymbOntology:Line3AP rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                     SymbOntology:contains SymbOntology:AllitterationAP ;
+                     SymbOntology:express SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3BM
+SymbOntology:Line3BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:express SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3V
+SymbOntology:Line3V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:MetaphoreV ,
+                                          SymbOntology:SynaesthesiaV ;
+                    SymbOntology:express SymbOntology:SeerPoet ,
+                                         SymbOntology:Spleen .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line4AP
+SymbOntology:Line4AP rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                     SymbOntology:contains SymbOntology:AllitterationAP ,
+                                           SymbOntology:AssonanceAP ,
+                                           SymbOntology:ParonomasiaAP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line4BM
+SymbOntology:Line4BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:contains SymbOntology:AllitterationBM .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line4V
+SymbOntology:Line4V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:HypallageV ,
+                                          SymbOntology:SynaesthesiaV ;
+                    SymbOntology:express SymbOntology:Spleen .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line5BM
+SymbOntology:Line5BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:contains SymbOntology:AssonanceBM ,
+                                           SymbOntology:PersonificationBM .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line5V
+SymbOntology:Line5V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:SynaesthesiaV ;
+                    SymbOntology:express SymbOntology:Purity ,
+                                         SymbOntology:Spleen .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line6BM
+SymbOntology:Line6BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:contains SymbOntology:AllitterationBM ,
+                                           SymbOntology:AssonanceBM ;
+                     SymbOntology:express SymbOntology:Journey .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line6V
+SymbOntology:Line6V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:HypallageV ,
+                                          SymbOntology:PersonificationV ;
+                    SymbOntology:express SymbOntology:Purity ,
+                                         SymbOntology:SeerPoet .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line7BM
+SymbOntology:Line7BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:contains SymbOntology:AllitterationBM ,
+                                           SymbOntology:AssonanceBM ;
+                     SymbOntology:express SymbOntology:Musicality ,
+                                          SymbOntology:Purity .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line7V
+SymbOntology:Line7V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:AllitterationV ,
+                                          SymbOntology:AssonanceV ,
+                                          SymbOntology:SynaesthesiaV ;
+                    SymbOntology:express SymbOntology:Musicality .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8AP
+SymbOntology:Line8AP rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                     SymbOntology:contains SymbOntology:MetaphoreAP ;
+                     SymbOntology:express SymbOntology:Musicality ,
+                                          SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8BM
+SymbOntology:Line8BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:contains SymbOntology:AssonanceBM ;
+                     SymbOntology:express SymbOntology:Purity .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8V
+SymbOntology:Line8V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:OxymoronV .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9AP
+SymbOntology:Line9AP rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:ArtPoetique ;
+                     SymbOntology:contains SymbOntology:AntithesisAP ;
+                     SymbOntology:hasTheme SymbOntology:Vague .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9BM
+SymbOntology:Line9BM rdf:type owl:NamedIndividual ,
+                              SymbOntology:Line ;
+                     SymbOntology:belongsTo SymbOntology:BriseMarine ;
+                     SymbOntology:contains SymbOntology:AllitterationBM ,
+                                           SymbOntology:AssonanceBM ;
+                     SymbOntology:express SymbOntology:Escape ,
+                                          SymbOntology:Journey ,
+                                          SymbOntology:Musicality .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9V
+SymbOntology:Line9V rdf:type owl:NamedIndividual ,
+                             SymbOntology:Line ;
+                    SymbOntology:belongsTo SymbOntology:Voyelles ;
+                    SymbOntology:contains SymbOntology:AllitterationV ,
+                                          SymbOntology:AssonanceV ,
+                                          SymbOntology:SynaesthesiaV ;
+                    SymbOntology:express SymbOntology:Musicality .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#MetaphoreAP
+SymbOntology:MetaphoreAP rdf:type owl:NamedIndividual ,
+                                  SymbOntology:FigureOfSpeech ;
+                         SymbOntology:isContainedIn SymbOntology:Line10AP ,
+                                                    SymbOntology:Line20AP ,
+                                                    SymbOntology:Line22AP ,
+                                                    SymbOntology:Line8AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#MetaphoreV
+SymbOntology:MetaphoreV rdf:type owl:NamedIndividual ,
+                                 SymbOntology:FigureOfSpeech ;
+                        SymbOntology:isContainedIn SymbOntology:Line14V ,
+                                                   SymbOntology:Line3V .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Musicality
+SymbOntology:Musicality rdf:type owl:NamedIndividual ,
+                                 SymbOntology:Theme ;
+                        SymbOntology:isExpressedBy SymbOntology:Line11V ,
+                                                   SymbOntology:Line12V ,
+                                                   SymbOntology:Line14V ,
+                                                   SymbOntology:Line1AP ,
+                                                   SymbOntology:Line23AP ,
+                                                   SymbOntology:Line30AP ,
+                                                   SymbOntology:Line7BM ,
+                                                   SymbOntology:Line7V ,
+                                                   SymbOntology:Line8AP ,
+                                                   SymbOntology:Line9BM ,
+                                                   SymbOntology:Line9V ;
+                        SymbOntology:isSubjectOf SymbOntology:Decadentism ,
+                                                 SymbOntology:Symbolism ;
+                        SymbOntology:isThemeOf SymbOntology:ArtPoetique ,
+                                               SymbOntology:BriseMarine ,
+                                               SymbOntology:Voyelles ;
+                        SymbOntology:hasDenomination "Musicality"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#OxymoronV
+SymbOntology:OxymoronV rdf:type owl:NamedIndividual ,
+                                SymbOntology:FigureOfSpeech ;
+                       SymbOntology:isExpressedBy SymbOntology:Line8V .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#ParonomasiaAP
+SymbOntology:ParonomasiaAP rdf:type owl:NamedIndividual ,
+                                    SymbOntology:FigureOfSpeech ;
+                           SymbOntology:isContainedIn SymbOntology:Line4AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PaulVerlaine
+SymbOntology:PaulVerlaine rdf:type owl:NamedIndividual ,
+                                   SymbOntology:Poet ;
+                          SymbOntology:influences SymbOntology:GabrieleDAnnunzio ;
+                          SymbOntology:isAuthorOf SymbOntology:ArtPoetique ;
+                          SymbOntology:isExponentOf SymbOntology:Symbolism ;
+                          SymbOntology:isInfluencedBy SymbOntology:CharlesBaudelaire ;
+                          SymbOntology:hasName "Paul Verlaine"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PersonificationAP
+SymbOntology:PersonificationAP rdf:type owl:NamedIndividual ,
+                                        SymbOntology:FigureOfSpeech ;
+                               SymbOntology:isContainedIn SymbOntology:Line11AP ,
+                                                          SymbOntology:Line17AP ,
+                                                          SymbOntology:Line18AP ,
+                                                          SymbOntology:Line19AP ,
+                                                          SymbOntology:Line20AP ,
+                                                          SymbOntology:Line22AP ,
+                                                          SymbOntology:Line24AP ,
+                                                          SymbOntology:Line25AP ,
+                                                          SymbOntology:Line26AP ,
+                                                          SymbOntology:Line35AP ,
+                                                          SymbOntology:Line36AP ,
+                                                          SymbOntology:Line37AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PersonificationBM
+SymbOntology:PersonificationBM rdf:type owl:NamedIndividual ,
+                                        SymbOntology:FigureOfSpeech ;
+                               SymbOntology:isContainedIn SymbOntology:Line11BM ,
+                                                          SymbOntology:Line13BM ,
+                                                          SymbOntology:Line1BM ,
+                                                          SymbOntology:Line5BM .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PersonificationV
+SymbOntology:PersonificationV rdf:type owl:NamedIndividual ,
+                                       SymbOntology:FigureOfSpeech ;
+                              SymbOntology:isContainedIn SymbOntology:Line11V ,
+                                                         SymbOntology:Line12V ,
+                                                         SymbOntology:Line14V ,
+                                                         SymbOntology:Line2V ,
+                                                         SymbOntology:Line6V .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Purity
+SymbOntology:Purity rdf:type owl:NamedIndividual ,
+                             SymbOntology:Theme ;
+                    SymbOntology:isExpressedBy SymbOntology:Line12V ,
+                                               SymbOntology:Line13V ,
+                                               SymbOntology:Line19AP ,
+                                               SymbOntology:Line1V ,
+                                               SymbOntology:Line5V ,
+                                               SymbOntology:Line6V ,
+                                               SymbOntology:Line7BM ,
+                                               SymbOntology:Line8BM ;
+                    SymbOntology:isSubjectOf SymbOntology:Decadentism ,
+                                             SymbOntology:Symbolism ;
+                    SymbOntology:isThemeOf SymbOntology:BriseMarine ;
+                    SymbOntology:hasDenomination "Purity"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Romanticism
+SymbOntology:Romanticism rdf:type owl:NamedIndividual ,
+                                  SymbOntology:LiteraryCurrent ;
+                         SymbOntology:hasExponent SymbOntology:FrancescoPetrarca ,
+                                                  SymbOntology:GiacomoLeopardi ;
+                         SymbOntology:hasSubject SymbOntology:Escape ,
+                                                 SymbOntology:Journey ,
+                                                 SymbOntology:Spleen ;
+                         SymbOntology:hasDesignation "Romanticism"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SeerPoet
+SymbOntology:SeerPoet rdf:type owl:NamedIndividual ,
+                               SymbOntology:Theme ;
+                      SymbOntology:isExpressedBy SymbOntology:Line14V ,
+                                                 SymbOntology:Line3V ,
+                                                 SymbOntology:Line6V ;
+                      SymbOntology:isSubjectOf SymbOntology:Decadentism ,
+                                               SymbOntology:Symbolism ;
+                      SymbOntology:isThemeOf SymbOntology:Voyelles ;
+                      SymbOntology:hasDenomination "SeerPoet"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Spleen
+SymbOntology:Spleen rdf:type owl:NamedIndividual ,
+                             SymbOntology:Theme ;
+                    SymbOntology:isExpressedBy SymbOntology:Line11BM ,
+                                               SymbOntology:Line1BM ,
+                                               SymbOntology:Line1V ,
+                                               SymbOntology:Line3V ,
+                                               SymbOntology:Line4V ,
+                                               SymbOntology:Line5V ;
+                    SymbOntology:isSubjectOf SymbOntology:Decadentism ,
+                                             SymbOntology:Romanticism ,
+                                             SymbOntology:Symbolism ;
+                    SymbOntology:isThemeOf SymbOntology:BriseMarine ,
+                                           SymbOntology:Voyelles ;
+                    SymbOntology:hasDenomination "Spleen"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé
+SymbOntology:StéphaneMallarmé rdf:type owl:NamedIndividual ,
+                                       SymbOntology:Poet ;
+                              SymbOntology:influences SymbOntology:FrancescoPetrarca ;
+                              SymbOntology:isAuthorOf SymbOntology:BriseMarine ;
+                              SymbOntology:isExponentOf SymbOntology:Symbolism ;
+                              SymbOntology:isInfluencedBy SymbOntology:CharlesBaudelaire ,
+                                                          SymbOntology:GiacomoLeopardi ;
+                              SymbOntology:hasName "Stéphane Mallarmé"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Symbolism
+SymbOntology:Symbolism rdf:type owl:NamedIndividual ,
+                                SymbOntology:LiteraryCurrent ;
+                       SymbOntology:hasExponent SymbOntology:ArthurRimbaud ,
+                                                SymbOntology:PaulVerlaine ,
+                                                SymbOntology:StéphaneMallarmé ;
+                       SymbOntology:hasSubject SymbOntology:Escape ,
+                                               SymbOntology:Journey ,
+                                               SymbOntology:Musicality ,
+                                               SymbOntology:Purity ,
+                                               SymbOntology:SeerPoet ,
+                                               SymbOntology:Spleen ,
+                                               SymbOntology:Vague ;
+                       SymbOntology:hasDesignation "Symbolism"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SynaesthesiaAP
+SymbOntology:SynaesthesiaAP rdf:type owl:NamedIndividual ,
+                                     SymbOntology:FigureOfSpeech ;
+                            SymbOntology:isContainedIn SymbOntology:Line12AP ,
+                                                       SymbOntology:Line13AP ,
+                                                       SymbOntology:Line35AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SynaesthesiaV
+SymbOntology:SynaesthesiaV rdf:type owl:NamedIndividual ,
+                                    SymbOntology:FigureOfSpeech ;
+                           SymbOntology:isContainedIn SymbOntology:Line1V ,
+                                                      SymbOntology:Line3V ,
+                                                      SymbOntology:Line4V ,
+                                                      SymbOntology:Line5V ,
+                                                      SymbOntology:Line7V ,
+                                                      SymbOntology:Line9V .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SynecdocheAP
+SymbOntology:SynecdocheAP rdf:type owl:NamedIndividual ,
+                                   SymbOntology:FigureOfSpeech ;
+                          SymbOntology:isContainedIn SymbOntology:Line14AP .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Vague
+SymbOntology:Vague rdf:type owl:NamedIndividual ,
+                            SymbOntology:Theme ;
+                   SymbOntology:hasSubject SymbOntology:Symbolism ;
+                   SymbOntology:isExpressedBy SymbOntology:Line10BM ,
+                                              SymbOntology:Line11AP ,
+                                              SymbOntology:Line14AP ,
+                                              SymbOntology:Line15AP ,
+                                              SymbOntology:Line15BM ,
+                                              SymbOntology:Line16AP ,
+                                              SymbOntology:Line33AP ,
+                                              SymbOntology:Line3AP ,
+                                              SymbOntology:Line3BM ,
+                                              SymbOntology:Line8AP ,
+                                              SymbOntology:Line9AP ;
+                   SymbOntology:isSubjectOf SymbOntology:Decadentism ;
+                   SymbOntology:isThemeOf SymbOntology:ArtPoetique ,
+                                          SymbOntology:BriseMarine ;
+                   SymbOntology:hasDenomination "Vague"^^rdfs:Literal .
+
+
+###  https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Voyelles
+SymbOntology:Voyelles rdf:type owl:NamedIndividual ,
+                               SymbOntology:Poem ;
+                      SymbOntology:hasAuthor SymbOntology:ArthurRimbaud ;
+                      SymbOntology:hasTheme SymbOntology:Escape ,
+                                            SymbOntology:Musicality ,
+                                            SymbOntology:Purity ,
+                                            SymbOntology:SeerPoet ,
+                                            SymbOntology:Spleen ;
+                      SymbOntology:isComposedOf SymbOntology:Line11V ,
+                                                SymbOntology:Line12V ,
+                                                SymbOntology:Line13V ,
+                                                SymbOntology:Line14V ,
+                                                SymbOntology:Line1V ,
+                                                SymbOntology:Line2V ,
+                                                SymbOntology:Line3V ,
+                                                SymbOntology:Line4V ,
+                                                SymbOntology:Line5V ,
+                                                SymbOntology:Line6V ,
+                                                SymbOntology:Line7V ,
+                                                SymbOntology:Line8V ,
+                                                SymbOntology:Line9V ;
+                      SymbOntology:hasTitle "Vocali"^^rdfs:Literal .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
