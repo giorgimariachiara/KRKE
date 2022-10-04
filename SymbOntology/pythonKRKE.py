@@ -2,4 +2,6 @@ import rdflib
 from rdflib import Graph 
 
 Symbontology = Graph()
-Symbontology = Symbontology.parse("Symbontology.ttl", format="ttl")
+Symbontology.parse("/Users/ahi.maria/Documents/GitHub/KRKE/SymbOntology/symbo.ttl", format="ttl")
+
+print(Symbontology)
