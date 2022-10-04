@@ -93,11 +93,44 @@ WHERE { symbo:StéphaneMallarmé symbo:influences ?Poet}
 UNION
 { symbo:ArthurRimbaud symbo:influences ?Poet} 
 UNION
-{ symbo:PaulVerlaine symbo:isInfluencedBy ?Poet} }
+{ symbo:PaulVerlaine symbo:influences ?Poet} }
 '''
 
 
+CompetencyQuestion15 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)
+WHERE{?Line symbo:contains ?FigureOfSpeech.
+?Line symbo:belongsTo symbo:Voyelles.}
+GROUP BY ?FigureOfSpeech
+ORDER BY DESC(?FigureOfSpeech_count)
+LIMIT 1
+'''
 
+
+CompetencyQuestion16 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)
+WHERE{?Line symbo:contains ?FigureOfSpeech.
+?Line symbo:belongsTo symbo:ArtPoetique.}
+GROUP BY ?FigureOfSpeech
+ORDER BY DESC(?FigureOfSpeech_count)
+LIMIT 1
+'''
+
+
+CompetencyQuestion17 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)
+WHERE{?Line symbo:contains ?FigureOfSpeech.
+?Line symbo:belongsTo symbo:BriseMarine.}
+GROUP BY ?FigureOfSpeech
+ORDER BY DESC(?FigureOfSpeech_count)
+LIMIT 1
+'''
+
+
+CompetencyQuestion18 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#>
+SELECT ?Theme 
+WHERE { symbo:Symbolism symbo:hasSubject ?Theme}
+'''
 
 
 
