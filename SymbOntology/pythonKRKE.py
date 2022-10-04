@@ -10,3 +10,7 @@ CompetencyQuestion1 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE
 SELECT ?Author \
 WHERE { symbo:Voyelles symbo:hasAuthor ?Author}
 '''
+
+results = Symbontology.query(CompetencyQuestion1)
+for result in results:
+    print(result)
