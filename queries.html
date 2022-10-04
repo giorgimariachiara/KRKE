@@ -112,10 +112,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ1</h4>
-		<h5 class="query-title">Which literary current do the poems refer to?</h5>
-        <div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
-							<p>SELECT ?LiteraryCurrent</p>
-							<p>WHERE { <br>symbo:ArtPoetique symbo:isPartOf ?LiteraryCurrent <br>}</p></div>
+		<h5 class="query-title">Who is the author of "Voyelles"?</h5>
+        <div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br</p>
+							<p>SELECT ?Author</p>
+							<p>WHERE { <br>symbo:Voyelles symbo:hasAuthor ?Author<br>}</p></div>
         <!-- Button trigger modal -->
 <button type="button"
  class="ciao btn btn-light mt-auto see-results" data-toggle="modal" data-target="#exampleModal">
@@ -142,7 +142,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Symbolism</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#ArthurRimbaud</td>
 	</tr>
   </tbody>
 </table>
@@ -161,7 +161,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <h4 class="card-title-query">CQ2</h4>
 		<h5 class="query-title">In which lines is the musicality theme present?</h5>
 
-        <div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+        <div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT ?Line</p>
 								<p>WHERE {?Line symbo:express symbo:Musicality}</p>
 								<p></p>
@@ -190,43 +190,40 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line9BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9V</td>
     </tr>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#Line29AP</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line7BM</td>
     </tr>
     <tr>
-    <td>http://www.semanticweb.org/ontologies/SymbO#Line12V</td>
+    <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line24AP</td>
     </tr>
 	 <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line14V</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line30AP</td>
     </tr>
 	<tr>
-     <td>http://www.semanticweb.org/ontologies/SymbO#Line7V</td>
+     <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9BM</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line23AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14V</td>
      </tr>
      <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line9V</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line7V</td>
      </tr>
      <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line7BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line23AP</td>
      </tr>
 	   <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line22AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1AP</td>
      </tr>
      <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line1AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11V</td>
      </tr>
      <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line2AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12V</td>
      </tr>
      <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line7AP</td>
-     </tr>
-     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line11V</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8AP</td>
      </tr>
   </tbody>
 </table>
@@ -247,7 +244,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
         <h4 class="card-title-query">CQ3</h4>
 		<h5 class="query-title">In which lines is the vague theme present?</h5>
 		
-        <div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO# </p>
+        <div class="card-text"><p>PREFIX <br>symbo:https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl# <br></p>
 								<p>SELECT ?Line</p>
 								<p>WHERE {?Line symbo:express symbo:Vague}</p>
 </div>
@@ -275,32 +272,38 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://divo.github.io/PaoloSoul</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11AP</td>
     </tr>
     <tr>
-    <td>http://divo.github.io/FrancescaSoul</td>
+    <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line15AP</td>
     </tr>
 	 <tr>
-      <td>http://divo.github.io/VirgilioSoul</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8AP</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/Lancillotto</td>
+     <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line33AP</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/Lussuriosi</td>
+     <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line16BM</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/Minosse</td>
+     <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3BM</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/Galeotto</td>
+     <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line16AP</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/SemiramideSoul</td>
+     <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14AP</td>
     </tr>
 	<tr>
-     <td>http://divo.github.io/Nino</td>
+     <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line15BM</td>
     </tr>
+    <tr>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3AP</td>
+     </tr>
+     <tr>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line10BM</td>
+     </tr>
   </tbody>
 </table>
       </div>
@@ -318,7 +321,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ4</h4>
         <h5 class="query-title">In which lines is the journey theme present?</h5>
-		<div class= "card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class= "card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
                 <p>SELECT ?Line</p>
                 <p>WHERE {?Line symbo:express symbo:Journey}</p>
 		</div>
@@ -346,31 +349,34 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line32AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line6BM</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line16BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line2BM</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line6BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line16BM</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line30AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line34AP</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line9BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line33AP</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line2BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line31AP</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line33AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12BM</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line12BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line32AP</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line10BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9BM</td>
+    </tr>
+    <tr>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line10BM</td>
     </tr>
 
 	</tbody>
@@ -391,7 +397,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ5</h4>
         <h5 class="query-title">In which lines is the spleen theme present?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
       <p>SELECT ?Line</p>
       <p>WHERE {?Line symbo:express symbo:Spleen}</p>
 		</div>
@@ -419,22 +425,22 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line3V</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line4V</td>
 	  </tr>
 	  <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#Line11BM </td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1BM</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line1V </td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line5V</td>
    </tr>
    <tr>
-    <td>http://www.semanticweb.org/ontologies/SymbO#Line1BM </td>
+    <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line11BM</td>
  </tr>
  <tr>
-  <td>http://www.semanticweb.org/ontologies/SymbO#Line5V</td>
+  <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1V</td>
 </tr>
 <tr>
-  <td>http://www.semanticweb.org/ontologies/SymbO#Line4V </td>
+  <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3V</td>
 </tr>
 	</tbody>
 	</table>
@@ -451,10 +457,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     <div class="card-queries">
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ6</h4>
-        <h5 class="query-title">In which lines is the boredom theme present?</h5>
-		<div class="card-text"> <p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
-  <p>SELECT ?Line</p>
- <p>WHERE {?Line symbo:express symbo:Boredom}</p>
+        <h5 class="query-title">Who is the author of "Brise Marine"? </h5>
+		<div class="card-text"> <p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
+  <p>SELECT ?Author</p>
+ <p>WHERE {symbo:BriseMarine symbo:hasAuthor ?Author}</p>
 		</div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal6">
@@ -465,7 +471,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel5">In which lines is the boredom theme present?</h5>
+        <h5 class="modal-title" id="exampleModalLabel5">Who is the author of "Brise Marine"?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -479,7 +485,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line11BM</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé</td>
 	  </tr>
 	</tbody>
 	</table>
@@ -501,9 +507,9 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ7</h4>
         <h5 class="query-title">In which lines is the seerpoet theme present?</h5>
-		 <div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		 <div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
       <p>SELECT ?Line</p>
-      <p>WHERE {?Line symbo:express symbo:Boredom}</p>
+      <p>WHERE {?Line symbo:express symbo:SeerPoet}</p>
 </div>
         <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal7">
@@ -529,13 +535,13 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line14V</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line14V</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line6V</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line6V</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line3V</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line3V</td>
     </tr>
   </tbody>
 </table>
@@ -552,7 +558,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ8</h4>
         <h5 class="query-title">In which lines is the escape theme present?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
       <p>SELECT ?Line</p>
       <p>WHERE {?Line symbo:express symbo:Escape}</p>
 </div>
@@ -580,20 +586,17 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line16AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9BM</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Line31AP</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line31AP</td>
     </tr>
 	 <tr>
-    <td>http://www.semanticweb.org/ontologies/SymbO#Line9BM</td>
+    <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line9BM</td>
     </tr>
 	<tr>
-    <td>http://www.semanticweb.org/ontologies/SymbO#Line2BM</td>
+    <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line2BM</td>
     </tr>
-	<tr>
-    <td>http://www.semanticweb.org/ontologies/SymbO#Line30AP</td>
-  </tr>
   </tbody>
 </table>
       </div>
@@ -611,7 +614,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ9</h4>
         <h5 class="query-title">In which lines is the Purity theme present?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
       <p>SELECT ?Line</p>
       <p>WHERE {?Line symbo:express symbo:Purity}</p>
 							
@@ -640,25 +643,28 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#Boredom</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line7BM</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Escape</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line12V</td>
    </tr>
    <tr>
-    <td>http://www.semanticweb.org/ontologies/SymbO#Journey</td>
+    <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line19AP</td>
  </tr>
  <tr>
-  <td>http://www.semanticweb.org/ontologies/SymbO#SeerPoet</td>
+  <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line1V</td>
 </tr>
 <tr>
-  <td>http://www.semanticweb.org/ontologies/SymbO#Purity</td>
+  <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line5V</td>
 </tr>
 <tr>
-  <td>http://www.semanticweb.org/ontologies/SymbO#Musicality</td>
+  <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line8BM</td>
 </tr>
 <tr>
-  <td>http://www.semanticweb.org/ontologies/SymbO#Spleen</td>
+  <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line13V</td>
+</tr>
+<tr>
+  <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Line6V</td>
 </tr>
   </tbody>
 </table>
@@ -676,7 +682,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ10</h4>
         <h5 class="query-title">Which is the most frequent theme in the poems?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT ?Theme(COUNT(?Line) as?Theme_count)</p>
 								<p>WHERE{?Line symbo:express ?Theme.}</p>
 								<p> GROUP BY ?Theme</p>
@@ -709,8 +715,8 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#Musicality</td>
-       <td>13</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Musicality</td>
+       <td>12</td>
     </tr>
     
   </tbody>
@@ -731,14 +737,14 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ11</h4>
         <h5 class="query-title">Which Poets have influenced the Authors?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT distinct ?Poet</p>
 <p>WHERE {</p>
-  <p>{?Poet symbo:influences symbo:StéphaneMallarmé.}</p>
+  <p>{?Poet symbo:isInfluencedBy symbo:StéphaneMallarmé.}</p>
     <p>UNION</p>
-    <p>{?Poet symbo:influences symbo:ArthurRimbaud.}</p>
+    <p>{?Poet symbo:isInfluencedBy symbo:ArthurRimbaud.}</p>
     <p>UNION</p>
-    <p>{?Poet symbo:influences symbo:PaulVerlaine.}}</p>
+    <p>{?Poet symbo:isInfluencedBy symbo:PaulVerlaine.}}</p>
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal11">
@@ -764,13 +770,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#FrancescoPetrarca</td>
-    </tr>
-    <tr>
-    <td>http://www.semanticweb.org/ontologies/SymbO#GiacomoLeopardi</td>
+    <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl##GiacomoLeopardi</td>
     </tr>
 	 <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire</td>
     </tr>
   </tbody>
 </table>
@@ -787,7 +790,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ12</h4>
         <H5 class="query-title">Which are the exponents of Symbolism?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT ?Exponent</p>
 								<p>WHERE {?Exponent symbo:isExponentOf symbo:Symbolism}</p>
 								
@@ -817,13 +820,13 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#PaulVerlaine</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PaulVerlaine</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#ArthurRimbaud</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#ArthurRimbaud</td>
    </tr>
    <tr>
-    <td>http://www.semanticweb.org/ontologies/SymbO#StéphaneMallarmé</td>
+    <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé</td>
  </tr>
   </tbody>
 </table>
@@ -842,7 +845,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ13</h4>
         <h5 class="query-title">Which are the exponents of Decadentism?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT ?Exponent</p>
 								<p>WHERE {?Exponent symbo:isExponentOf symbo:Decadentism}</p>
 
@@ -871,10 +874,10 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#CharlesBaudelaire</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire</td>
     </tr>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#GabrieleD'annunzio</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#GabrieleDAnnunzio</td>
    </tr>
     
   </tbody>
@@ -892,14 +895,14 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ14</h4>
         <h5 class="query-title">Which Poet is influenced by the Authors?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT distinct ?Poet</p>
 <p>WHERE {</p>
-  <p>{symbo:StéphaneMallarmé symbo:isInfluencedBy ?Poet}</p>
+  <p>{symbo:StéphaneMallarmé symbo:influences ?Poet}</p>
     <p>UNION</p>
-    <p>{symbo:PaulVerlaine symbo:isInfluencedBy ?Poet}</p>
-    <p>UNION</p>
-    <p>{symbo:ArthurRimbaud symbo:isInfluencedBy ?Poet}}</p>
+    <p>{symbo:PaulVerlaine symbo:influences ?Poet}</p>
+    <p>UNION</p> 
+    <p>{symbo:ArthurRimbaud symbo:influences ?Poet}}</p>
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal14">
@@ -925,8 +928,11 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#GabrieleD'Annunzio</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#GabrieleDAnnunzio</td>
     </tr>
+    <tr>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#FrancescoPetrarca</td>
+   </tr>
   </tbody>
 </table>
       </div>
@@ -944,12 +950,13 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ15</h4>
         <H5 class="query-title">Which is the most frequent figure of speech in "Voyelles"?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)</p>
 								<p>WHERE{?Line symbo:contains ?FigureOfSpeech.</p>
 								<p> ?Line symbo:belongsTo symbo:Voyelles.}</p>
                 <p>GROUP BY ?FigureOfSpeech</p>
                 <p>ORDER BY DESC(?FigureOfSpeech_count)</p>
+                <p>LIMIT 1</p>
       	
 </div>
          <!-- Button trigger modal -->
@@ -977,8 +984,8 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#SynaesthesiaV</td>
-       <td>7</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SynaesthesiaV</td>
+       <td>6</td>
     </tr>
   </tbody>
 </table>
@@ -995,12 +1002,13 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ16</h4>
         <h5 class="query-title">Which is the most frequent figure of speech in "Art Poétique"?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
       <p>SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)</p>
       <p>WHERE{?Line symbo:contains ?FigureOfSpeech.</p>
       <p> ?Line symbo:belongsTo symbo:ArtPoetique.}</p>
       <p>GROUP BY ?FigureOfSpeech</p>
       <p>ORDER BY DESC(?FigureOfSpeech_count)</p>
+      <p>LIMIT 1 </p>
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal16">
@@ -1028,8 +1036,8 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#EnjambementAP</td>
-       <td>11</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#PersonificationAP</td>
+       <td>12</td>
     </tr>
     
   </tbody>
@@ -1049,7 +1057,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ17</h4>
         <h5 class="query-title">Which is the most frequent figure of speech in "Brise Marine"?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#<br></p>
       <p>SELECT ?FigureOfSpeech (COUNT(?Line) as ?FigureOfSpeech_count)</p>
       <p>WHERE{?Line symbo:contains ?FigureOfSpeech.</p>
       <p> ?Line symbo:belongsTo symbo:BriseMarine.}</p>
@@ -1082,8 +1090,8 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-       <td>http://www.semanticweb.org/ontologies/SymbO#PersonificationBM</td>
-       <td>6</td>
+       <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#AllitterationBM</td>
+       <td>13</td>
     </tr>
   </tbody>
 </table>
@@ -1100,7 +1108,7 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
       <div class="card-body d-flex flex-column">
         <h4 class="card-title-query">CQ18</h4>
         <H5 class="query-title">Which are the themes of Symbolism?</h5>
-		<div class="card-text"><p>PREFIX symbo:http://www.semanticweb.org/ontologies/SymbO#</p>
+		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#</p>
       <p>SELECT ?Theme </p>
       <p>WHERE { symbo:Symbolism symbo:hasSubject ?Theme}</p>
       	
@@ -1129,25 +1137,25 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
   </thead>
   <tbody>
     <tr>
-      <td>http://www.semanticweb.org/ontologies/SymbO#Boredom</td>
+      <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Vague</td>
    </tr>
    <tr>
-     <td>http://www.semanticweb.org/ontologies/SymbO#Escape</td>
+     <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Escape</td>
   </tr>
   <tr>
-   <td>http://www.semanticweb.org/ontologies/SymbO#Journey</td>
+   <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Journey</td>
 </tr>
 <tr>
- <td>http://www.semanticweb.org/ontologies/SymbO#SeerPoet</td>
+ <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#SeerPoet</td>
 </tr>
 <tr>
- <td>http://www.semanticweb.org/ontologies/SymbO#Purity</td>
+ <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Purity</td>
 </tr>
 <tr>
- <td>http://www.semanticweb.org/ontologies/SymbO#Musicality</td>
+ <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Musicality</td>
 </tr>
 <tr>
- <td>http://www.semanticweb.org/ontologies/SymbO#Spleen</td>
+ <td>https://github.com/giorgimariachiara/KRKE/blob/main/SymbOntology/SymbOntology.owl#Spleen</td>
 </tr>
   </tbody>
 </table>
