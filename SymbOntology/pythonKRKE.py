@@ -2,7 +2,7 @@ import rdflib
 from rdflib import Graph 
 
 Symbontology = Graph()
-Symbontology.parse("/Users/ahi.maria/Documents/GitHub/KRKE/SymbOntology/onrologygraph.ttl", format="ttl")
+Symbontology.parse("/Users/ahi.maria/Documents/GitHub/KRKE/SymbOntology/ontologygraph.ttl", format="ttl")
 
 print(Symbontology)
 
@@ -135,8 +135,8 @@ ORDER BY DESC(?Figure_count)
 LIMIT 1
 '''
 
+listofcompetencyquestions = [CompetencyQuestion1, CompetencyQuestion2, CompetencyQuestion3, CompetencyQuestion4, CompetencyQuestion5, CompetencyQuestion6, CompetencyQuestion7, CompetencyQuestion8,CompetencyQuestion9, CompetencyQuestion10, CompetencyQuestion11, CompetencyQuestion12, CompetencyQuestion13, CompetencyQuestion14, CompetencyQuestion15, CompetencyQuestion16, CompetencyQuestion17, CompetencyQuestion18, CompetencyQuestion19, CompetencyQuestion20 ]
 
-
-results = Symbontology.query(CompetencyQuestion1)
+results = Symbontology.query(listofcompetencyquestions)
 for result in results:
     print(result)
