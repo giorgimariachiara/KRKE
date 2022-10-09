@@ -741,11 +741,11 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
 		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT distinct ?Poet</p>
 <p>WHERE {</p>
-  <p>{?Poet symbo:isInfluencedBy symbo:StéphaneMallarmé.}</p>
+  <p>{symbo:StéphaneMallarmé symbo:isInfluencedBy ?Poet}</p>
     <p>UNION</p>
-    <p>{?Poet symbo:isInfluencedBy symbo:ArthurRimbaud.}</p>
+    <p>{symbo:ArthurRimbaud symbo:isInfluencedBy ?Poet}</p>
     <p>UNION</p>
-    <p>{?Poet symbo:isInfluencedBy symbo:PaulVerlaine.}}</p>
+    <p>{symbo:PaulVerlaine symbo:isInfluencedBy ?Poet.}}</p>
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal11">
@@ -775,6 +775,9 @@ We obtained the results by querying the graph using <a href="https://blazegraph.
     </tr>
 	 <tr>
       <td>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire</td>
+    </tr>
+    <tr>
+      <td>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FrancescoPetrarca</td>
     </tr>
   </tbody>
 </table>
