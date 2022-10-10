@@ -1815,3 +1815,104 @@ color: #b0955e;
 
 }
 
+/*--------------------------------------------------------------
+# team
+--------------------------------------------------------------*/
+.team {
+
+background-color: darkred;
+width: auto;
+height: 500px; 
+margin-top: 200px;
+}
+
+
+.team img {
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+}
+
+.team h8 { 
+  font-family: Garamond;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.team .col-3{
+  margin-top: 100px;
+  text-align: left;
+}
+
+/**/
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+ .flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  border: none;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #60370e;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  margin: 0.5em 0.5em 0em 0.5em;
+  background-color: #f6d8b9;
+  color: #60370e;
+}
+
+.flip-card hr {
+  margin: 0 5% 0 5%;
+}
+
+.flip-card-front p {
+  margin: 0.5em 0.5em 0em 0.5em;
+}
+
+.flip-card-front p:first-child {
+  font-weight: bold;
+  text-align: center;
+}
+
+.flip-card-front p:last-child { 
+  color: #946c44;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #f9f7de;
+  color: black;
+  transform: rotateY(180deg);
+ 
+} 
+
+.flip-card-back p {
+  color: black;
+} 
+
