@@ -4,7 +4,7 @@ from rdflib import Graph
 Symbontology = Graph()
 Symbontology.parse("/Users/ahi.maria/Documents/GitHub/KRKE/SymbOntology/ontologygraph.ttl", format="ttl")
 
-print(Symbontology)
+print("Hi")
 
 CompetencyQuestion1 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#> 
 SELECT ?Line 
