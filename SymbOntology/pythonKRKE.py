@@ -4,7 +4,7 @@ from rdflib import Graph
 Symbontology = Graph()
 Symbontology.parse("/Users/ahi.maria/Documents/GitHub/KRKE/SymbOntology/ontologygraph.ttl", format="ttl")
 
-print(Symbontology)
+print("Hi")
 
 CompetencyQuestion1 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#> 
 SELECT ?Line 
@@ -75,16 +75,16 @@ WHERE { ?Exponent symbo:isExponentOf symbo:Decadentism}
 
 CompetencyQuestion14 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#>
 SELECT distinct ?Poet 
-WHERE { ?Poet symbo:isInfluencedBy symbo:StéphaneMallarmé} 
+WHERE { { symbo:StéphaneMallarmé symbo:isInfluencedBy ?Poet} 
 UNION
-{ ?Poet symbo:isInfluencedBy symbo:ArthurRimbaud} 
+{ symbo:ArthurRimbaud symbo:isInfluencedBy ?Poet} 
 UNION
-{ ?Poet symbo:isInfluencedBy symbo:PaulVerlaine} }
+{symbo:PaulVerlaine symbo:isInfluencedBy ?Poet} }
 '''
 
 CompetencyQuestion15 = '''PREFIX symbo:<https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#>
 SELECT distinct ?Poet 
-WHERE { symbo:StéphaneMallarmé symbo:influences ?Poet} 
+WHERE { { symbo:StéphaneMallarmé symbo:influences ?Poet} 
 UNION
 { symbo:ArthurRimbaud symbo:influences ?Poet} 
 UNION
@@ -136,7 +136,10 @@ LIMIT 1
 '''
 
 listofcompetencyquestions = [CompetencyQuestion1, CompetencyQuestion2, CompetencyQuestion3, CompetencyQuestion4, CompetencyQuestion5, CompetencyQuestion6, CompetencyQuestion7, CompetencyQuestion8,CompetencyQuestion9, CompetencyQuestion10, CompetencyQuestion11, CompetencyQuestion12, CompetencyQuestion13, CompetencyQuestion14, CompetencyQuestion15, CompetencyQuestion16, CompetencyQuestion17, CompetencyQuestion18, CompetencyQuestion19, CompetencyQuestion20 ]
+competency = ["In which lines is the Spleen theme present?", "In which lines is the Musicality theme present?", "In which lines is the Vague theme present?", "In which lines is the Journey theme present?","In which lines is the SeerPoet theme present?", "In which lines is the Escape theme present?", "In which lines is the Purity theme present?", "Which is the most frequent theme in the poems?", "Who is the author of Voyelles?", "Who is the author of Brise Marine?", "Who is the author of Art poetique?", "Which are the exponents of Symbolism?", "Which are the exponents of Decadentism?","Which Poets have influenced the Authors?", "Which Poet is influenced by the Authors?", "Which is the most frequent figure of speech in Voyelles?", "Which is the most frequent figure of speech in Art Poetique?", "Which is the most frequent figure of speech in Brise Marine?", "Which are the themes of Symbolism?", "Which is the most frequent figure of speech in the poems?" ]
 
-results = Symbontology.query(listofcompetencyquestions)
-for result in results:
-    print(result)
+for idx, competencyquestion in enumerate(listofcompetencyquestions):
+    print("Competency question " + str(idx+1) + "-" + competency[idx] + ":")
+    results = Symbontology.query(competencyquestion)
+    for result in results:
+        print(result)
