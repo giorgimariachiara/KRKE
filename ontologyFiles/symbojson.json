@@ -1,0 +1,2115 @@
+[ {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line18AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line19AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line29AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line15BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9BM"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9V"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line15AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line30AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line31AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line34AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AntithesisAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#appertainsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasAuthor" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PaulVerlaine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTheme" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTitle" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Arte Poetica"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#includes" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AntithesisAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ParonomasiaAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynecdocheAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isComposedOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line15AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line17AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line18AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line19AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line20AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line22AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line23AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line24AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line25AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line26AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line27AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line28AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line29AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line30AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line31AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line32AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line33AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line34AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line35AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line36AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line37AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArthurRimbaud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Arthur Rimbaud"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isAuthorOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isInfluencedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#talksAbout" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line29AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9BM"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9V"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#appertainsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasAuthor" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTheme" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTitle" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Brezza Marina"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#includes" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isComposedOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line15BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9BM"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName" : [ {
+    "@value" : "Charles Baudelaire"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#influences" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArthurRimbaud"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PaulVerlaine"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDesignation" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Decadentism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasExponent" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#GabrieleDAnnunzio"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasSubject" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line17AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line27AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line28AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line29AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line31AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line32AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line33AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line34AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line35AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line36AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDenomination" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Escape"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line31AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line33AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9BM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Romanticism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A figure of speech is a word or phrase that possesses a separate meaning from its literal definition"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FrancescoPetrarca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Francesco Petrarca"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#influences" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Romanticism"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#GabrieleDAnnunzio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Gabriele D'annunzio"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isInfluencedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PaulVerlaine"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#GiacomoLeopardi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Giacomo Leopardi"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#influences" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Romanticism"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line32AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6V"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDenomination" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Journey"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line31AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line32AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line33AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line34AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9BM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Romanticism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A line is a subdivision of a poem, specifically a group of words arranged into a row that ends for a reason other than the right-hand margin."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynecdocheAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line15AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line15BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line17AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line18AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line19AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line20AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line22AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line23AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line24AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line25AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line26AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line27AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line28AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line29AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line30AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line31AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line32AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line33AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line34AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line35AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line36AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line37AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceAP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ParonomasiaAP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#OxymoronV"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9AP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AntithesisAP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9BM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Literary movements are a way to divide literature into categories of similar philosophical, topical, or aesthetic features, as opposed to divisions by genre or period."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line20AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line22AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3V"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDenomination" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Musicality"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line23AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line24AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line30AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9V"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#OxymoronV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8V"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ParonomasiaAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PaulVerlaine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Paul Verlaine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#influences" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#GabrieleDAnnunzio"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isAuthorOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isInfluencedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#talksAbout" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A human being regarded as an individual."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line17AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line18AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line19AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line20AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line22AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line24AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line25AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line26AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line35AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line36AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line37AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5BM"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6V"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A piece of writing in which the expression of feelings and ideas is given intensity by particular attention to diction (sometimes involving rhyme), rhythm, and imagery."
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "One (such as a creative artist) of great imaginative and expressive capabilities and special sensitivity to the medium that writes poems"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDenomination" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Purity"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line19AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8BM"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Romanticism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDesignation" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Romanticism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasExponent" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FrancescoPetrarca"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#GiacomoLeopardi"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasSubject" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDenomination" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "SeerPoet"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6V"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDenomination" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Spleen"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5V"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Romanticism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Stéphane Mallarmé"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isAuthorOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isInfluencedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FrancescoPetrarca"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#GiacomoLeopardi"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#talksAbout" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDesignation" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasExponent" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArthurRimbaud"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PaulVerlaine"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasSubject" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line35AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9V"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynecdocheAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14AP"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "An idea, concept or topic that recurs in or pervades a work of art or literature."
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDenomination" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Vague"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line15AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line15BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line16BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line33AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3BM"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8AP"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9AP"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Decadentism"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem" ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#appertainsTo" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasAuthor" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArthurRimbaud"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTheme" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTitle" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Vocali"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#includes" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#OxymoronV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"
+  } ],
+  "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isComposedOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line14V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line1V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line2V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line4V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line5V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line6V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line7V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line8V"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line9V"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#appertainsTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasAuthor"
+    }, {
+      "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf"
+    } ]
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#belongsTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isComposedOf"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasAuthor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isAuthorOf"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDenomination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDesignation"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTitle"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasDesignation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName"
+  }, {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTitle"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasExponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTitle"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#includes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isComposedOf"
+    }, {
+      "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains"
+    } ]
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#influences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isInfluencedBy"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isAuthorOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isComposedOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isContainedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isInfluencedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isSubjectOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"
+  } ]
+}, {
+  "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#talksAbout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isAuthorOf"
+    }, {
+      "@id" : "https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTheme"
+    } ]
+  } ]
+} ]
