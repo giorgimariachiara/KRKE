@@ -137,7 +137,7 @@ listofcompetencyquestions = [CompetencyQuestion1, CompetencyQuestion2, Competenc
 competency = ["In which lines is the Spleen theme present?", "In which lines is the Musicality theme present?", "In which lines is the Vague theme present?", "In which lines is the Journey theme present?","In which lines is the SeerPoet theme present?", "In which lines is the Escape theme present?", "In which lines is the Purity theme present?", "Which is the most frequent theme in the poems?", "Who is the author of Voyelles?", "Who is the author of Brise Marine?", "Who is the author of Art poetique?", "Which are the exponents of Symbolism?", "Which are the exponents of Decadentism?","Which Poets have influenced the Authors?", "Which Poet is influenced by the Authors?", "Which is the most frequent figure of speech in Voyelles?", "Which is the most frequent figure of speech in Art Poetique?", "Which is the most frequent figure of speech in Brise Marine?", "Which are the themes of Symbolism?", "Which is the most frequent figure of speech in the poems?" ]
 
 for idx, competencyquestion in enumerate(listofcompetencyquestions):
-    print("Competency question " + str(idx+1) + "-" + competency[idx] + ":")
+    print("Competency question " + str(idx+1) + "- " + competency[idx] + ":")
     results = Symbontology.query(competencyquestion)
     for result in results:
         print(result)
