@@ -1,0 +1,4081 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#FigureOfSpeech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LiteraryCurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appertainsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expresses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTheme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#influences"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAuthorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isContainedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExponentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExpressedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubjectOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isThemeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#talksAbout"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDenomination"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDesignation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AllitterationV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AntithesisAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssonanceAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decadentism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Escape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrancescoPetrarca"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GabrieleDAnnunzio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GiacomoLeopardi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HypallageAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HypallageV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Journey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line10AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line10BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line11AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line11BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line11V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line12AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line12BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line12V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line13AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line13BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line13V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line14AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line14BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line14V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line15AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line15BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line16AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line16BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line17AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line18AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line19AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line1AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line1BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line1V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line20AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line22AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line23AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line24AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line25AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line26AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line27AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line28AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line29AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line2AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line2BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line2V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line30AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line31AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line32AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line33AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line34AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line35AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line36AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line37AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line3AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line3BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line3V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line4AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line4BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line4V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line5BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line5V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line6BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line6V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line7BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line7V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line8AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line8BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line8V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line9AP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line9BM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Line9V"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MetaphoreV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Musicality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OxymoronV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParonomasiaAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersonificationBM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Purity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romanticism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spleen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Symbolism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SynecdocheAP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vague"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Voyelles"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Poet"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#Line"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#Poem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Line"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Line"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Line"/>
+        <Class IRI="#Poem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Line"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LiteraryCurrent"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LiteraryCurrent"/>
+        <Class IRI="#Poem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LiteraryCurrent"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Person"/>
+        <Class IRI="#Poem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Person"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Poem"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#AntithesisAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poem"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poet"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#AssonanceAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poem"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poet"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LiteraryCurrent"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poet"/>
+        <NamedIndividual IRI="#FrancescoPetrarca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poet"/>
+        <NamedIndividual IRI="#GabrieleDAnnunzio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poet"/>
+        <NamedIndividual IRI="#GiacomoLeopardi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#HypallageAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#HypallageV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line10AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line10BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line11AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line11BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line11V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line12AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line12BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line12V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line13AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line13BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line13V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line14AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line14BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line14V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line15AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line15BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line16AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line16BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line17AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line18AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line19AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line1AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line1BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line1V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line20AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line22AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line23AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line24AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line25AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line26AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line27AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line28AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line29AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line2AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line2BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line2V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line30AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line31AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line32AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line33AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line34AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line35AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line36AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line37AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line3AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line3BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line3V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line4AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line4BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line4V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line5BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line5V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line6BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line6V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line7BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line7V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line8AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line8BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line8V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line9AP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line9BM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Line"/>
+        <NamedIndividual IRI="#Line9V"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#MetaphoreV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#OxymoronV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#ParonomasiaAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poet"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LiteraryCurrent"/>
+        <NamedIndividual IRI="#Romanticism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poet"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LiteraryCurrent"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FigureOfSpeech"/>
+        <NamedIndividual IRI="#SynecdocheAP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poem"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+        <NamedIndividual IRI="#Line18AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+        <NamedIndividual IRI="#Line19AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+        <NamedIndividual IRI="#Line29AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+        <NamedIndividual IRI="#Line2AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+        <NamedIndividual IRI="#Line3AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+        <NamedIndividual IRI="#Line4AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line10BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line11BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line12BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line13BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line14BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line15BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line16BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line1BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line2BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line4BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line6BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line7BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+        <NamedIndividual IRI="#Line9BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+        <NamedIndividual IRI="#Line12V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+        <NamedIndividual IRI="#Line7V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+        <NamedIndividual IRI="#Line9V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line10AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line11AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line12AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line14AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line15AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line16AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line1AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line30AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line31AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+        <NamedIndividual IRI="#Line34AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AntithesisAP"/>
+        <NamedIndividual IRI="#Line9AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appertainsTo"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#AntithesisAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#AssonanceAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#HypallageAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#ParonomasiaAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#SynecdocheAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line10AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line11AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line12AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line13AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line14AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line15AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line16AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line17AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line18AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line19AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line1AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line20AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line22AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line23AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line24AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line25AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line26AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line27AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line28AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line29AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line2AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line30AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line31AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line32AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line33AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line34AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line35AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line36AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line37AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line3AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line4AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line8AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Line9AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAuthorOf"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceAP"/>
+        <NamedIndividual IRI="#Line29AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceAP"/>
+        <NamedIndividual IRI="#Line4AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+        <NamedIndividual IRI="#Line10BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+        <NamedIndividual IRI="#Line5BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+        <NamedIndividual IRI="#Line6BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+        <NamedIndividual IRI="#Line7BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+        <NamedIndividual IRI="#Line8BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+        <NamedIndividual IRI="#Line9BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+        <NamedIndividual IRI="#Line11V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+        <NamedIndividual IRI="#Line12V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+        <NamedIndividual IRI="#Line14V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+        <NamedIndividual IRI="#Line7V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+        <NamedIndividual IRI="#Line9V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appertainsTo"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line10BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line11BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line12BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line13BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line14BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line15BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line16BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line1BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line2BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line3BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line4BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line5BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line6BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line7BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line8BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Line9BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influences"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influences"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influences"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExponent"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExponent"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#GabrieleDAnnunzio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line16AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line17AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line27AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line28AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line29AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line31AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line32AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line33AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line34AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line35AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+        <NamedIndividual IRI="#Line36AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#Line2BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#Line31AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#Line33AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#Line9BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#Romanticism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Escape"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influences"/>
+        <NamedIndividual IRI="#FrancescoPetrarca"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <NamedIndividual IRI="#FrancescoPetrarca"/>
+        <NamedIndividual IRI="#Romanticism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <NamedIndividual IRI="#GabrieleDAnnunzio"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <NamedIndividual IRI="#GabrieleDAnnunzio"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influences"/>
+        <NamedIndividual IRI="#GiacomoLeopardi"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <NamedIndividual IRI="#GiacomoLeopardi"/>
+        <NamedIndividual IRI="#Romanticism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#HypallageAP"/>
+        <NamedIndividual IRI="#Line32AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#HypallageV"/>
+        <NamedIndividual IRI="#Line4V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#HypallageV"/>
+        <NamedIndividual IRI="#Line6V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line10BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line12BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line16BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line2BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line31AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line32AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line33AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line34AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line6BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Line9BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Romanticism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Journey"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line10AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line10AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line10AP"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line10BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line10BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line10BM"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line10BM"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line10BM"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line11AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line11AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line11AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line11AP"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line11BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line11BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line11BM"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line11BM"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line11V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line11V"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line11V"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line11V"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line12AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line12AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line12AP"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line12BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line12BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line12BM"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line12V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line12V"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line12V"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line12V"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line12V"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line12V"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line13AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line13AP"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line13BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line13BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line13BM"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line13V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line13V"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line14AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line14AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line14AP"/>
+        <NamedIndividual IRI="#SynecdocheAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line14AP"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line14BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line14BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line14V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line14V"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line14V"/>
+        <NamedIndividual IRI="#MetaphoreV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line14V"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line14V"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line14V"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line15AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line15AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line15AP"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line15BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line15BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line15BM"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line16AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line16AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line16AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line16AP"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line16BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line16BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line16BM"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line16BM"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line16BM"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line17AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line17AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line17AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line18AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line18AP"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line18AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line19AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line19AP"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line19AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line19AP"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line1AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line1AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line1AP"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line1BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line1BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line1BM"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line1BM"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line1V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line1V"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line1V"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line1V"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line20AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line20AP"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line20AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line22AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line22AP"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line22AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line23AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line23AP"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line24AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line24AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line24AP"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line25AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line25AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line26AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line26AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line27AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line27AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line28AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line28AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line29AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line29AP"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line29AP"/>
+        <NamedIndividual IRI="#AssonanceAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line29AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line2AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line2AP"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line2BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line2BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line2BM"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line2BM"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line2V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line2V"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line30AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line30AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line30AP"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line31AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line31AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line31AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line31AP"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line31AP"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line32AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line32AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line32AP"/>
+        <NamedIndividual IRI="#HypallageAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line32AP"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line33AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line33AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line33AP"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line33AP"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line33AP"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line34AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line34AP"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line34AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line34AP"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line35AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line35AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line35AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line35AP"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line36AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line36AP"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line36AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line37AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line37AP"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line3AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line3AP"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line3AP"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line3BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line3BM"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line3V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line3V"/>
+        <NamedIndividual IRI="#MetaphoreV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line3V"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line3V"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line3V"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line4AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line4AP"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line4AP"/>
+        <NamedIndividual IRI="#AssonanceAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line4AP"/>
+        <NamedIndividual IRI="#ParonomasiaAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line4BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line4BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line4V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line4V"/>
+        <NamedIndividual IRI="#HypallageV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line4V"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line4V"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line5BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line5BM"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line5BM"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line5V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line5V"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line5V"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line5V"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line6BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line6BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line6BM"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line6BM"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line6V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line6V"/>
+        <NamedIndividual IRI="#HypallageV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line6V"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line6V"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line6V"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line7BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line7BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line7BM"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line7BM"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line7BM"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line7V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line7V"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line7V"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line7V"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line7V"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line8AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line8AP"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line8AP"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line8AP"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line8BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line8BM"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line8BM"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line8V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line8V"/>
+        <NamedIndividual IRI="#OxymoronV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line9AP"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line9AP"/>
+        <NamedIndividual IRI="#AntithesisAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line9AP"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line9BM"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line9BM"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line9BM"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line9BM"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line9BM"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line9BM"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Line9V"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line9V"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line9V"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Line9V"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#expresses"/>
+        <NamedIndividual IRI="#Line9V"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+        <NamedIndividual IRI="#Line10AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+        <NamedIndividual IRI="#Line20AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+        <NamedIndividual IRI="#Line22AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+        <NamedIndividual IRI="#Line8AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#MetaphoreV"/>
+        <NamedIndividual IRI="#Line14V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#MetaphoreV"/>
+        <NamedIndividual IRI="#Line3V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line11V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line12V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line14V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line1AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line23AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line24AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line30AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line7BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line7V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line8AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line9BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Line9V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#OxymoronV"/>
+        <NamedIndividual IRI="#Line8V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#ParonomasiaAP"/>
+        <NamedIndividual IRI="#Line4AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#influences"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#GabrieleDAnnunzio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAuthorOf"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line11AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line17AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line18AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line19AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line20AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line22AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line24AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line25AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line26AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line35AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line36AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+        <NamedIndividual IRI="#Line37AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+        <NamedIndividual IRI="#Line11BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+        <NamedIndividual IRI="#Line13BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+        <NamedIndividual IRI="#Line16BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+        <NamedIndividual IRI="#Line1BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
+        <NamedIndividual IRI="#Line5BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+        <NamedIndividual IRI="#Line11V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+        <NamedIndividual IRI="#Line12V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+        <NamedIndividual IRI="#Line14V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+        <NamedIndividual IRI="#Line2V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+        <NamedIndividual IRI="#Line6V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Line12V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Line13V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Line19AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Line1V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Line5V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Line6V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Line7BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Line8BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Purity"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExponent"/>
+        <NamedIndividual IRI="#Romanticism"/>
+        <NamedIndividual IRI="#FrancescoPetrarca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExponent"/>
+        <NamedIndividual IRI="#Romanticism"/>
+        <NamedIndividual IRI="#GiacomoLeopardi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Romanticism"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Romanticism"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Romanticism"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+        <NamedIndividual IRI="#Line14V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+        <NamedIndividual IRI="#Line3V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+        <NamedIndividual IRI="#Line6V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Line11BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Line1BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Line1V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Line3V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Line4V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Line5V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Romanticism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <NamedIndividual IRI="#Voyelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isAuthorOf"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#FrancescoPetrarca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#GiacomoLeopardi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExponent"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExponent"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasExponent"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#Journey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubject"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+        <NamedIndividual IRI="#Line12AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+        <NamedIndividual IRI="#Line13AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+        <NamedIndividual IRI="#Line35AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+        <NamedIndividual IRI="#Line1V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+        <NamedIndividual IRI="#Line3V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+        <NamedIndividual IRI="#Line4V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+        <NamedIndividual IRI="#Line5V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+        <NamedIndividual IRI="#Line7V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+        <NamedIndividual IRI="#Line9V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <NamedIndividual IRI="#SynecdocheAP"/>
+        <NamedIndividual IRI="#Line14AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line10BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line11AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line14AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line15AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line15BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line16AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line16BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line33AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line3AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line3BM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line8AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Line9AP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Decadentism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <NamedIndividual IRI="#Vague"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appertainsTo"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTheme"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#HypallageV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#MetaphoreV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#OxymoronV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line11V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line12V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line13V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line14V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line1V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line2V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line3V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line4V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line5V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line6V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line7V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line8V"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Line9V"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Arte Poetica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Arthur Rimbaud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Brezza Marina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#CharlesBaudelaire"/>
+        <Literal>Charles Baudelaire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesignation"/>
+        <NamedIndividual IRI="#Decadentism"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Decadentism</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDenomination"/>
+        <NamedIndividual IRI="#Escape"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Escape</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#FrancescoPetrarca"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Francesco Petrarca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#GabrieleDAnnunzio"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Gabriele D&apos;annunzio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#GiacomoLeopardi"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Giacomo Leopardi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDenomination"/>
+        <NamedIndividual IRI="#Journey"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Journey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDenomination"/>
+        <NamedIndividual IRI="#Musicality"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Musicality</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Paul Verlaine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDenomination"/>
+        <NamedIndividual IRI="#Purity"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Purity</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesignation"/>
+        <NamedIndividual IRI="#Romanticism"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Romanticism</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDenomination"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">SeerPoet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDenomination"/>
+        <NamedIndividual IRI="#Spleen"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Spleen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasName"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Stéphane Mallarmé</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesignation"/>
+        <NamedIndividual IRI="#Symbolism"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Symbolism</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDenomination"/>
+        <NamedIndividual IRI="#Vague"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Vague</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Vocali</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#isContainedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#expresses"/>
+        <ObjectProperty IRI="#isExpressedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty IRI="#isAuthorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasExponent"/>
+        <ObjectProperty IRI="#isExponentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSubject"/>
+        <ObjectProperty IRI="#isSubjectOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTheme"/>
+        <ObjectProperty IRI="#isThemeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#influences"/>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#Line"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Line"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expresses"/>
+        <Class IRI="#Line"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Poem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExponent"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSubject"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTheme"/>
+        <Class IRI="#Poem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#influences"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAuthorOf"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <Class IRI="#Poem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <Class IRI="#FigureOfSpeech"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#Poem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#FigureOfSpeech"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#expresses"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExponent"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubject"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTheme"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#influences"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAuthorOf"/>
+        <Class IRI="#Poem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <Class IRI="#Line"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <Class IRI="#Line"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isExponentOf"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isExpressedBy"/>
+        <Class IRI="#Line"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInfluencedBy"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isThemeOf"/>
+        <Class IRI="#Poem"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasAuthor"/>
+            <ObjectProperty IRI="#isExponentOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#appertainsTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isAuthorOf"/>
+            <ObjectProperty IRI="#hasTheme"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#talksAbout"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isComposedOf"/>
+            <ObjectProperty IRI="#contains"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#includes"/>
+    </SubObjectPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDenomination"/>
+        <Class IRI="#Theme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDesignation"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#Poem"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDenomination"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDesignation"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTitle"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDenomination"/>
+        <DataProperty IRI="#hasDesignation"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDenomination"/>
+        <DataProperty IRI="#hasName"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDenomination"/>
+        <DataProperty IRI="#hasTitle"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDesignation"/>
+        <DataProperty IRI="#hasName"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasDesignation"/>
+        <DataProperty IRI="#hasTitle"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#hasName"/>
+        <DataProperty IRI="#hasTitle"/>
+    </DisjointDataProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FigureOfSpeech</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A figure of speech is a word or phrase that possesses a separate meaning from its literal definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Line</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A line is a subdivision of a poem, specifically a group of words arranged into a row that ends for a reason other than the right-hand margin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LiteraryCurrent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Literary movements are a way to divide literature into categories of similar philosophical, topical, or aesthetic features, as opposed to divisions by genre or period.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A human being regarded as an individual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Poem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A piece of writing in which the expression of feelings and ideas is given intensity by particular attention to diction (sometimes involving rhyme), rhythm, and imagery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Poet</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">One (such as a creative artist) of great imaginative and expressive capabilities and special sensitivity to the medium that writes poems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Theme</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An idea, concept or topic that recurs in or pervades a work of art or literature.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
