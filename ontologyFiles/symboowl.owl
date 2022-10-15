@@ -6,13 +6,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl">
-    <Prefix name="" IRI="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="symbo" IRI="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#"/>
     <Declaration>
         <Class IRI="#FigureOfSpeech"/>
     </Declaration>
@@ -35,13 +33,16 @@
         <Class IRI="#Theme"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#appertainsTo"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#belongsTo"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#contains"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasAuthor"/>
@@ -54,6 +55,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTheme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#influences"/>
@@ -81,6 +85,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isThemeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#talksAbout"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasDenomination"/>
@@ -408,7 +415,63 @@
         <Class IRI="#Person"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#Line"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
         <Class IRI="#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#Poem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FigureOfSpeech"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Line"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Line"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Line"/>
+        <Class IRI="#Poem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Line"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LiteraryCurrent"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LiteraryCurrent"/>
+        <Class IRI="#Poem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LiteraryCurrent"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Person"/>
+        <Class IRI="#Poem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Person"/>
+        <Class IRI="#Theme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Poem"/>
         <Class IRI="#Theme"/>
     </DisjointClasses>
     <ClassAssertion>
@@ -989,6 +1052,11 @@
         <NamedIndividual IRI="#Line9AP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appertainsTo"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAuthor"/>
         <NamedIndividual IRI="#ArtPoetique"/>
         <NamedIndividual IRI="#PaulVerlaine"/>
@@ -1007,6 +1075,61 @@
         <ObjectProperty IRI="#hasTheme"/>
         <NamedIndividual IRI="#ArtPoetique"/>
         <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#AllitterationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#AnaphoraAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#AntithesisAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#AssonanceAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#EnjembementAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#HypallageAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#MetaphoreAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#ParonomasiaAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#PersonificationAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#SynaesthesiaAP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#ArtPoetique"/>
+        <NamedIndividual IRI="#SynecdocheAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isComposedOf"/>
@@ -1189,6 +1312,31 @@
         <NamedIndividual IRI="#CharlesBaudelaire"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#SeerPoet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#ArthurRimbaud"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isContainedIn"/>
         <NamedIndividual IRI="#AssonanceAP"/>
         <NamedIndividual IRI="#Line29AP"/>
@@ -1254,6 +1402,11 @@
         <NamedIndividual IRI="#Line9V"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appertainsTo"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAuthor"/>
         <NamedIndividual IRI="#BriseMarine"/>
         <NamedIndividual IRI="#StéphaneMallarmé"/>
@@ -1282,6 +1435,21 @@
         <ObjectProperty IRI="#hasTheme"/>
         <NamedIndividual IRI="#BriseMarine"/>
         <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#AllitterationBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#AssonanceBM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#BriseMarine"/>
+        <NamedIndividual IRI="#PersonificationBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isComposedOf"/>
@@ -1674,12 +1842,12 @@
         <NamedIndividual IRI="#AssonanceBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line10BM"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line10BM"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -1699,7 +1867,7 @@
         <NamedIndividual IRI="#PersonificationAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line11AP"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -1719,7 +1887,7 @@
         <NamedIndividual IRI="#PersonificationBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line11BM"/>
         <NamedIndividual IRI="#Spleen"/>
     </ObjectPropertyAssertion>
@@ -1739,7 +1907,7 @@
         <NamedIndividual IRI="#PersonificationV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line11V"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
@@ -1769,7 +1937,7 @@
         <NamedIndividual IRI="#AllitterationBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line12BM"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
@@ -1794,12 +1962,12 @@
         <NamedIndividual IRI="#PersonificationV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line12V"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line12V"/>
         <NamedIndividual IRI="#Purity"/>
     </ObjectPropertyAssertion>
@@ -1834,7 +2002,7 @@
         <NamedIndividual IRI="#Voyelles"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line13V"/>
         <NamedIndividual IRI="#Purity"/>
     </ObjectPropertyAssertion>
@@ -1854,7 +2022,7 @@
         <NamedIndividual IRI="#SynecdocheAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line14AP"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -1889,12 +2057,12 @@
         <NamedIndividual IRI="#PersonificationV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line14V"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line14V"/>
         <NamedIndividual IRI="#SeerPoet"/>
     </ObjectPropertyAssertion>
@@ -1909,7 +2077,7 @@
         <NamedIndividual IRI="#AnaphoraAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line15AP"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -1924,7 +2092,7 @@
         <NamedIndividual IRI="#AllitterationBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line15BM"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -1944,7 +2112,7 @@
         <NamedIndividual IRI="#EnjembementAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line16AP"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -1964,12 +2132,12 @@
         <NamedIndividual IRI="#PersonificationBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line16BM"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line16BM"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -2019,7 +2187,7 @@
         <NamedIndividual IRI="#PersonificationAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line19AP"/>
         <NamedIndividual IRI="#Purity"/>
     </ObjectPropertyAssertion>
@@ -2034,7 +2202,7 @@
         <NamedIndividual IRI="#AnaphoraAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line1AP"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
@@ -2054,7 +2222,7 @@
         <NamedIndividual IRI="#PersonificationBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line1BM"/>
         <NamedIndividual IRI="#Spleen"/>
     </ObjectPropertyAssertion>
@@ -2069,12 +2237,12 @@
         <NamedIndividual IRI="#SynaesthesiaV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line1V"/>
         <NamedIndividual IRI="#Purity"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line1V"/>
         <NamedIndividual IRI="#Spleen"/>
     </ObjectPropertyAssertion>
@@ -2114,7 +2282,7 @@
         <NamedIndividual IRI="#ArtPoetique"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line23AP"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
@@ -2129,7 +2297,7 @@
         <NamedIndividual IRI="#PersonificationAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line24AP"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
@@ -2214,12 +2382,12 @@
         <NamedIndividual IRI="#AllitterationBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line2BM"/>
         <NamedIndividual IRI="#Escape"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line2BM"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
@@ -2244,7 +2412,7 @@
         <NamedIndividual IRI="#AnaphoraAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line30AP"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
@@ -2264,12 +2432,12 @@
         <NamedIndividual IRI="#EnjembementAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line31AP"/>
         <NamedIndividual IRI="#Escape"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line31AP"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
@@ -2289,7 +2457,7 @@
         <NamedIndividual IRI="#HypallageAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line32AP"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
@@ -2304,17 +2472,17 @@
         <NamedIndividual IRI="#EnjembementAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line33AP"/>
         <NamedIndividual IRI="#Escape"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line33AP"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line33AP"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -2334,7 +2502,7 @@
         <NamedIndividual IRI="#EnjembementAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line34AP"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
@@ -2394,7 +2562,7 @@
         <NamedIndividual IRI="#AllitterationAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line3AP"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -2404,7 +2572,7 @@
         <NamedIndividual IRI="#BriseMarine"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line3BM"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -2424,12 +2592,12 @@
         <NamedIndividual IRI="#SynaesthesiaV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line3V"/>
         <NamedIndividual IRI="#SeerPoet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line3V"/>
         <NamedIndividual IRI="#Spleen"/>
     </ObjectPropertyAssertion>
@@ -2479,7 +2647,7 @@
         <NamedIndividual IRI="#SynaesthesiaV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line4V"/>
         <NamedIndividual IRI="#Spleen"/>
     </ObjectPropertyAssertion>
@@ -2509,12 +2677,12 @@
         <NamedIndividual IRI="#SynaesthesiaV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line5V"/>
         <NamedIndividual IRI="#Purity"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line5V"/>
         <NamedIndividual IRI="#Spleen"/>
     </ObjectPropertyAssertion>
@@ -2534,7 +2702,7 @@
         <NamedIndividual IRI="#AssonanceBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line6BM"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
@@ -2554,12 +2722,12 @@
         <NamedIndividual IRI="#PersonificationV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line6V"/>
         <NamedIndividual IRI="#Purity"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line6V"/>
         <NamedIndividual IRI="#SeerPoet"/>
     </ObjectPropertyAssertion>
@@ -2579,12 +2747,12 @@
         <NamedIndividual IRI="#AssonanceBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line7BM"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line7BM"/>
         <NamedIndividual IRI="#Purity"/>
     </ObjectPropertyAssertion>
@@ -2609,7 +2777,7 @@
         <NamedIndividual IRI="#SynaesthesiaV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line7V"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
@@ -2624,12 +2792,12 @@
         <NamedIndividual IRI="#MetaphoreAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line8AP"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line8AP"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -2644,7 +2812,7 @@
         <NamedIndividual IRI="#AssonanceBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line8BM"/>
         <NamedIndividual IRI="#Purity"/>
     </ObjectPropertyAssertion>
@@ -2669,7 +2837,7 @@
         <NamedIndividual IRI="#AntithesisAP"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line9AP"/>
         <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
@@ -2689,17 +2857,17 @@
         <NamedIndividual IRI="#AssonanceBM"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line9BM"/>
         <NamedIndividual IRI="#Escape"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line9BM"/>
         <NamedIndividual IRI="#Journey"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line9BM"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
@@ -2724,7 +2892,7 @@
         <NamedIndividual IRI="#SynaesthesiaV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <NamedIndividual IRI="#Line9V"/>
         <NamedIndividual IRI="#Musicality"/>
     </ObjectPropertyAssertion>
@@ -2872,6 +3040,21 @@
         <ObjectProperty IRI="#isInfluencedBy"/>
         <NamedIndividual IRI="#PaulVerlaine"/>
         <NamedIndividual IRI="#CharlesBaudelaire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#PaulVerlaine"/>
+        <NamedIndividual IRI="#Vague"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isContainedIn"/>
@@ -3179,6 +3362,31 @@
         <NamedIndividual IRI="#GiacomoLeopardi"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Escape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Musicality"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Purity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#talksAbout"/>
+        <NamedIndividual IRI="#StéphaneMallarmé"/>
+        <NamedIndividual IRI="#Vague"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasExponent"/>
         <NamedIndividual IRI="#Symbolism"/>
         <NamedIndividual IRI="#ArthurRimbaud"/>
@@ -3359,6 +3567,11 @@
         <NamedIndividual IRI="#BriseMarine"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appertainsTo"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#Symbolism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAuthor"/>
         <NamedIndividual IRI="#Voyelles"/>
         <NamedIndividual IRI="#ArthurRimbaud"/>
@@ -3387,6 +3600,41 @@
         <ObjectProperty IRI="#hasTheme"/>
         <NamedIndividual IRI="#Voyelles"/>
         <NamedIndividual IRI="#Spleen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#AllitterationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#AssonanceV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#HypallageV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#MetaphoreV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#OxymoronV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#PersonificationV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#Voyelles"/>
+        <NamedIndividual IRI="#SynaesthesiaV"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isComposedOf"/>
@@ -3562,7 +3810,7 @@
         <ObjectProperty IRI="#isContainedIn"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <ObjectProperty IRI="#isExpressedBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
@@ -3586,6 +3834,10 @@
         <ObjectProperty IRI="#isInfluencedBy"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appertainsTo"/>
+        <Class IRI="#Poem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#belongsTo"/>
         <Class IRI="#Line"/>
     </ObjectPropertyDomain>
@@ -3594,7 +3846,7 @@
         <Class IRI="#Line"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <Class IRI="#Line"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -3611,6 +3863,10 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTheme"/>
+        <Class IRI="#Poem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes"/>
         <Class IRI="#Poem"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -3649,6 +3905,14 @@
         <ObjectProperty IRI="#isThemeOf"/>
         <Class IRI="#Theme"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#talksAbout"/>
+        <Class IRI="#Poet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appertainsTo"/>
+        <Class IRI="#LiteraryCurrent"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#belongsTo"/>
         <Class IRI="#Poem"/>
@@ -3658,7 +3922,7 @@
         <Class IRI="#FigureOfSpeech"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#express"/>
+        <ObjectProperty IRI="#expresses"/>
         <Class IRI="#Theme"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -3676,6 +3940,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTheme"/>
         <Class IRI="#Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes"/>
+        <Class IRI="#FigureOfSpeech"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#influences"/>
@@ -3713,6 +3981,31 @@
         <ObjectProperty IRI="#isThemeOf"/>
         <Class IRI="#Poem"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#talksAbout"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasAuthor"/>
+            <ObjectProperty IRI="#isExponentOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#appertainsTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isAuthorOf"/>
+            <ObjectProperty IRI="#hasTheme"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#talksAbout"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isComposedOf"/>
+            <ObjectProperty IRI="#contains"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#includes"/>
+    </SubObjectPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#hasDenomination"/>
         <Class IRI="#Theme"/>
