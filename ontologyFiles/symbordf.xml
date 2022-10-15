@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:symbo="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#">
+     xmlns:SymbOntology="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#">
     <owl:Ontology rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl"/>
     
 
@@ -19,6 +19,19 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#appertainsTo -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#appertainsTo">
+        <rdfs:domain rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
+        <rdfs:range rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasAuthor"/>
+            <rdf:Description rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExponentOf"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
     
 
 
@@ -42,9 +55,9 @@
     
 
 
-    <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#express -->
+    <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#express">
+    <owl:ObjectProperty rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#expresses">
         <owl:inverseOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isExpressedBy"/>
         <rdfs:domain rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <rdfs:range rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"/>
@@ -88,6 +101,19 @@
         <owl:inverseOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isThemeOf"/>
         <rdfs:domain rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
         <rdfs:range rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#includes -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#includes">
+        <rdfs:domain rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
+        <rdfs:range rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isComposedOf"/>
+            <rdf:Description rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#contains"/>
+        </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
 
@@ -174,6 +200,19 @@
     
 
 
+    <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#talksAbout -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#talksAbout">
+        <rdfs:domain rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poet"/>
+        <rdfs:range rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#isAuthorOf"/>
+            <rdf:Description rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#hasTheme"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -241,6 +280,11 @@
     <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech -->
 
     <owl:Class rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FigureOfSpeech">
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A figure of speech is a word or phrase that possesses a separate meaning from its literal definition</rdfs:comment>
     </owl:Class>
     
@@ -249,6 +293,10 @@
     <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line -->
 
     <owl:Class rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line">
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A line is a subdivision of a poem, specifically a group of words arranged into a row that ends for a reason other than the right-hand margin.</rdfs:comment>
     </owl:Class>
     
@@ -257,6 +305,9 @@
     <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent -->
 
     <owl:Class rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#LiteraryCurrent">
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Literary movements are a way to divide literature into categories of similar philosophical, topical, or aesthetic features, as opposed to divisions by genre or period.</rdfs:comment>
     </owl:Class>
     
@@ -265,6 +316,7 @@
     <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person -->
 
     <owl:Class rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Person">
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
         <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A human being regarded as an individual.</rdfs:comment>
     </owl:Class>
@@ -274,6 +326,7 @@
     <!-- https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem -->
 
     <owl:Class rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem">
+        <owl:disjointWith rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Theme"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A piece of writing in which the expression of feelings and ideas is given intensity by particular attention to diction (sometimes involving rhyme), rhythm, and imagery.</rdfs:comment>
     </owl:Class>
     
@@ -384,10 +437,22 @@
 
     <owl:NamedIndividual rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique">
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
+        <appertainsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"/>
         <hasAuthor rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PaulVerlaine"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AntithesisAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ParonomasiaAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaAP"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynecdocheAP"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10AP"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11AP"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12AP"/>
@@ -433,6 +498,11 @@
         <isAuthorOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"/>
         <isExponentOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"/>
         <isInfluencedBy rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
         <hasName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Arthur Rimbaud</hasName>
     </owl:NamedIndividual>
     
@@ -479,12 +549,16 @@
 
     <owl:NamedIndividual rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine">
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
+        <appertainsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"/>
         <hasAuthor rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#StéphaneMallarmé"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line10BM"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11BM"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12BM"/>
@@ -667,8 +741,8 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -680,7 +754,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -692,7 +766,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
     </owl:NamedIndividual>
     
 
@@ -704,7 +778,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
     </owl:NamedIndividual>
     
 
@@ -726,7 +800,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
     </owl:NamedIndividual>
     
 
@@ -739,8 +813,8 @@
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
     </owl:NamedIndividual>
     
 
@@ -771,7 +845,7 @@
     <owl:NamedIndividual rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13V">
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
     </owl:NamedIndividual>
     
 
@@ -783,7 +857,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynecdocheAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -806,8 +880,8 @@
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"/>
     </owl:NamedIndividual>
     
 
@@ -818,7 +892,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -829,7 +903,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -841,7 +915,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -853,8 +927,8 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -888,7 +962,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
     </owl:NamedIndividual>
     
 
@@ -899,7 +973,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
     </owl:NamedIndividual>
     
 
@@ -911,7 +985,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
     </owl:NamedIndividual>
     
 
@@ -922,8 +996,8 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
     </owl:NamedIndividual>
     
 
@@ -955,7 +1029,7 @@
     <owl:NamedIndividual rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line23AP">
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
     </owl:NamedIndividual>
     
 
@@ -966,7 +1040,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
     </owl:NamedIndividual>
     
 
@@ -1039,8 +1113,8 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
     </owl:NamedIndividual>
     
 
@@ -1061,7 +1135,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
     </owl:NamedIndividual>
     
 
@@ -1073,8 +1147,8 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
     </owl:NamedIndividual>
     
 
@@ -1086,7 +1160,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
     </owl:NamedIndividual>
     
 
@@ -1097,9 +1171,9 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -1111,7 +1185,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AnaphoraAP"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#EnjembementAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
     </owl:NamedIndividual>
     
 
@@ -1155,7 +1229,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -1165,7 +1239,7 @@
     <owl:NamedIndividual rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line3BM">
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -1177,8 +1251,8 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
     </owl:NamedIndividual>
     
 
@@ -1212,7 +1286,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
     </owl:NamedIndividual>
     
 
@@ -1234,8 +1308,8 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
     </owl:NamedIndividual>
     
 
@@ -1247,7 +1321,7 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
     </owl:NamedIndividual>
     
 
@@ -1259,8 +1333,8 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"/>
     </owl:NamedIndividual>
     
 
@@ -1272,8 +1346,8 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
     </owl:NamedIndividual>
     
 
@@ -1286,7 +1360,7 @@
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
     </owl:NamedIndividual>
     
 
@@ -1297,8 +1371,8 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -1309,7 +1383,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
     </owl:NamedIndividual>
     
 
@@ -1330,7 +1404,7 @@
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line"/>
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AntithesisAP"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
     </owl:NamedIndividual>
     
 
@@ -1342,9 +1416,9 @@
         <belongsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#BriseMarine"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationBM"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceBM"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Journey"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
     </owl:NamedIndividual>
     
 
@@ -1357,7 +1431,7 @@
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"/>
         <contains rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"/>
-        <express rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <expresses rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
     </owl:NamedIndividual>
     
 
@@ -1436,6 +1510,9 @@
         <isAuthorOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArtPoetique"/>
         <isExponentOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"/>
         <isInfluencedBy rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
         <hasName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Paul Verlaine</hasName>
     </owl:NamedIndividual>
     
@@ -1566,6 +1643,11 @@
         <isInfluencedBy rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#CharlesBaudelaire"/>
         <isInfluencedBy rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#FrancescoPetrarca"/>
         <isInfluencedBy rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#GiacomoLeopardi"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
+        <talksAbout rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Vague"/>
         <hasName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Stéphane Mallarmé</hasName>
     </owl:NamedIndividual>
     
@@ -1653,12 +1735,20 @@
 
     <owl:NamedIndividual rdf:about="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Voyelles">
         <rdf:type rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Poem"/>
+        <appertainsTo rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Symbolism"/>
         <hasAuthor rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#ArthurRimbaud"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Escape"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Musicality"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Purity"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SeerPoet"/>
         <hasTheme rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Spleen"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AllitterationV"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#AssonanceV"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#HypallageV"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#MetaphoreV"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#OxymoronV"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#PersonificationV"/>
+        <includes rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#SynaesthesiaV"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line11V"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line12V"/>
         <isComposedOf rdf:resource="https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#Line13V"/>
