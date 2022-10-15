@@ -120,7 +120,7 @@
 
         <div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#<br></p>
 								<p>SELECT ?Line</p>
-								<p>WHERE {?Line symbo:express symbo:Musicality}</p>
+								<p>WHERE {?Line symbo:expresses symbo:Musicality}</p>
 								<p></p>
 </div>
         <!-- Button trigger modal -->
@@ -200,7 +200,7 @@
       <h5 class="query-title">In which lines is the seerpoet theme present?</h5>
    <div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#<br></p>
     <p>SELECT ?Line</p>
-    <p>WHERE {?Line symbo:express symbo:SeerPoet}</p>
+    <p>WHERE {?Line symbo:expresses symbo:SeerPoet}</p>
 </div>
       <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal7">
@@ -255,7 +255,7 @@
 		
         <div class="card-text"><p>PREFIX <br>symbo:https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl# <br></p>
 								<p>SELECT ?Line</p>
-								<p>WHERE {?Line symbo:express symbo:Vague}</p>
+								<p>WHERE {?Line symbo:expresses symbo:Vague}</p>
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao mt-auto btn btn-light" data-toggle="modal" data-target="#exampleModal3">
@@ -337,7 +337,7 @@
         <h5 class="query-title">In which lines is the journey theme present?</h5>
 		<div class= "card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#<br></p>
                 <p>SELECT ?Line</p>
-                <p>WHERE {?Line symbo:express symbo:Journey}</p>
+                <p>WHERE {?Line symbo:expresses symbo:Journey}</p>
 		</div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao mt-auto btn btn-light" data-toggle="modal" data-target="#exampleModal4">
@@ -414,7 +414,7 @@
         <h5 class="query-title">In which lines is the spleen theme present?</h5>
 		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#<br></p>
       <p>SELECT ?Line</p>
-      <p>WHERE {?Line symbo:express symbo:Spleen}</p>
+      <p>WHERE {?Line symbo:expresses symbo:Spleen}</p>
 		</div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal5">
@@ -475,7 +475,7 @@
         <h5 class="query-title">In which lines is the escape theme present?</h5>
 		<div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#<br></p>
       <p>SELECT ?Line</p>
-      <p>WHERE {?Line symbo:express symbo:Escape}</p>
+      <p>WHERE {?Line symbo:expresses symbo:Escape}</p>
 </div>
          <!-- Button trigger modal -->
 <button type="button" class="ciao btn btn-light mt-auto" data-toggle="modal" data-target="#exampleModal8">
@@ -536,7 +536,7 @@
          <h5 class="query-title">In which lines is the Purity theme present?</h5>
      <div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#<br></p>
        <p>SELECT ?Line</p>
-       <p>WHERE {?Line symbo:express symbo:Purity}</p>
+       <p>WHERE {?Line symbo:expresses symbo:Purity}</p>
                
  </div>
           <!-- Button trigger modal -->
@@ -1185,7 +1185,7 @@
       <h5 class="query-title">Which is the most frequent theme in the poems?</h5>
   <div class="card-text"><p>PREFIX symbo:<br>https://github.com/giorgimariachiara/KRKE/main/SymbOntology/SymbOntology.owl#<br></p>
               <p>SELECT ?Theme(COUNT(?Line) as?Theme_count)</p>
-              <p>WHERE{?Line symbo:express ?Theme.}</p>
+              <p>WHERE{?Line symbo:expresses ?Theme.}</p>
               <p> GROUP BY ?Theme</p>
               <p>ORDER BY DESC(?Theme_count)</p>
               <p>LIMIT 1 </p>
